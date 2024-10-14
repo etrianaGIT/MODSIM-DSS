@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HydropowerControllerDataSet" targetNamespace="http://tempuri.org/HydropowerControllerDataSet.xsd" xmlns:mstns="http://tempuri.org/HydropowerControllerDataSet.xsd" xmlns="http://tempuri.org/HydropowerControllerDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="HydropowerControllerDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="HydropowerControllerDataSet" msprop:Generator_UserDSName="HydropowerControllerDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="HydroUnitsInfo" msprop:Generator_UserTableName="HydroUnitsInfo" msprop:Generator_RowEvArgName="HydroUnitsInfoRowChangeEvent" msprop:Generator_TableVarName="tableHydroUnitsInfo" msprop:Generator_TablePropName="HydroUnitsInfo" msprop:Generator_RowDeletingName="HydroUnitsInfoRowDeleting" msprop:Generator_RowChangingName="HydroUnitsInfoRowChanging" msprop:Generator_RowDeletedName="HydroUnitsInfoRowDeleted" msprop:Generator_TableClassName="HydroUnitsInfoDataTable" msprop:Generator_RowChangedName="HydroUnitsInfoRowChanged" msprop:Generator_RowEvHandlerName="HydroUnitsInfoRowChangeEventHandler" msprop:Generator_RowClassName="HydroUnitsInfoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HydroUnitID" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnHydroUnitID" msprop:Generator_ColumnPropNameInRow="HydroUnitID" msprop:Generator_ColumnPropNameInTable="HydroUnitIDColumn" msprop:Generator_UserColumnName="HydroUnitID" type="xs:int" />
+              <xs:element name="HydroUnitName" msdata:Caption="Name" msprop:Generator_ColumnVarNameInTable="columnHydroUnitName" msprop:Generator_ColumnPropNameInRow="HydroUnitName" msprop:Generator_ColumnPropNameInTable="HydroUnitNameColumn" msprop:Generator_UserColumnName="HydroUnitName" type="xs:string" default="hydroUnit" />
+              <xs:element name="Description" msprop:nullValue="_throw" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description" type="xs:string" default="" />
+              <xs:element name="PowerCapacity" msdata:Caption="Power Capacity" msprop:Generator_ColumnVarNameInTable="columnPowerCapacity" msprop:Generator_ColumnPropNameInRow="PowerCapacity" msprop:Generator_ColumnPropNameInTable="PowerCapacityColumn" msprop:Generator_UserColumnName="PowerCapacity" type="xs:double" default="0" />
+              <xs:element name="HydroUnitType" msdata:Caption="Hydro Unit Type" msprop:Generator_ColumnVarNameInTable="columnHydroUnitType" msprop:Generator_ColumnPropNameInRow="HydroUnitType" msprop:Generator_ColumnPropNameInTable="HydroUnitTypeColumn" msprop:Generator_UserColumnName="HydroUnitType" type="xs:string" default="Turbine" />
+              <xs:element name="FlowLinks" msdata:Caption="Flow Link(s)" msprop:Generator_ColumnVarNameInTable="columnFlowLinks" msprop:Generator_ColumnPropNameInRow="FlowLinks" msprop:Generator_ColumnPropNameInTable="FlowLinksColumn" msprop:Generator_UserColumnName="FlowLinks" type="xs:string" default="" minOccurs="0" />
+              <xs:element name="FromElevType" msdata:Caption="From Elev Type" msprop:Generator_ColumnVarNameInTable="columnFromElevType" msprop:Generator_ColumnPropNameInRow="FromElevType" msprop:Generator_ColumnPropNameInTable="FromElevTypeColumn" msprop:Generator_UserColumnName="FromElevType" type="xs:string" default="Forebay" />
+              <xs:element name="FromRes" msdata:Caption="From Reservoir" msprop:Generator_ColumnVarNameInTable="columnFromRes" msprop:Generator_ColumnPropNameInRow="FromRes" msprop:Generator_ColumnPropNameInTable="FromResColumn" msprop:Generator_UserColumnName="FromRes" type="xs:string" default="" minOccurs="0" />
+              <xs:element name="ToElevType" msdata:Caption="To Elev Type" msprop:Generator_ColumnVarNameInTable="columnToElevType" msprop:Generator_ColumnPropNameInRow="ToElevType" msprop:Generator_ColumnPropNameInTable="ToElevTypeColumn" msprop:Generator_UserColumnName="ToElevType" type="xs:string" default="Tailwater" />
+              <xs:element name="ToRes" msdata:Caption="To Reservoir" msprop:Generator_ColumnVarNameInTable="columnToRes" msprop:Generator_ColumnPropNameInRow="ToRes" msprop:Generator_ColumnPropNameInTable="ToResColumn" msprop:Generator_UserColumnName="ToRes" type="xs:string" default="" minOccurs="0" />
+              <xs:element name="PowerEff" msdata:Caption="Efficiency Table" msprop:Generator_ColumnVarNameInTable="columnPowerEff" msprop:Generator_ColumnPropNameInRow="PowerEff" msprop:Generator_ColumnPropNameInTable="PowerEffColumn" msprop:Generator_UserColumnName="PowerEff" type="xs:string" default="" minOccurs="0" />
+              <xs:element name="PeakGenOnly" msdata:Caption="Peak Generation Only" msprop:Generator_ColumnVarNameInTable="columnPeakGenOnly" msprop:Generator_ColumnPropNameInRow="PeakGenOnly" msprop:Generator_ColumnPropNameInTable="PeakGenOnlyColumn" msprop:Generator_UserColumnName="PeakGenOnly" type="xs:boolean" default="false" />
+              <xs:element name="GenHoursHidden" msprop:Generator_ColumnVarNameInTable="columnGenHoursHidden" msprop:Generator_ColumnPropNameInRow="GenHoursHidden" msprop:Generator_ColumnPropNameInTable="GenHoursHiddenColumn" msprop:Generator_UserColumnName="GenHoursHidden" type="xs:anyType" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="HydroTargetsInfo" msprop:Generator_UserTableName="HydroTargetsInfo" msprop:Generator_RowEvArgName="HydroTargetsInfoRowChangeEvent" msprop:Generator_TableVarName="tableHydroTargetsInfo" msprop:Generator_TablePropName="HydroTargetsInfo" msprop:Generator_RowDeletingName="HydroTargetsInfoRowDeleting" msprop:Generator_RowChangingName="HydroTargetsInfoRowChanging" msprop:Generator_RowDeletedName="HydroTargetsInfoRowDeleted" msprop:Generator_TableClassName="HydroTargetsInfoDataTable" msprop:Generator_RowChangedName="HydroTargetsInfoRowChanged" msprop:Generator_RowEvHandlerName="HydroTargetsInfoRowChangeEventHandler" msprop:Generator_RowClassName="HydroTargetsInfoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HydroTargetID" msprop:Generator_ColumnVarNameInTable="columnHydroTargetID" msprop:Generator_ColumnPropNameInRow="HydroTargetID" msprop:Generator_ColumnPropNameInTable="HydroTargetIDColumn" msprop:Generator_UserColumnName="HydroTargetID" type="xs:int" />
+              <xs:element name="HydroTargetName" msdata:Caption="Name" msprop:Generator_ColumnVarNameInTable="columnHydroTargetName" msprop:Generator_ColumnPropNameInRow="HydroTargetName" msprop:Generator_ColumnPropNameInTable="HydroTargetNameColumn" msprop:Generator_UserColumnName="HydroTargetName" type="xs:string" />
+              <xs:element name="Description" msprop:nullValue="_null" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description" type="xs:string" />
+              <xs:element name="HydroUnits" msdata:Caption="Hydro Units" msprop:Generator_ColumnVarNameInTable="columnHydroUnits" msprop:Generator_ColumnPropNameInRow="HydroUnits" msprop:Generator_ColumnPropNameInTable="HydroUnitsColumn" msprop:Generator_UserColumnName="HydroUnits" type="xs:string" />
+              <xs:element name="PowerTargetsHidden" msdata:Caption="Power Targets" msprop:Generator_ColumnVarNameInTable="columnPowerTargetsHidden" msprop:Generator_ColumnPropNameInRow="PowerTargetsHidden" msprop:Generator_ColumnPropNameInTable="PowerTargetsHiddenColumn" msprop:Generator_UserColumnName="PowerTargetsHidden" type="xs:anyType" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:HydroUnitsInfo" />
+      <xs:field xpath="mstns:HydroUnitID" />
+    </xs:unique>
+    <xs:unique name="Constraint2">
+      <xs:selector xpath=".//mstns:HydroUnitsInfo" />
+      <xs:field xpath="mstns:HydroUnitName" />
+    </xs:unique>
+    <xs:unique name="HydroTargetsInfo_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:HydroTargetsInfo" />
+      <xs:field xpath="mstns:HydroTargetID" />
+    </xs:unique>
+    <xs:unique name="HydroTargetsInfo_Constraint2" msdata:ConstraintName="Constraint2">
+      <xs:selector xpath=".//mstns:HydroTargetsInfo" />
+      <xs:field xpath="mstns:HydroTargetName" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

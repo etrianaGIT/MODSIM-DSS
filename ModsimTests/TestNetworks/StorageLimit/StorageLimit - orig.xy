@@ -1,0 +1,483 @@
+xyVersion 8.6
+numhydtables 0
+n_links 13
+n_nodes 12
+n_lags 5
+ExtManualStorageRightActive True
+ExtStorageRightActive True
+ExtWaterRightsActive False
+ExtLastFillRentActive False
+NonstorageNodeSize 100
+DemandNodeSize 100
+ReservoirNodeSize 100
+LinkSize 100
+BackgroundImageLocation 
+BackgroundImageSize 0
+DefaultFlowUnits acre-ft/month
+DefaultStorageUnits acre-ft
+hydroCtrl
+ExtHydropowerActive False
+node
+name NonStorage
+nuid 47b025cb-32c5-4ceb-831f-bbbcb2a8ed8c
+desc 
+num 1
+ntype 2
+out 3
+out 1
+pos
+0 252.0215
+1 314.5000
+labelpos
+0 243.5215
+1 323.0000
+IsLabelVisible 0
+node
+name NonStorage1
+nuid dbcd80a6-8ed0-469f-b2dc-1466873e5f01
+desc 
+num 2
+ntype 2
+in 3
+in 2
+out 4
+pos
+0 408.4635
+1 314.5000
+labelpos
+0 399.9635
+1 323.0000
+IsLabelVisible 0
+node
+name 200in
+nuid b2f2843f-3f9f-4833-a41c-315f244c80dc
+desc 
+num 3
+ntype 2
+in 4
+out 11
+out 5
+tsinflow
+units acre-ft/month
+10/01/1979 00:00:00	200
+pos
+0 614.7158
+1 314.5000
+labelpos
+0 606.2158
+1 323.0000
+node
+name NonStorage2
+nuid 6c1479cf-b0e8-4b8e-baa8-83d6b10de75d
+desc 
+num 4
+ntype 2
+in 8
+in 5
+out 6
+pos
+0 858.4636
+1 314.5000
+labelpos
+0 849.9636
+1 323.0000
+IsLabelVisible 0
+node
+name res
+nuid d666ff36-4f7e-4bbd-bbea-38ad2c335e54
+desc 
+num 5
+ntype 1
+in 1
+out 2
+pos
+0 298.5000
+1 404.5000
+labelpos
+0 290.0000
+1 413.0000
+max_vol 10000
+start_vol 10000
+reservoir_units acre-ft
+rbypassl 3
+resnext 5
+resprev 5
+resoutfl 2
+sysnum 1
+tstarget
+units acre-ft
+10/01/1979 00:00:00	10000
+area_units acres
+capacity_units acre-ft
+hcapacity_units acre-ft/month
+node
+name Own
+nuid cee6f97c-1b86-4584-9862-1b22d7b121ff
+desc 
+num 6
+ntype 3
+in 9
+pos
+0 898.5000
+1 194.5000
+labelpos
+0 890.0000
+1 203.0000
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/month
+10/01/1979 00:00:00	0
+04/01/1980 00:00:00	200
+09/01/1980 00:00:00	0
+node
+name 2TB
+nuid 05fafa7e-e8bd-4bf5-ae81-67a8cadabfd2
+desc 
+num 7
+ntype 3
+in 13
+in 12
+pos
+0 678.5000
+1 194.5000
+labelpos
+0 670.0000
+1 203.0000
+pcapUnits acre-ft/month
+idstrmx
+0 9
+tsdemand
+units acre-ft/month
+10/01/1979 00:00:00	0
+04/01/1980 00:00:00	350
+09/01/1980 00:00:00	0
+node
+name sink
+nuid c32016eb-1a93-4b5b-960e-332ab4210f6f
+desc 
+num 8
+ntype 3
+in 6
+pos
+0 1008.5000
+1 314.5000
+labelpos
+0 1000.0000
+1 323.0000
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/month
+10/01/1979 00:00:00	100000000
+node
+name TB_50
+nuid 537ba2da-d7ce-4c6c-81fb-0be5f43381c0
+desc 
+num 9
+ntype 2
+out 9
+out 7
+tsinflow
+units acre-ft/month
+10/01/1979 00:00:00	50
+pos
+0 757.6514
+1 194.5000
+labelpos
+0 749.1514
+1 203.0000
+node
+name NonStorage3
+nuid 4c15e9ad-35e4-41b9-8426-0d2bed76886b
+desc 
+num 10
+ntype 2
+in 7
+out 10
+out 8
+pos
+0 828.4636
+1 254.5000
+labelpos
+0 819.9636
+1 263.0000
+IsLabelVisible 0
+node
+name first
+nuid c94f7c43-23b1-440f-8df0-1f578823dc98
+desc 
+num 11
+ntype 3
+in 10
+pos
+0 908.5000
+1 254.5000
+labelpos
+0 900.0000
+1 263.0000
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/month
+10/01/1979 00:00:00	0
+04/01/1980 00:00:00	200
+09/01/1980 00:00:00	0
+node
+name StgLimit
+nuid 2892936f-7142-4948-bf43-0f186673d85d
+desc 
+num 12
+ntype 2
+in 11
+out 13
+out 12
+pos
+0 661.7441
+1 254.5000
+labelpos
+0 653.2441
+1 263.0000
+link
+lname accrual
+luid 33fdf66b-b960-45d7-948f-4c9fb91ab22e
+ldescription 
+lnum 1
+fromnum 1
+tonum 5
+lcost -9999
+lnkallow 10000
+accrualLink True
+link
+lname resout
+luid 8d3c4268-43df-4a9e-a394-2878c5a48f38
+ldescription 
+lnum 2
+fromnum 5
+tonum 2
+link
+lname resbypass
+luid 141494b8-edec-4948-b806-8446d272e185
+ldescription 
+lnum 3
+fromnum 1
+tonum 2
+link
+lname NonStorage1_200in
+luid ef8a6b65-b81d-438e-a8c9-e31968b4f11f
+ldescription 
+lnum 4
+fromnum 2
+tonum 3
+link
+lname 200in_NonStorage2
+luid 655f6be1-7582-4da2-815e-d8d515f66f3a
+ldescription 
+lnum 5
+fromnum 3
+tonum 4
+link
+lname NonStorage2_sink
+luid 9d3c4fbe-9a21-4c35-83a1-37e10f2fa66e
+ldescription 
+lnum 6
+fromnum 4
+tonum 8
+link
+lname TB_50_NonStorage3
+luid 5152f1e6-5a44-477e-a12d-d558cefb34a7
+ldescription 
+lnum 7
+fromnum 9
+tonum 10
+link
+lname NonStorage3_NonStorage2
+luid 7bd58e90-28e0-406f-ac43-eb139cb1a699
+ldescription 
+lnum 8
+fromnum 10
+tonum 4
+link
+lname TB_50_Own
+luid f69cc6bb-b7d8-4153-ada5-5abb8b795b98
+ldescription 
+lnum 9
+fromnum 9
+tonum 6
+lcost 1
+maxCap
+units acre-ft/month
+10/01/1979 00:00:00	0
+capown 10000
+stglft 10000
+lparent 1
+relativeUseOrder 1
+llinkconstr 11
+link
+lname NonStorage3_first
+luid 62011cb1-f9c8-4555-b391-5e77ab54acee
+ldescription 
+lnum 10
+fromnum 10
+tonum 11
+lcost -10000
+maxCap
+units acre-ft/month
+10/01/1979 00:00:00	200
+link
+lname storagelimit
+luid 334e0fa4-0aec-417b-819e-bae52b0a4d5e
+ldescription 
+lnum 11
+fromnum 3
+tonum 12
+maxCap
+units acre-ft/month
+10/01/1979 00:00:00	350
+link
+lname StgLimit_2TB
+luid 8a6908d0-d0f3-46c6-a751-048093532807
+ldescription 
+lnum 12
+fromnum 12
+tonum 7
+lcost -9998
+maxCap
+units acre-ft/month
+10/01/1979 00:00:00	200
+link
+lname StgLimit_2TB_1
+luid 454a446a-a89f-478c-b4f5-f1906047405d
+ldescription 
+lnum 13
+fromnum 12
+tonum 7
+lcost -95000
+maxCap
+units acre-ft/month
+10/01/1979 00:00:00	150
+lcoords
+0 671.5000
+1 258.0000
+2 671.5000
+3 258.0000
+lstg_only 1
+annot
+astr Own owns all res 10000 af wants 200af Apr-Aug
+aposx 250
+aposy 512
+annot
+astr first has 200af senior right wants 200af Apr-Aug
+aposx 250
+aposy 550
+annot
+astr 200in is constant 200af inflow
+aposx 252
+aposy 584
+annot
+astr 2TB is transbasin div to TB_50 capacity of 350
+aposx 254
+aposy 614
+annot
+astr link to Own has Storage Limit Link field
+aposx 254
+aposy 644
+annot
+astr TB+50 has constant 50af inflow
+aposx 252
+aposy 704
+annot
+astr Own is contrained to 150 even though there is
+aposx 254
+aposy 738
+annot
+astr enough to satisfy both first and Own
+aposx 658
+aposy 738
+annot
+astr set to link entering StgLimit
+aposx 612
+aposy 644
+annot
+astr link to StgLimit has 350 capacity
+aposx 255
+aposy 674
+ially 1 # Explicit_Targets
+iplot 0
+iprd Monthly
+iut 0
+n_years 1
+rdim
+0 0
+1 0
+2 20940
+3 3440
+title StorageLimit - orig
+uselags 1
+maxit 100
+gw_cp 0.05
+flowth_cp 0.00005
+evap_cp 0.01
+infeasrestart 0
+relxacrul 0
+dataStartDate 10/01/1979 00:00:00
+dataEndDate 10/01/1980 00:00:00
+startingDate 10/01/1979 00:00:00
+endingDate 10/01/1980 00:00:00
+accrualDate 10/01/1900 00:00:00
+seasCapDate 10/01/1900 00:00:00
+rentPoolDates 10/01/1900 00:00:00
+accBalanceDates 10/01/1900 00:00:00
+accuracy 0
+defaultMaxCap 99999999
+res_output 1
+dws_rel 1
+elev_end 1
+evp_loss 1
+evp_rate 1
+gwater 1
+head_avg 1
+hydra_Cap 1
+powr_avg 1
+powr_pk 1
+pump_in 1
+pump_out 1
+pwr_2nd 1
+seepage 1
+spills 1
+stor_beg 1
+stor_end 1
+stor_trg 1
+unreg_in 1
+ups_rel 1
+dem_output 1
+dem_sht 1
+demand 1
+gw_in 1
+surf_in 1
+acc_flow 1
+acc_output 1
+acrl 1
+stgl 1
+flo_flow 1
+flo_output 1
+loss 1
+natflow 1
+fromgwtono 1
+gw_output 1
+noTimeStepsInMemorygwinfiltra 1
+spcl_rpts 0
+part_flows 0
+ver7OutputFiles 0
+ver8MSDBOutputFiles 1
+SQLiteOutputFiles 0
+DeleteTempVer8OutputFiles 1
+noTimeStepsInMemory 12
+hydroStateOUT 1
+nonStorage_output 1
+l_MaxOUT 1
+l_MinOUT 1
+Flow_ThruOUT 1
+Rout_RetOUT 1
+InflowOUT 1
+nomaxmesg 0
+constsysst 0
+IsBackRoutingActive 0
+IsStorageAccountWithRouting 0

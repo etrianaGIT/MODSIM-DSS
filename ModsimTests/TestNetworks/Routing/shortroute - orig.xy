@@ -1,0 +1,302 @@
+xyVersion 8.6
+numhydtables 0
+n_links 7
+n_nodes 8
+n_lags 5
+ExtManualStorageRightActive False
+ExtStorageRightActive False
+ExtWaterRightsActive False
+ExtLastFillRentActive False
+NonstorageNodeSize 100
+DemandNodeSize 100
+ReservoirNodeSize 100
+LinkSize 100
+BackgroundImageLocation 
+BackgroundImageSize 0
+DefaultFlowUnits acre-ft/month
+DefaultStorageUnits acre-ft
+hydroCtrl
+ExtHydropowerActive False
+node
+name res
+nuid af6e21f5-2016-4d5c-a662-aadada22cd2f
+desc 
+num 1
+ntype 1
+in 7
+out 1
+pos
+0 508.5000
+1 194.5000
+labelpos
+0 500.0000
+1 203.0000
+max_vol 1000
+reservoir_units acre-ft
+resnext 1
+resprev 1
+tstarget
+variesbyyear True
+units acre-ft
+01/02/1980 00:00:00	800
+area_units acres
+capacity_units acre-ft
+hcapacity_units acre-ft/day
+node
+name MS1
+nuid e50e645b-5e58-4f88-85eb-cb7c2180af1e
+desc 
+num 2
+ntype 2
+in 1
+out 5
+out 3
+pos
+0 508.5000
+1 294.5000
+labelpos
+0 500.0000
+1 303.0000
+node
+name dem1
+nuid 814a1df7-9ddf-43ab-b780-4945ea06be28
+desc 
+num 3
+ntype 3
+in 3
+pos
+0 645.0088
+1 294.5000
+labelpos
+0 636.5088
+1 303.0000
+pcapUnits acre-ft/day
+demr
+0 10
+tsdemand
+variesbyyear True
+units acre-ft/day
+01/01/1980 00:00:00	100
+01/03/1980 00:00:00	0
+node
+name MS2
+nuid 8ca685ce-11f6-450c-b53a-a8494cef7a5a
+desc 
+num 4
+ntype 2
+in 6
+out 4
+out 2
+pos
+0 508.5000
+1 404.5000
+labelpos
+0 500.0000
+1 413.0000
+node
+name dem2
+nuid 05ddc836-a7ac-4905-b486-5b84a0c566f9
+desc 
+num 5
+ntype 3
+in 2
+pos
+0 655.0088
+1 404.5000
+labelpos
+0 646.5088
+1 413.0000
+pcapUnits acre-ft/day
+demr
+0 1
+tsdemand
+variesbyyear True
+units acre-ft/day
+01/01/1980 00:00:00	100
+node
+name Sink
+nuid cb6b4c3d-5e4a-405d-8278-d940dee46717
+desc 
+num 6
+ntype 3
+in 4
+pos
+0 508.5000
+1 534.5000
+labelpos
+0 500.0000
+1 543.0000
+pcapUnits acre-ft/day
+demr
+0 4999
+tsdemand
+variesbyyear True
+units acre-ft/day
+01/01/1980 00:00:00	100000
+node
+name NonStorage
+nuid e2b14a36-88c1-4ea1-a74f-7e0323e2d77a
+desc 
+num 7
+ntype 2
+in 5
+out 6
+pos
+0 532.0215
+1 354.5000
+labelpos
+0 523.5215
+1 363.0000
+IsLabelVisible 0
+node
+name NonStorage1
+nuid c4d19931-cbdb-4459-9073-823752aa80b1
+desc 
+num 8
+ntype 2
+out 7
+tsinflow
+variesbyyear True
+units acre-ft/day
+01/01/1980 00:00:00	1000
+01/02/1980 00:00:00	0
+pos
+0 448.4635
+1 194.5000
+labelpos
+0 439.9635
+1 203.0000
+IsLabelVisible 0
+link
+lname res_MS1
+luid ae0bbd65-82ac-43b9-b68b-7d87bb6869ab
+ldescription 
+lnum 1
+fromnum 1
+tonum 2
+link
+lname MS2_dem2
+luid c14f76a3-c200-4676-beed-283d60f63498
+ldescription 
+lnum 2
+fromnum 4
+tonum 5
+link
+lname MS1_dem1
+luid 30df8abb-70be-4a2d-9a6e-f01c8e9e30cd
+ldescription 
+lnum 3
+fromnum 2
+tonum 3
+link
+lname MS2_Sink
+luid 51f4a9f5-1da9-4a0a-ab29-e0277c6ffd9f
+ldescription 
+lnum 4
+fromnum 4
+tonum 6
+link
+lname MS1_NonStorage
+luid 15a5e7ca-f9c6-466c-b60d-1c121dc5f008
+ldescription 
+lnum 5
+fromnum 2
+tonum 7
+xlcf 1
+idstrc 4
+llagfact
+1 1
+link
+lname NonStorage_MS2
+luid 047e0f27-2196-4bc7-a4fb-bad2c9ca0a87
+ldescription 
+lnum 6
+fromnum 7
+tonum 4
+link
+lname NonStorage1_res
+luid af41e9af-30f5-4304-8171-919f8a974eb0
+ldescription 
+lnum 7
+fromnum 8
+tonum 1
+ially 1 # Explicit_Targets
+iplot 0
+iprd Daily
+iut 0
+n_years 3
+rdim
+0 0
+1 0
+2 20480
+3 3380
+title shortroute - orig
+uselags 1
+maxit 100
+gw_cp 0.05
+flowth_cp 0.00005
+evap_cp 0.01
+infeasrestart 0
+relxacrul 0
+dataStartDate 01/01/1980 00:00:00
+dataEndDate 01/22/1980 00:00:00
+startingDate 01/01/1980 00:00:00
+endingDate 01/08/1980 00:00:00
+accrualDate 01/01/1980 00:00:00
+seasCapDate 01/01/1900 00:00:00
+accuracy 0
+defaultMaxCap 99999999
+res_output 1
+dws_rel 1
+elev_end 1
+evp_loss 1
+evp_rate 1
+gwater 1
+head_avg 1
+hydra_Cap 1
+powr_avg 1
+powr_pk 1
+pump_in 1
+pump_out 1
+pwr_2nd 1
+seepage 1
+spills 1
+stor_beg 1
+stor_end 1
+stor_trg 1
+unreg_in 1
+ups_rel 1
+dem_output 1
+dem_sht 1
+demand 1
+gw_in 1
+surf_in 1
+acc_flow 1
+acc_output 1
+acrl 1
+stgl 1
+flo_flow 1
+flo_output 1
+loss 1
+natflow 1
+fromgwtono 1
+gw_output 1
+noTimeStepsInMemorygwinfiltra 1
+spcl_rpts 0
+part_flows 0
+ver7OutputFiles 0
+ver8MSDBOutputFiles 1
+SQLiteOutputFiles 0
+DeleteTempVer8OutputFiles 1
+noTimeStepsInMemory 12
+hydroStateOUT 1
+nonStorage_output 1
+l_MaxOUT 1
+l_MinOUT 1
+Flow_ThruOUT 1
+Rout_RetOUT 1
+InflowOUT 1
+nomaxmesg 0
+constsysst 0
+IsBackRoutingActive 0
+IsStorageAccountWithRouting 0

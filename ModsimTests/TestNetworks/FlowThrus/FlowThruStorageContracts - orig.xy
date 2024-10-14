@@ -1,0 +1,413 @@
+xyVersion 8.6
+numhydtables 0
+n_links 11
+n_nodes 9
+n_lags 5
+ExtManualStorageRightActive False
+ExtStorageRightActive True
+ExtWaterRightsActive True
+ExtLastFillRentActive False
+NonstorageNodeSize 100
+DemandNodeSize 100
+ReservoirNodeSize 100
+LinkSize 100
+BackgroundImageLocation 
+BackgroundImageSize 0
+WRInitialPriority -10000
+DefaultFlowUnits acre-ft/month
+DefaultStorageUnits acre-ft
+hydroCtrl
+ExtHydropowerActive False
+effCurve
+effCurveName powerEff
+fakeht
+1 1000
+qt
+1 1000
+qt_units cfs
+ht_units ft
+efft
+0 1
+1 1
+2 1
+3 1
+node
+name 2000
+nuid 295ceeb1-edab-435f-84c3-b48c70ea431e
+desc 
+num 1
+ntype 2
+out 5
+tsinflow
+variesbyyear True
+units acre-ft/month
+01/01/1980 00:00:00	2000
+pos
+0 117.4000
+1 153.0000
+labelpos
+0 117.4000
+1 161.5000
+select 0
+node
+name NonStorage1
+nuid 13de21ac-b9e6-4f5c-8178-a333ef988471
+desc 
+num 2
+ntype 2
+in 5
+out 1
+out 2
+pos
+0 238.0000
+1 153.0000
+labelpos
+0 238.0000
+1 161.5000
+IsLabelVisible 0
+select 0
+node
+name NonStorage2
+nuid 164616da-1460-463e-8182-06402597c4f8
+desc 
+num 3
+ntype 2
+in 2
+in 3
+out 4
+pos
+0 362.0000
+1 153.0000
+labelpos
+0 362.0000
+1 161.5000
+IsLabelVisible 0
+select 0
+node
+name Sink
+nuid cf3efa1d-298c-4cc1-8c92-57712510b4da
+desc 
+num 4
+ntype 4
+in 7
+pos
+0 724.0000
+1 153.0000
+labelpos
+0 724.0000
+1 161.5000
+IsLabelVisible 0
+select 0
+node
+name Reservoir
+nuid 6c900b88-56f5-44fb-bd8d-906ea5dc24da
+desc 
+num 5
+ntype 1
+in 1
+out 3
+pos
+0 290.0000
+1 214.0000
+labelpos
+0 290.0000
+1 222.5000
+select 0
+max_vol 50000
+start_vol 1000
+reservoir_units acre-ft
+effCurveName powerEff
+justTheName True
+rbypassl 2
+resnext 5
+resprev 5
+resoutfl 3
+tstarget
+variesbyyear True
+units acre-ft
+02/01/1980 00:00:00	50000
+area_units acres
+capacity_units acre-ft
+hcapacity_units acre-ft/month
+resbali
+resbalpcts
+0 100
+resbalflag 1
+node
+name NonStorage3
+nuid e675a5e5-c561-4f26-8728-7b6109b567dd
+desc 
+num 6
+ntype 2
+in 4
+out 6
+out 8
+out 9
+out 11
+pos
+0 477.1000
+1 153.0000
+labelpos
+0 477.1000
+1 161.5000
+select 0
+node
+name Junior
+nuid fa60bc6a-897b-4325-9378-f4e3ec8b4fff
+desc 
+num 7
+ntype 3
+in 8
+in 9
+in 11
+pos
+0 521.0000
+1 79.0000
+labelpos
+0 521.0000
+1 55.5000
+select 0
+pcapUnits acre-ft/month
+idstrmx
+0 8
+idstrmfr
+1-9 0
+pdstrm 6
+tsdemand
+variesbyyear True
+units acre-ft/month
+01/01/1980 00:00:00	1000
+node
+name NonStorage4
+nuid 363503c7-2224-4bda-8a88-bd029e42cde2
+desc 
+num 8
+ntype 2
+in 6
+out 7
+out 10
+pos
+0 607.0000
+1 153.0000
+labelpos
+0 607.0000
+1 161.5000
+select 0
+node
+name Senior
+nuid 994192c0-a509-4dc0-a075-533c6479b6a5
+desc 
+num 9
+ntype 3
+in 10
+pos
+0 641.1000
+1 79.0000
+labelpos
+0 640.1296
+1 55.5000
+select 0
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/month
+01/01/1980 00:00:00	500
+link
+lname Reservoir_Accrual
+luid 9eecaa4a-3e50-450c-8ba7-540df433e9f1
+ldescription 
+lnum 1
+fromnum 2
+tonum 5
+lcost -9800
+maxCap
+units acre-ft/month
+01/01/1980 00:00:00	2999999999
+select 0
+lnkallow 50000
+WaterRightDate 01/01/1980 00:00:00
+numgroups 1
+initstglft
+0 500
+stgamount
+0 40000
+accrualLink True
+link
+lname Reservoir_Bypass
+luid 21aca8c6-3589-446d-8273-e3542821f6b7
+ldescription 
+lnum 2
+fromnum 2
+tonum 3
+select 0
+link
+lname Reservoir_Outflow
+luid a6631413-96c3-4f5a-82d4-b1e0d0f0717b
+ldescription 
+lnum 3
+fromnum 5
+tonum 3
+select 0
+link
+lname NonStorage2_NonStorage3
+luid 80001abe-c38c-4dcf-9713-768893672607
+ldescription 
+lnum 4
+fromnum 3
+tonum 6
+select 0
+link
+lname 2000_NonStorage1
+luid d8847144-01a8-4980-bdf5-59090ebe2601
+ldescription 
+lnum 5
+fromnum 1
+tonum 2
+select 0
+link
+lname NonStorage3_NonStorage4
+luid c5542365-67da-4479-8ac3-7e01ec38c2ab
+ldescription 
+lnum 6
+fromnum 6
+tonum 8
+select 0
+link
+lname NonStorage4_Sink
+luid 943f55c9-dac8-4419-82cb-8e2985880ac1
+ldescription 
+lnum 7
+fromnum 8
+tonum 4
+select 0
+link
+lname FlowThru_natural
+luid 4f1e40a0-366e-4582-92d5-59d0c28fce42
+ldescription 
+lnum 8
+fromnum 6
+tonum 7
+lcost -9900
+maxCap
+units acre-ft/month
+01/01/1980 00:00:00	100
+select 0
+WaterRightDate 01/01/1970 00:00:00
+link
+lname FlowThru_storage
+luid 4021e4f3-162e-4b40-a974-4dd77f95b787
+ldescription 
+lnum 9
+fromnum 6
+tonum 7
+select 0
+lparent 1
+groupnumber 1
+link
+lname Senior
+luid 38fc0ac2-5184-477c-814c-06277a761530
+ldescription 
+lnum 10
+fromnum 8
+tonum 9
+lcost -10000
+maxCap
+units acre-ft/month
+01/01/1980 00:00:00	500
+select 0
+WaterRightDate 01/01/1900 00:00:00
+link
+lname FlowThru_storage2
+luid 97afc768-bbc8-4b44-861d-d3b72c4d1b23
+ldescription 
+lnum 11
+fromnum 6
+tonum 7
+select 0
+capown 10000
+stglft 500
+lparent 1
+annot
+astr Network demonstrates storage left adjustment for a flow thru with ownershipnewlinelinks and a bypass credit link.newlinenewlineThe Modsim solver due to least cost distribution allows the natural flow allocatednewlineto Senior to flow thru Juniors inflow links because what flows thru Junior will benewlineavailable to Senior. So, Seniors 500 request is sent through Juniors group ownership newlinelink. Then Junior demands an additional 400 from storage ownerships.newlinenewlineWithout an adjustment to storage left. Juniors ownership link(s) would be chargednewline900 (500 delivered or routed to Senior and 400 delivered to Junior). So Junior wouldnewlinehave been charged storage contract water for Modsim's delivery of Senior's naturalnewlineflow allocation. Instead an adjustment was made in Modsim to credit Junior's storagenewlineleft by the 500 delivered or routed to Senior, and Junior's storage left is only reducednewlineby 400, the amount actually delivered to satisfy Junior's remaining demand.newlinenewlineThis also demonstrates that because no natural flow is sent through Junior'snewlineFlowThru_storage2 link, no storage left credit is applied to the link the full 400newlinecredit is applied to Junior's FlowThru_storage link.
+aposx 370
+aposy 215
+ially 1 # Explicit_Targets
+iplot 0
+iprd Monthly
+iut 0
+n_years 1
+rdim
+0 0
+1 0
+2 20480
+3 2700
+title FlowThruStorageContracts
+uselags 1
+maxit 100
+gw_cp 0.05
+flowth_cp 0.00005
+evap_cp 0.01
+infeasrestart 0
+relxacrul 0
+dataStartDate 01/01/1980 00:00:00
+dataEndDate 01/01/1981 00:00:00
+startingDate 01/01/1980 00:00:00
+endingDate 01/01/1981 00:00:00
+accrualDate 01/31/1980 00:00:00
+seasCapDate 01/01/1980 00:00:00
+accBalanceDates 01/31/1980 00:00:00
+accuracy 0
+defaultMaxCap 2999999999
+res_output 1
+dws_rel 1
+elev_end 1
+evp_loss 1
+evp_rate 1
+gwater 1
+head_avg 1
+hydra_Cap 1
+powr_avg 1
+powr_pk 1
+pump_in 1
+pump_out 1
+pwr_2nd 1
+seepage 1
+spills 1
+stor_beg 1
+stor_end 1
+stor_trg 1
+unreg_in 1
+ups_rel 1
+dem_output 1
+dem_sht 1
+demand 1
+gw_in 1
+surf_in 1
+acc_flow 1
+acc_output 1
+acrl 1
+stgl 1
+flo_flow 1
+flo_output 1
+loss 1
+natflow 1
+fromgwtono 1
+gw_output 1
+noTimeStepsInMemorygwinfiltra 1
+spcl_rpts 0
+part_flows 0
+ver7OutputFiles 0
+ver8MSDBOutputFiles 1
+SQLiteOutputFiles 0
+DeleteTempVer8OutputFiles 1
+noTimeStepsInMemory 12
+hydroStateOUT 1
+nonStorage_output 1
+l_MaxOUT 1
+l_MinOUT 1
+Flow_ThruOUT 1
+Rout_RetOUT 1
+InflowOUT 1
+nomaxmesg 0
+constsysst 0
+IsBackRoutingActive 0
+IsStorageAccountWithRouting 0

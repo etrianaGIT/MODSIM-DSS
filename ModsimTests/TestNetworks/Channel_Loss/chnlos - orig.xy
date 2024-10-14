@@ -1,0 +1,386 @@
+xyVersion 8.6
+numhydtables 0
+n_links 8
+n_nodes 8
+n_lags 5
+ExtManualStorageRightActive True
+ExtStorageRightActive True
+ExtWaterRightsActive False
+ExtLastFillRentActive False
+NonstorageNodeSize 100
+DemandNodeSize 100
+ReservoirNodeSize 100
+LinkSize 100
+BackgroundImageLocation 
+BackgroundImageSize 0
+DefaultFlowUnits acre-ft/month
+DefaultStorageUnits acre-ft
+hydroCtrl
+ExtHydropowerActive False
+node
+name NonStorage
+nuid 39c947dd-78ec-462c-8e3c-71e4c48a7246
+desc 
+num 1
+ntype 2
+out 3
+out 1
+tsinflow
+variesbyyear True
+units acre-ft/month
+10/01/1979 00:00:00	100
+11/01/1979 00:00:00	200
+02/01/1980 00:00:00	100
+03/01/1980 00:00:00	200
+04/01/1980 00:00:00	500
+05/01/1980 00:00:00	800
+06/01/1980 00:00:00	1000
+07/01/1980 00:00:00	700
+08/01/1980 00:00:00	300
+09/01/1980 00:00:00	100
+pos
+0 292.0215
+1 264.5000
+labelpos
+0 283.5215
+1 273.0000
+IsLabelVisible 0
+node
+name NonStorage1
+nuid 7e64ee1b-27c4-44bb-9d3c-a2f6c5c50d85
+desc 
+num 2
+ntype 2
+in 3
+in 2
+out 4
+pos
+0 418.4635
+1 264.5000
+labelpos
+0 409.9635
+1 273.0000
+IsLabelVisible 0
+node
+name NonStorage2
+nuid b7df5cd6-dd10-46ab-844b-a0e152a9ff00
+desc 
+num 3
+ntype 2
+in 4
+out 6
+out 5
+pos
+0 578.4636
+1 264.5000
+labelpos
+0 569.9636
+1 273.0000
+IsLabelVisible 0
+node
+name NonStorage3
+nuid 1120aae7-b0d2-4b4e-96ef-28d20eefed67
+desc 
+num 4
+ntype 2
+in 6
+out 8
+out 7
+pos
+0 748.4636
+1 264.5000
+labelpos
+0 739.9636
+1 273.0000
+IsLabelVisible 0
+node
+name NatDiv
+nuid b68ca759-45bb-4e55-a88c-16646756bee0
+desc 
+num 5
+ntype 3
+in 5
+pos
+0 648.0381
+1 194.5000
+labelpos
+0 639.5381
+1 203.0000
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/month
+10/01/1979 00:00:00	0
+04/01/1980 00:00:00	500
+09/01/1980 00:00:00	0
+node
+name OWNdiv
+nuid f61d92f9-e990-46b7-bbee-5279071e8161
+desc 
+num 6
+ntype 3
+in 8
+pos
+0 862.3682
+1 194.5000
+labelpos
+0 853.8682
+1 203.0000
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/month
+10/01/1979 00:00:00	0
+04/01/1980 00:00:00	200
+09/01/1980 00:00:00	0
+node
+name sink
+nuid d0446beb-56c5-4eca-8e7d-b49decd46110
+desc 
+num 7
+ntype 3
+in 7
+pos
+0 918.5000
+1 264.5000
+labelpos
+0 910.0000
+1 273.0000
+pcapUnits acre-ft/month
+demr
+0 4999
+tsdemand
+units acre-ft/month
+10/01/1979 00:00:00	100000000
+node
+name Account
+nuid 57e58770-963f-434c-9c86-8dc3d377c8b3
+desc 
+num 8
+ntype 1
+in 1
+out 2
+pos
+0 361.6797
+1 354.5000
+labelpos
+0 353.1797
+1 363.0000
+max_vol 1000
+start_vol 900
+reservoir_units acre-ft
+rbypassl 3
+resnext 8
+resprev 8
+resoutfl 2
+sysnum 1
+tstarget
+units acre-ft
+10/01/1979 00:00:00	900
+11/01/1979 00:00:00	800
+12/01/1979 00:00:00	700
+04/01/1980 00:00:00	800
+05/01/1980 00:00:00	900
+06/01/1980 00:00:00	1000
+09/01/1980 00:00:00	900
+area_units acres
+capacity_units acre-ft
+hcapacity_units acre-ft/month
+link
+lname accrual
+luid 74315999-e6e1-4136-972e-58a7c3ebae14
+ldescription 
+lnum 1
+fromnum 1
+tonum 8
+lcost -10
+lnkallow 1000
+accrualLink True
+link
+lname RESoutflow
+luid 4a0270fd-ea97-4ded-b403-92c53acb0232
+ldescription 
+lnum 2
+fromnum 8
+tonum 2
+link
+lname bypassRES
+luid e3fca3fd-823f-40c2-b643-383c6f424f09
+ldescription 
+lnum 3
+fromnum 1
+tonum 2
+link
+lname NonStorage1_NonStorage2
+luid 4039975b-79a1-4f0a-a48b-90af781222b9
+ldescription 
+lnum 4
+fromnum 2
+tonum 3
+link
+lname NonStorage2_NatDiv
+luid e61d58fc-c20b-4e0c-bfe9-ab8ac5748bc1
+ldescription 
+lnum 5
+fromnum 3
+tonum 5
+lcost -20
+link
+lname Channel Loss
+luid c1a144a5-d9c4-4e50-9dee-4f8c9a9a54de
+ldescription 
+lnum 6
+fromnum 3
+tonum 4
+xlcf 0.1
+idstrc 7
+llagfact
+0 1
+link
+lname NonStorage3_sink
+luid ad3a66ef-0838-4e7c-a372-f7bb47daf59b
+ldescription 
+lnum 7
+fromnum 4
+tonum 7
+link
+lname OWNER
+luid 3d7cf354-da31-436c-8734-669a703e80a8
+ldescription 
+lnum 8
+fromnum 4
+tonum 6
+lcost 1
+maxCap
+units acre-ft/month
+10/01/1979 00:00:00	0
+capown 1000
+stglft 900
+lparent 1
+relativeUseOrder 1
+llinkchloss 6
+annot
+astr Link upstream of OWNdiv diversion point has 10 
+aposx 282
+aposy 494
+annot
+astr Link OWNER to OWNdiv refers to link Channel Loss
+aposx 280
+aposy 531
+annot
+astr Loss is seen in stglft of link OWNER
+aposx 282
+aposy 564
+annot
+astr Output for link Channel Loss has flow at the head 
+aposx 285
+aposy 612
+annot
+astr percent channel loss
+aposx 320
+aposy 508
+annot
+astr as its storage channel loss link
+aposx 322
+aposy 542
+annot
+astr of link, that is before the loss
+aposx 328
+aposy 628
+annot
+astr decrease in stglft is delivery factored by
+aposx 330
+aposy 575
+annot
+astr one plus channel loss coefficient
+aposx 330
+aposy 588
+annot
+astr Channel Loss
+aposx 582
+aposy 298
+annot
+astr Account has Normal Outflow Link and System Number
+aposx 270
+aposy 130
+ially 1 # Explicit_Targets
+iplot 0
+iprd Monthly
+iut 0
+n_years 1
+rdim
+0 0
+1 0
+2 20480
+3 3420
+title chnlos - orig
+uselags 1
+maxit 100
+gw_cp 0.05
+flowth_cp 0.00005
+evap_cp 0.01
+infeasrestart 0
+relxacrul 1
+dataStartDate 10/01/1979 00:00:00
+dataEndDate 10/01/1980 00:00:00
+startingDate 10/01/1979 00:00:00
+endingDate 10/01/1980 00:00:00
+accrualDate 10/01/1900 00:00:00
+seasCapDate 10/01/1900 00:00:00
+rentPoolDates 10/01/1900 00:00:00
+accBalanceDates 10/01/1900 00:00:00
+accBalanceDates 06/01/1900 00:00:00
+accuracy 0
+defaultMaxCap 99999999
+res_output 1
+dws_rel 1
+elev_end 1
+evp_loss 1
+evp_rate 1
+gwater 1
+head_avg 1
+hydra_Cap 1
+powr_avg 1
+powr_pk 1
+pump_in 1
+pump_out 1
+pwr_2nd 1
+seepage 1
+spills 1
+stor_beg 1
+stor_end 1
+stor_trg 1
+unreg_in 1
+ups_rel 1
+dem_output 1
+dem_sht 1
+demand 1
+gw_in 1
+surf_in 1
+acc_flow 1
+acc_output 1
+acrl 1
+stgl 1
+flo_flow 1
+flo_output 1
+loss 1
+natflow 1
+fromgwtono 1
+gw_output 1
+noTimeStepsInMemorygwinfiltra 1
+spcl_rpts 0
+part_flows 0
+ver7OutputFiles 0
+ver8MSDBOutputFiles 1
+SQLiteOutputFiles 0
+DeleteTempVer8OutputFiles 1
+noTimeStepsInMemory 12
+hydroStateOUT 1
+nonStorage_output 1
+l_MaxOUT 1
+l_MinOUT 1
+Flow_ThruOUT 1
+Rout_RetOUT 1
+InflowOUT 1
+nomaxmesg 0
+constsysst 0
+IsBackRoutingActive 0
+IsStorageAccountWithRouting 0

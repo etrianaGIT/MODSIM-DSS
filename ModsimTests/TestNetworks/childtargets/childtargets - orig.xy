@@ -1,0 +1,693 @@
+xyVersion 8.6
+numhydtables 1
+n_links 15
+n_nodes 14
+n_lags 5
+ExtManualStorageRightActive True
+ExtStorageRightActive True
+ExtWaterRightsActive False
+ExtLastFillRentActive False
+NonstorageNodeSize 100
+DemandNodeSize 100
+ReservoirNodeSize 100
+LinkSize 100
+BackgroundImageLocation 
+BackgroundImageSize 0
+DefaultFlowUnits acre-ft/month
+DefaultStorageUnits acre-ft
+hydroCtrl
+ExtHydropowerActive False
+node
+name Gain
+nuid 56f97a16-31c3-4967-b3a1-a0517ccd169c
+desc 
+num 1
+ntype 2
+out 14
+out 12
+out 1
+tsinflow
+variesbyyear True
+units acre-ft/month
+10/01/1979 00:00:00	200
+01/01/1980 00:00:00	100
+02/01/1980 00:00:00	300
+03/01/1980 00:00:00	500
+04/01/1980 00:00:00	700
+05/01/1980 00:00:00	800
+06/01/1980 00:00:00	700
+07/01/1980 00:00:00	100
+09/01/1980 00:00:00	200
+10/01/1980 00:00:00	100
+01/01/1981 00:00:00	50
+02/01/1981 00:00:00	150
+03/01/1981 00:00:00	250
+04/01/1981 00:00:00	350
+05/01/1981 00:00:00	400
+06/01/1981 00:00:00	350
+07/01/1981 00:00:00	50
+09/01/1981 00:00:00	100
+pos
+0 238.5000
+1 304.5000
+labelpos
+0 230.0000
+1 313.0000
+node
+name NonStorage
+nuid 399ff853-23ee-4178-af08-b5ff4eeae836
+desc 
+num 2
+ntype 2
+in 15
+in 13
+in 1
+out 2
+pos
+0 402.0215
+1 304.5000
+labelpos
+0 393.5215
+1 313.0000
+node
+name NonStorage1
+nuid 91303b27-b040-40da-8849-64072be92ec5
+desc 
+num 3
+ntype 2
+in 2
+out 9
+out 5
+out 3
+pos
+0 528.4636
+1 304.5000
+labelpos
+0 519.9636
+1 313.0000
+node
+name NonStorage2
+nuid dea26e15-98d5-403a-b6f5-adfd89789ebf
+desc 
+num 4
+ntype 2
+in 3
+out 6
+out 4
+pos
+0 688.4636
+1 304.5000
+labelpos
+0 679.9636
+1 313.0000
+node
+name NonStorage3
+nuid 0070bfe0-c854-4040-b0cf-61e1205a97b5
+desc 
+num 5
+ntype 2
+in 4
+out 10
+out 8
+out 7
+pos
+0 848.4636
+1 304.5000
+labelpos
+0 839.9636
+1 313.0000
+node
+name Own700
+nuid f731aebc-4c25-4268-8216-a89db7072862
+desc 
+num 6
+ntype 3
+in 9
+in 5
+hydtable 1
+pos
+0 582.3477
+1 224.5000
+labelpos
+0 573.8477
+1 233.0000
+pcapUnits acre-ft/month
+tsdemand
+multicolumn True
+units acre-ft/month
+10/01/1979 00:00:00	0	0	0
+04/01/1980 00:00:00	200	200	200
+09/01/1980 00:00:00	0	0	0
+node
+name Rent500
+nuid b7d0352b-b30a-420e-8409-8ff65a0aecc6
+desc 
+num 7
+ntype 3
+in 6
+hydtable 1
+pos
+0 732.6846
+1 224.5000
+labelpos
+0 724.1846
+1 233.0000
+pcapUnits acre-ft/month
+tsdemand
+multicolumn True
+units acre-ft/month
+10/01/1979 00:00:00	0	0	0
+04/01/1980 00:00:00	100	100	100
+09/01/1980 00:00:00	0	0	0
+node
+name Own300
+nuid 56417b8b-e40d-4a96-a68d-3439f5488a2a
+desc 
+num 8
+ntype 3
+in 7
+hydtable 1
+pos
+0 932.3477
+1 224.5000
+labelpos
+0 923.8477
+1 233.0000
+pcapUnits acre-ft/month
+tsdemand
+multicolumn True
+units acre-ft/month
+10/01/1979 00:00:00	0	0	0
+04/01/1980 00:00:00	60	60	60
+09/01/1980 00:00:00	0	0	0
+node
+name sink
+nuid d0bb3312-1aa1-46c6-b021-d298a51bc140
+desc 
+num 9
+ntype 3
+in 10
+in 8
+hydtable 1
+pos
+0 948.5000
+1 304.5000
+labelpos
+0 940.0000
+1 313.0000
+pcapUnits acre-ft/month
+tsdemand
+multicolumn True
+units acre-ft/month
+10/01/1979 00:00:00	100000000	100000000	100000000
+node
+name 1000AF
+nuid 78648e27-c13a-499c-8e2a-d8acf3766d14
+desc 
+num 10
+ntype 1
+hydtable 1
+pos
+0 326.0146
+1 254.5000
+labelpos
+0 317.5146
+1 263.0000
+max_vol 1000
+start_vol 300
+reservoir_units acre-ft
+rbypassl 1
+numkids 2
+resnext 14
+resprev 13
+cpoints
+1 1100
+area_units acres
+capacity_units acre-ft
+hcapacity_units acre-ft/month
+node
+name forecast
+nuid 640cfa98-8c72-44c1-9d59-16682d29525b
+desc 
+num 11
+ntype 1
+out 11
+hydtable 1
+pos
+0 291.3428
+1 194.5000
+labelpos
+0 282.8428
+1 203.0000
+max_vol 10000
+reservoir_units acre-ft
+resnext 11
+resprev 11
+tsforcast
+variesbyyear True
+10/01/1979 00:00:00	4100
+11/01/1979 00:00:00	3900
+12/01/1979 00:00:00	3700
+01/01/1980 00:00:00	3500
+02/01/1980 00:00:00	3400
+03/01/1980 00:00:00	3100
+04/01/1980 00:00:00	2600
+05/01/1980 00:00:00	1900
+06/01/1980 00:00:00	1100
+07/01/1980 00:00:00	400
+08/01/1980 00:00:00	300
+09/01/1980 00:00:00	200
+10/01/1980 00:00:00	2050
+11/01/1980 00:00:00	1950
+12/01/1980 00:00:00	1850
+01/01/1981 00:00:00	1750
+02/01/1981 00:00:00	1700
+03/01/1981 00:00:00	1550
+04/01/1981 00:00:00	1300
+05/01/1981 00:00:00	950
+06/01/1981 00:00:00	550
+07/01/1981 00:00:00	200
+08/01/1981 00:00:00	150
+09/01/1981 00:00:00	100
+area_units acres
+capacity_units acre-ft
+hcapacity_units acre-ft/month
+node
+name sink2
+nuid 138f2838-6a2e-4de9-927b-21619086408f
+desc 
+num 12
+ntype 3
+in 11
+hydtable 1
+pos
+0 364.0420
+1 194.5000
+labelpos
+0 355.5420
+1 203.0000
+pcapUnits acre-ft/month
+tsdemand
+multicolumn True
+units acre-ft/month
+10/01/1979 00:00:00	100000000	100000000	100000000
+node
+name Junior700
+nuid 5bb46843-542f-4f5a-870e-c7aa2971fcaf
+desc 
+num 13
+ntype 1
+in 14
+out 15
+hydtable 1
+pos
+0 328.8877
+1 382.0000
+labelpos
+0 320.3877
+1 390.5000
+max_vol 700
+start_vol 200
+reservoir_units acre-ft
+parent 0
+mymom 10
+resnext 10
+resprev 14
+resoutfl 15
+tstarget
+multicolumn True
+units acre-ft
+11/01/1979 00:00:00	200	200	200
+03/01/1980 00:00:00	400	200	200
+04/01/1980 00:00:00	500	300	100
+05/01/1980 00:00:00	700	500	400
+06/01/1980 00:00:00	700	600	500
+07/01/1980 00:00:00	700	700	700
+10/01/1980 00:00:00	400	400	400
+area_units acres
+capacity_units acre-ft
+hcapacity_units acre-ft/month
+node
+name Senior300
+nuid 49fcc4ae-1fec-4259-a025-a5eed94d2711
+desc 
+num 14
+ntype 1
+in 12
+out 13
+hydtable 1
+pos
+0 332.3896
+1 342.0000
+labelpos
+0 323.8896
+1 350.5000
+max_vol 300
+start_vol 100
+reservoir_units acre-ft
+parent 0
+mymom 10
+resnext 13
+resprev 10
+resoutfl 13
+tstarget
+multicolumn True
+units acre-ft
+11/01/1979 00:00:00	300	300	300
+area_units acres
+capacity_units acre-ft
+hcapacity_units acre-ft/month
+link
+lname bypass
+luid ece499c3-77ca-4a1e-ac59-9fed01eebf67
+ldescription 
+lnum 1
+fromnum 1
+tonum 2
+link
+lname NonStorage_NonStorage1
+luid a34cf303-df5c-4aff-bfd1-f0dd0cf3aaa3
+ldescription 
+lnum 2
+fromnum 2
+tonum 3
+link
+lname NonStorage1_NonStorage2
+luid aa47c8da-e769-4536-be01-7cbffc7893fb
+ldescription 
+lnum 3
+fromnum 3
+tonum 4
+link
+lname NonStorage2_NonStorage3
+luid c4a8c50b-619c-46ae-a0ed-c2ee74142c21
+ldescription 
+lnum 4
+fromnum 4
+tonum 5
+link
+lname NonStorage1_Own700
+luid 22a04f89-99c1-4018-85ec-0a2222edd550
+ldescription 
+lnum 5
+fromnum 3
+tonum 6
+lcost 1
+maxCap
+units acre-ft/month
+10/01/1979 00:00:00	0
+capown 700
+stglft 200
+lparent 14
+relativeUseOrder 1
+lhydtable 1
+lrentlim
+0 200
+1-2 500
+link
+lname rent junior
+luid 348a4a75-a4fd-46a9-ac9d-fbbb838eb4ec
+ldescription 
+lnum 6
+fromnum 4
+tonum 7
+lcost 1
+maxCap
+units acre-ft/month
+10/01/1979 00:00:00	0
+lparent 14
+relativeUseOrder 1
+lhydtable 1
+lrentlim
+0-2 -500
+link
+lname NonStorage3_Own300
+luid f49fe38a-efd6-435c-8b9d-1533f5237886
+ldescription 
+lnum 7
+fromnum 5
+tonum 8
+lcost 2
+maxCap
+units acre-ft/month
+10/01/1979 00:00:00	0
+capown 300
+stglft 100
+lparent 12
+relativeUseOrder 2
+lhydtable 1
+link
+lname NonStorage3_sink
+luid 622dc541-8454-4c8f-a5e2-47585285b517
+ldescription 
+lnum 8
+fromnum 5
+tonum 9
+link
+lname NonStorage1_Own700_1
+luid c995f2a5-d478-4f73-ac0f-55616983aeda
+ldescription 
+lnum 9
+fromnum 3
+tonum 6
+lcost -10000
+maxCap
+units acre-ft/month
+10/01/1979 00:00:00	300
+lcoords
+0 545.5000
+1 302.0000
+2 545.5000
+3 302.0000
+link
+lname NonStorage3_sink_1
+luid 84ffc02f-6bcb-41b9-b3fa-570a1d1a0d20
+ldescription 
+lnum 10
+fromnum 5
+tonum 9
+lcost -9500
+maxCap
+units acre-ft/month
+10/01/1979 00:00:00	100
+lcoords
+0 881.0000
+1 350.0000
+2 881.0000
+3 350.0000
+link
+lname forecast_sink2
+luid cda98bd1-e8e4-4e38-9b54-4163afcd506a
+ldescription 
+lnum 11
+fromnum 11
+tonum 12
+link
+lname Senior300
+luid 2b55b28d-62a1-4afc-bff6-f141684a4b2c
+ldescription 
+lnum 12
+fromnum 1
+tonum 14
+lcost -9900
+lnkallow 300
+accrualLink True
+link
+lname Senior300_out
+luid f4a1099c-afa2-4b66-b3e6-ce0d08e539e5
+ldescription 
+lnum 13
+fromnum 14
+tonum 2
+link
+lname Junior700
+luid d963b02c-c391-46d1-839d-ed1988b5deca
+ldescription 
+lnum 14
+fromnum 1
+tonum 13
+lcost -9000
+lnkallow 700
+accrualLink True
+link
+lname Junior700_out
+luid 77049116-9f78-4dce-8bf8-1d8eddb5c6f4
+ldescription 
+lnum 15
+fromnum 13
+tonum 2
+annot
+astr Own700 has senior nat flow right
+aposx 282
+aposy 480
+annot
+astr Own300 has next right to store
+aposx 282
+aposy 510
+annot
+astr sink has next right for 100 units
+aposx 282
+aposy 538
+annot
+astr Finally Own700 has junior storage right
+aposx 284
+aposy 565
+annot
+astr Rent500 wants to rent from Own700
+aposx 285
+aposy 592
+annot
+astr Own700 rents 500 avg and wet years 200 in dry
+aposx 285
+aposy 618
+annot
+astr Relax_Accrual allows accrual when 1000AF is 
+aposx 285
+aposy 646
+annot
+astr Own700 accrues enough by Apr to rent to Rent500 
+aposx 284
+aposy 671
+annot
+astr In dry  year Own300 takes hit when 1000AF fails to
+aposx 282
+aposy 696
+annot
+astr Two years of study wet followed by dry
+aposx 415
+aposy 422
+annot
+astr Balance Oct Jun  Accrual Oct  Rent Apr
+aposx 418
+aposy 448
+annot
+astr physically restricted
+aposx 666
+aposy 646
+annot
+astr fill
+aposx 728
+aposy 696
+annot
+astr Should have option to open accrul links in 
+aposx 288
+aposy 735
+annot
+astr natural flow step to backfill flood restriction
+aposx 664
+aposy 735
+annot
+astr allow user to set cost of backfill
+aposx 350
+aposy 760
+annot
+astr Hit is distributed to all owners
+aposx 285
+aposy 718
+annot
+astr should have option by priority
+aposx 572
+aposy 718
+ially 0 # Conditional_Rules
+iplot 0
+iprd Monthly
+iut 0
+n_years 2
+rdim
+0 0
+1 0
+2 20480
+3 4020
+title childtargets - orig
+uselags 1
+maxit 100
+gw_cp 0.05
+flowth_cp 0.00005
+evap_cp 0.01
+infeasrestart 0
+--Hydrologic State Tables--
+n_hydr
+0 1
+hydroTableName0 HydroTable0
+hydrosub 0
+0 11
+NumHydBounds table 0 2
+NumHydDates table 0 12
+10/01/1979 00:00:00	0.21	0.4
+11/01/1979 00:00:00	0.2	0.38
+12/01/1979 00:00:00	0.186	0.36
+01/01/1980 00:00:00	0.176	0.34
+02/01/1980 00:00:00	0.171	0.33
+03/01/1980 00:00:00	0.156	0.3
+04/01/1980 00:00:00	0.135	0.25
+05/01/1980 00:00:00	0.096	0.18
+06/01/1980 00:00:00	0.056	0.1
+07/01/1980 00:00:00	0.021	0.03
+08/01/1980 00:00:00	0.016	0.02
+09/01/1980 00:00:00	0.011	0.01
+relxacrul 0
+dataStartDate 10/01/1979 00:00:00
+dataEndDate 10/01/1981 00:00:00
+startingDate 10/01/1979 00:00:00
+endingDate 10/01/1981 00:00:00
+accrualDate 10/01/1900 00:00:00
+seasCapDate 10/01/1900 00:00:00
+rentPoolDates 04/01/1900 00:00:00
+accBalanceDates 10/01/1900 00:00:00
+accBalanceDates 06/01/1900 00:00:00
+accuracy 0
+defaultMaxCap 99999999
+res_output 1
+dws_rel 1
+elev_end 1
+evp_loss 1
+evp_rate 1
+gwater 1
+head_avg 1
+hydra_Cap 1
+powr_avg 1
+powr_pk 1
+pump_in 1
+pump_out 1
+pwr_2nd 1
+seepage 1
+spills 1
+stor_beg 1
+stor_end 1
+stor_trg 1
+unreg_in 1
+ups_rel 1
+dem_output 1
+dem_sht 1
+demand 1
+gw_in 1
+surf_in 1
+acc_flow 1
+acc_output 1
+acrl 1
+stgl 1
+flo_flow 1
+flo_output 1
+loss 1
+natflow 1
+fromgwtono 1
+gw_output 1
+noTimeStepsInMemorygwinfiltra 1
+spcl_rpts 0
+part_flows 0
+ver7OutputFiles 0
+ver8MSDBOutputFiles 1
+SQLiteOutputFiles 0
+DeleteTempVer8OutputFiles 1
+noTimeStepsInMemory 12
+hydroStateOUT 1
+nonStorage_output 1
+l_MaxOUT 1
+l_MinOUT 1
+Flow_ThruOUT 1
+Rout_RetOUT 1
+InflowOUT 1
+nomaxmesg 0
+constsysst 0
+IsBackRoutingActive 0
+IsStorageAccountWithRouting 0

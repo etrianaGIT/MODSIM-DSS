@@ -1,0 +1,607 @@
+xyVersion 8.6
+numhydtables 0
+n_links 15
+n_nodes 18
+n_lags 5
+ExtManualStorageRightActive False
+ExtStorageRightActive False
+ExtWaterRightsActive False
+ExtLastFillRentActive False
+NonstorageNodeSize 100
+DemandNodeSize 100
+ReservoirNodeSize 100
+LinkSize 100
+BackgroundImageLocation 
+BackgroundImageSize 0
+DefaultFlowUnits acre-ft/month
+DefaultStorageUnits acre-ft
+hydroCtrl
+ExtHydropowerActive False
+node
+name GainU
+nuid 3373e6a2-5af7-4b1a-a24a-365df788a7f1
+desc 
+num 1
+ntype 2
+out 1
+tsinflow
+variesbyyear True
+units acre-ft/month
+10/01/1979 00:00:00	75
+pos
+0 327.0420
+1 314.5000
+labelpos
+0 318.5420
+1 323.0000
+node
+name NonStorage
+nuid b98ddc97-8a5e-4a08-9b3e-9a324dfb7d6d
+desc 
+num 2
+ntype 2
+in 1
+out 3
+out 2
+pos
+0 442.0215
+1 314.5000
+labelpos
+0 433.5215
+1 323.0000
+IsLabelVisible 0
+node
+name rtnSenior
+nuid aff39c5e-e45c-4462-af7f-8544c3a3ee72
+desc 
+num 3
+ntype 2
+in 2
+out 5
+out 4
+pos
+0 546.8809
+1 314.5000
+labelpos
+0 538.3809
+1 323.0000
+node
+name Senior
+nuid 89062040-faa9-4585-b34f-d3d1df7980bb
+desc 
+num 4
+ntype 3
+in 3
+inflagi
+lagloc 3
+lagfrac 1
+lagnumlag 1200
+laglags
+0 0.57
+1 0.29
+2 0.14
+pos
+0 509.8789
+1 237.0000
+labelpos
+0 501.3789
+1 245.5000
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/month
+10/01/1979 00:00:00	0
+04/01/1980 00:00:00	100
+09/01/1980 00:00:00	0
+tsinfiltration
+10/01/1979 00:00:00	0.0000
+04/01/1980 00:00:00	0.5000
+09/01/1980 00:00:00	0.0000
+node
+name Junior
+nuid dfe11836-4730-4fdb-85e3-a9bb0595efca
+desc 
+num 5
+ntype 3
+in 4
+pos
+0 638.8770
+1 242.0000
+labelpos
+0 630.3770
+1 250.5000
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/month
+10/01/1979 00:00:00	0
+04/01/1980 00:00:00	100
+09/01/1980 00:00:00	0
+node
+name sink
+nuid f780f54e-cc63-4a0a-a22e-b560faf55d85
+desc 
+num 6
+ntype 3
+in 5
+pos
+0 676.0000
+1 314.5000
+labelpos
+0 667.5000
+1 323.0000
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/month
+10/01/1979 00:00:00	100000000
+node
+name GainD
+nuid 35f65236-d729-48e9-a742-e00fdb2c7071
+desc 
+num 7
+ntype 2
+out 6
+tsinflow
+variesbyyear True
+units acre-ft/month
+10/01/1979 00:00:00	75
+pos
+0 314.5420
+1 484.5000
+labelpos
+0 306.0420
+1 493.0000
+node
+name NonStorage1
+nuid 410ea893-8224-4f04-a487-6b77a6e41dfb
+desc 
+num 8
+ntype 2
+in 6
+out 10
+out 7
+pos
+0 450.9635
+1 484.5000
+labelpos
+0 442.4635
+1 493.0000
+IsLabelVisible 0
+node
+name rtnJuniorU
+nuid 3afea2c3-dc1e-467e-8e27-2cc1bb30c511
+desc 
+num 9
+ntype 2
+in 7
+out 9
+out 8
+pos
+0 547.7119
+1 484.5000
+labelpos
+0 539.2119
+1 493.0000
+node
+name JuniorU
+nuid 02b4ee20-0555-47d8-b992-416c7566ac5e
+desc 
+num 10
+ntype 3
+in 10
+inflagi
+lagloc 9
+lagfrac 1
+lagnumlag 1200
+laglags
+0 0.57
+1 0.29
+2 0.14
+pos
+0 520.7099
+1 404.5000
+labelpos
+0 512.2099
+1 413.0000
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/month
+10/01/1979 00:00:00	0
+04/01/1980 00:00:00	100
+09/01/1980 00:00:00	0
+tsinfiltration
+10/01/1979 00:00:00	0.0000
+04/01/1980 00:00:00	0.5000
+09/01/1980 00:00:00	0.0000
+node
+name SeniorD
+nuid 8a6c9a79-867d-4644-aa66-76b21b0a9e93
+desc 
+num 11
+ntype 3
+in 9
+pos
+0 634.2119
+1 407.0000
+labelpos
+0 625.7119
+1 415.5000
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/month
+10/01/1979 00:00:00	0
+04/01/1980 00:00:00	100
+09/01/1980 00:00:00	0
+node
+name sink2
+nuid 94367944-c4e6-4df6-a2ad-b4c3c3d94fc5
+desc 
+num 12
+ntype 3
+in 8
+pos
+0 669.0420
+1 484.5000
+labelpos
+0 660.5420
+1 493.0000
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/month
+10/01/1979 00:00:00	100000000
+node
+name GainM
+nuid 5ce1d145-8ceb-480d-9fa4-dee250bba0af
+desc 
+num 13
+ntype 2
+out 11
+tsinflow
+variesbyyear True
+units acre-ft/month
+10/01/1979 00:00:00	75
+04/01/1980 00:00:00	115
+09/01/1980 00:00:00	75
+pos
+0 307.7070
+1 674.5000
+labelpos
+0 299.2070
+1 683.0000
+node
+name NonStorage2
+nuid 8c111ac5-659f-4c32-b22c-9443564dff62
+desc 
+num 14
+ntype 2
+in 11
+out 13
+out 12
+pos
+0 430.9635
+1 674.5000
+labelpos
+0 422.4635
+1 683.0000
+IsLabelVisible 0
+node
+name JuniorM
+nuid 88d87907-3e84-49c4-b7d4-96dd41588626
+desc 
+num 15
+ntype 3
+in 12
+inflagi
+lagloc 18
+lagfrac 1
+lagnumlag 1200
+laglags
+0 0.57
+1 0.29
+2 0.14
+pos
+0 516.3750
+1 604.5000
+labelpos
+0 507.8750
+1 613.0000
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/month
+10/01/1979 00:00:00	0
+04/01/1980 00:00:00	100
+09/01/1980 00:00:00	0
+tsinfiltration
+10/01/1979 00:00:00	0.0000
+04/01/1980 00:00:00	0.5000
+09/01/1980 00:00:00	0.0000
+node
+name SeniorM
+nuid 00cf5182-0694-4537-b4f9-6d4db372d86b
+desc 
+num 16
+ntype 3
+in 14
+pos
+0 632.3770
+1 604.5000
+labelpos
+0 623.8770
+1 613.0000
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/month
+10/01/1979 00:00:00	0
+04/01/1980 00:00:00	100
+09/01/1980 00:00:00	0
+node
+name sink3
+nuid 4a2072b6-55bb-4ae0-a0c4-3d11ae0d932e
+desc 
+num 17
+ntype 3
+in 15
+pos
+0 661.5420
+1 674.5000
+labelpos
+0 653.0420
+1 683.0000
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/month
+10/01/1979 00:00:00	100000000
+node
+name rtnJuniorM
+nuid d1e391b2-e8a3-41a5-ba06-2f323c3ace6b
+desc 
+num 18
+ntype 2
+in 13
+out 15
+out 14
+pos
+0 553.3770
+1 674.5000
+labelpos
+0 544.8770
+1 683.0000
+link
+lname GainU_NonStorage
+luid b8e4311c-434a-451a-9c43-ab5493989acb
+ldescription 
+lnum 1
+fromnum 1
+tonum 2
+link
+lname NonStorage_rtnSenior
+luid 7f3f6629-d758-4372-8faa-c1a9b8876664
+ldescription 
+lnum 2
+fromnum 2
+tonum 3
+link
+lname NonStorage_Senior
+luid 7515ddbd-4c19-4985-8a3b-602832273d97
+ldescription 
+lnum 3
+fromnum 2
+tonum 4
+lcost -30
+link
+lname rtnSenior_Junior
+luid 757d3e7f-0e2f-4eb3-8b15-9045ebc1a22e
+ldescription 
+lnum 4
+fromnum 3
+tonum 5
+lcost -10
+link
+lname rtnSenior_sink
+luid 2648456a-02e7-4991-b2be-492cad742bd7
+ldescription 
+lnum 5
+fromnum 3
+tonum 6
+link
+lname GainD_NonStorage1
+luid 1c758756-c7cb-43af-a08d-74a74650dede
+ldescription 
+lnum 6
+fromnum 7
+tonum 8
+link
+lname NonStorage1_rtnJuniorU
+luid b779e1d6-0a82-4c11-84be-9022d830e683
+ldescription 
+lnum 7
+fromnum 8
+tonum 9
+link
+lname rtnJuniorU_sink2
+luid 36ce1246-8b9d-496b-a243-582545df4d84
+ldescription 
+lnum 8
+fromnum 9
+tonum 12
+link
+lname rtnJuniorU_SeniorD
+luid 3173cd23-8aa0-44e0-95dc-c6711da41a70
+ldescription 
+lnum 9
+fromnum 9
+tonum 11
+lcost -30
+link
+lname NonStorage1_JuniorU
+luid 04016e33-c263-480a-8ebc-a9219ec2a46c
+ldescription 
+lnum 10
+fromnum 8
+tonum 10
+lcost -10
+link
+lname GainM_NonStorage2
+luid cfcfb9bb-419d-400a-ad14-f893f2753797
+ldescription 
+lnum 11
+fromnum 13
+tonum 14
+link
+lname NonStorage2_JuniorM
+luid c3d26e58-fbc6-4c12-921a-754f36fcc7c3
+ldescription 
+lnum 12
+fromnum 14
+tonum 15
+lcost -10
+link
+lname NonStorage2_rtnJuniorM
+luid 456fe117-8e06-4f62-9e46-70f2dd2bd518
+ldescription 
+lnum 13
+fromnum 14
+tonum 18
+link
+lname rtnJuniorM_SeniorM
+luid 62611358-fe9b-49d8-9f1b-f8b872bea726
+ldescription 
+lnum 14
+fromnum 18
+tonum 16
+lcost -30
+link
+lname rtnJuniorM_sink3
+luid d95b0578-52ec-4aad-8c22-d00729f03663
+ldescription 
+lnum 15
+fromnum 18
+tonum 17
+annot
+astr Implications of where water rights are in referenc
+aposx 780
+aposy 205
+annot
+astr to gains and priorities
+aposx 896
+aposy 221
+annot
+astr Top network has senior right upstream with return
+aposx 805
+aposy 275
+annot
+astr Junior right gets seniors return flow
+aposx 808
+aposy 325
+annot
+astr Middle network reverses Junior and Senior
+aposx 822
+aposy 415
+annot
+astr Gain is same as top network less than Senoir right
+aposx 822
+aposy 448
+annot
+astr Junior gets nothing
+aposx 822
+aposy 476
+annot
+astr Bottom network same as middle network
+aposx 830
+aposy 608
+annot
+astr GanM is greater than Senior right
+aposx 832
+aposy 638
+annot
+astr GainU is less than Senior right
+aposx 806
+aposy 300
+annot
+astr Junior gets more than increased gain because
+aposx 830
+aposy 672
+annot
+astr Senior can get return flow from Junior
+aposx 890
+aposy 690
+ially 1 # Explicit_Targets
+iplot 0
+iprd Monthly
+iut 0
+n_years 1
+rdim
+0 0
+1 0
+2 21075
+3 3970
+title returnflow - orig
+uselags 1
+maxit 100
+gw_cp 0.05
+flowth_cp 0.00005
+evap_cp 0.01
+infeasrestart 0
+relxacrul 0
+dataStartDate 10/01/1979 00:00:00
+dataEndDate 10/01/1980 00:00:00
+startingDate 10/01/1979 00:00:00
+endingDate 10/01/1980 00:00:00
+accrualDate 10/01/1900 00:00:00
+seasCapDate 10/01/1900 00:00:00
+rentPoolDates 10/01/1900 00:00:00
+accBalanceDates 10/01/1900 00:00:00
+accuracy 0
+defaultMaxCap 99999999
+res_output 1
+dws_rel 1
+elev_end 1
+evp_loss 1
+evp_rate 1
+gwater 1
+head_avg 1
+hydra_Cap 1
+powr_avg 1
+powr_pk 1
+pump_in 1
+pump_out 1
+pwr_2nd 1
+seepage 1
+spills 1
+stor_beg 1
+stor_end 1
+stor_trg 1
+unreg_in 1
+ups_rel 1
+dem_output 1
+dem_sht 1
+demand 1
+gw_in 1
+surf_in 1
+acc_flow 1
+acc_output 1
+acrl 1
+stgl 1
+flo_flow 1
+flo_output 1
+loss 1
+natflow 1
+fromgwtono 1
+gw_output 1
+noTimeStepsInMemorygwinfiltra 1
+spcl_rpts 0
+part_flows 0
+ver7OutputFiles 0
+ver8MSDBOutputFiles 1
+SQLiteOutputFiles 0
+DeleteTempVer8OutputFiles 1
+noTimeStepsInMemory 12
+hydroStateOUT 1
+nonStorage_output 1
+l_MaxOUT 1
+l_MinOUT 1
+Flow_ThruOUT 1
+Rout_RetOUT 1
+InflowOUT 1
+nomaxmesg 0
+constsysst 0
+IsBackRoutingActive 0
+IsStorageAccountWithRouting 0

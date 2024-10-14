@@ -1,0 +1,478 @@
+xyVersion 8.6
+numhydtables 0
+n_links 12
+n_nodes 12
+n_lags 5
+ExtManualStorageRightActive True
+ExtStorageRightActive True
+ExtWaterRightsActive False
+ExtLastFillRentActive False
+NonstorageNodeSize 100
+DemandNodeSize 100
+ReservoirNodeSize 100
+LinkSize 100
+BackgroundImageLocation 
+BackgroundImageSize 0
+DefaultFlowUnits acre-ft/month
+DefaultStorageUnits acre-ft
+hydroCtrl
+ExtHydropowerActive False
+node
+name NonStorage
+nuid 4936c000-8a9b-4bce-aa90-44744dfde116
+desc 
+num 1
+ntype 2
+out 3
+out 1
+pos
+0 282.0215
+1 284.5000
+labelpos
+0 273.5215
+1 293.0000
+IsLabelVisible 0
+node
+name NonStorage1
+nuid feb91af6-2c1c-4235-b1b4-908a3ea06236
+desc 
+num 2
+ntype 2
+in 3
+in 2
+out 4
+pos
+0 388.4635
+1 284.5000
+labelpos
+0 379.9635
+1 293.0000
+IsLabelVisible 0
+node
+name NonStorage2
+nuid 38b927f7-85dd-473a-879c-abe8a7780b6c
+desc 
+num 3
+ntype 2
+in 4
+out 9
+out 5
+pos
+0 508.4635
+1 284.5000
+labelpos
+0 499.9635
+1 293.0000
+IsLabelVisible 0
+node
+name rtnMinFlow
+nuid 67c51b29-6393-4a88-b346-5c325ee551fa
+desc 
+num 4
+ntype 2
+in 5
+out 10
+out 6
+pos
+0 649.4082
+1 284.5000
+labelpos
+0 640.9082
+1 293.0000
+node
+name NonStorage3
+nuid d2019993-5f8b-4a55-a47a-3c165ed3a7c1
+desc 
+num 5
+ntype 2
+in 6
+out 11
+out 7
+pos
+0 808.4636
+1 284.5000
+labelpos
+0 799.9636
+1 293.0000
+IsLabelVisible 0
+node
+name rtnProtect
+nuid b6f2f1c9-fa92-4f12-8455-bf6f57b87973
+desc 
+num 6
+ntype 2
+in 7
+out 8
+pos
+0 926.0098
+1 284.5000
+labelpos
+0 917.5098
+1 293.0000
+node
+name Demand
+nuid 21006068-8932-438f-8da5-7d760b4bc429
+desc 
+num 7
+ntype 3
+in 8
+pos
+0 1042.6790
+1 284.5000
+labelpos
+0 1034.1790
+1 293.0000
+IsLabelVisible 0
+pcapUnits acre-ft/month
+demr
+0 4999
+tsdemand
+units acre-ft/month
+01/01/1980 00:00:00	100000000
+node
+name Protect
+nuid d023d03a-cb28-4fb9-9302-ad3498ad31e2
+desc 
+num 8
+ntype 3
+in 12
+pos
+0 919.0078
+1 204.5000
+labelpos
+0 910.5078
+1 213.0000
+pcapUnits acre-ft/month
+idstrmx
+0 6
+pdstrm 7
+tsdemand
+units acre-ft/month
+01/01/1980 00:00:00	100000000
+node
+name MinFlow
+nuid 4fccb580-790a-4cad-ac7a-3495601405b8
+desc 
+num 9
+ntype 3
+in 9
+pos
+0 562.4063
+1 194.5000
+labelpos
+0 553.9063
+1 203.0000
+pcapUnits acre-ft/month
+idstrmx
+0 4
+pdstrm 5
+tsdemand
+units acre-ft/month
+01/01/1980 00:00:00	0
+07/01/1980 00:00:00	100
+09/01/1980 00:00:00	0
+node
+name Consumptive
+nuid 6e2c9ae3-81a9-4a98-99e2-2702c3401107
+desc 
+num 10
+ntype 3
+in 10
+pos
+0 715.0508
+1 394.5000
+labelpos
+0 706.5508
+1 403.0000
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/month
+01/01/1980 00:00:00	0
+04/01/1980 00:00:00	200
+09/01/1980 00:00:00	0
+node
+name RES
+nuid 95c47ce8-4613-430c-8e34-783d557c93eb
+desc RES
+num 11
+ntype 1
+in 1
+out 2
+pos
+0 308.5000
+1 364.5000
+labelpos
+0 300.0000
+1 373.0000
+max_vol 1000
+start_vol 1000
+reservoir_units acre-ft
+rbypassl 3
+resnext 11
+resprev 11
+resoutfl 2
+sysnum 1
+tstarget
+units acre-ft
+01/01/1980 00:00:00	1000
+area_units acres
+capacity_units acre-ft
+hcapacity_units acre-ft/month
+node
+name watchOwner
+nuid 8fbcaca9-ca51-4c2c-823e-05d2d046d6af
+desc 
+num 12
+ntype 2
+in 11
+out 12
+pos
+0 833.3457
+1 204.5000
+labelpos
+0 824.8457
+1 213.0000
+link
+lname accrual
+luid a80f5616-efc7-42d5-b766-03c5d927f942
+ldescription 
+lnum 1
+fromnum 1
+tonum 11
+lcost -10
+lnkallow 1000
+accrualLink True
+link
+lname RESoutflow
+luid e0e0f370-cced-44d8-932a-02fd315baa8d
+ldescription 
+lnum 2
+fromnum 11
+tonum 2
+link
+lname RESbypass
+luid d826bdfe-0200-43b8-8b45-80e5df12170c
+ldescription 
+lnum 3
+fromnum 1
+tonum 2
+link
+lname NonStorage1_NonStorage2
+luid 28ec844c-922d-46c0-9219-8442faafde93
+ldescription 
+lnum 4
+fromnum 2
+tonum 3
+link
+lname minflow bypass
+luid 2d4836f4-d90e-4764-9f98-d5f40e06d485
+ldescription 
+lnum 5
+fromnum 3
+tonum 4
+link
+lname rtnMinFlow_NonStorage3
+luid 2d5212a5-638d-4129-8b8a-e68b988573b5
+ldescription 
+lnum 6
+fromnum 4
+tonum 5
+link
+lname bypassProtect
+luid 5b958b68-a1e9-4ce6-bcfa-7144e1b715c6
+ldescription 
+lnum 7
+fromnum 5
+tonum 6
+link
+lname rtnProtect_Demand
+luid 8fbfea15-e129-4884-b48e-1192a92c66e5
+ldescription 
+lnum 8
+fromnum 6
+tonum 7
+link
+lname Owner
+luid 9d54a37f-3632-4193-9ab2-5b468eb24f75
+ldescription 
+lnum 9
+fromnum 3
+tonum 9
+lcost 1
+maxCap
+units acre-ft/month
+01/01/1980 00:00:00	0
+capown 1000
+stglft 1000
+lparent 1
+relativeUseOrder 1
+link
+lname Senior
+luid a968807f-3160-46e1-92b4-c02aff9cf18f
+ldescription 
+lnum 10
+fromnum 4
+tonum 10
+lcost -1000
+maxCap
+units acre-ft/month
+01/01/1980 00:00:00	100
+link
+lname watchOwner
+luid 0eefca18-5778-45fc-9028-589bef564e40
+ldescription 
+lnum 11
+fromnum 5
+tonum 12
+lplstrm 9
+link
+lname 2ndstgstep
+luid 32fab2a4-0876-4a81-9299-fc441ec452eb
+ldescription 
+lnum 12
+fromnum 12
+tonum 8
+lcost -300000
+l2ndstgonly 1
+annot
+astr MinFlow is flowthru to rtnMinFlow
+aposx 268
+aposy 58
+annot
+astr Link into MinFlow is Ownership contract in RES
+aposx 269
+aposy 76
+annot
+astr Link into watchOwner has link Owner as Exchange
+aposx 268
+aposy 120
+annot
+astr limit
+aposx 688
+aposy 120
+annot
+astr Link into Protect is 2nd Stg Step only
+aposx 268
+aposy 142
+annot
+astr with cost -300000
+aposx 610
+aposy 142
+annot
+astr Protect is flow thru to rtnProtect
+aposx 268
+aposy 168
+annot
+astr Link into Consumptive is natural flow cost -1000
+aposx 268
+aposy 192
+annot
+astr Protect construct is to prevent Consumptive from
+aposx 276
+aposy 494
+annot
+astr diverting flow that was for flow maintenance
+aposx 705
+aposy 494
+annot
+astr 2ndStgStep and Exchange link constructs are
+aposx 275
+aposy 528
+annot
+astr used to prevent double accounting for ownership
+aposx 660
+aposy 528
+annot
+astr Ownership to flowthru with bypass credit opens
+aposx 268
+aposy 100
+annot
+astr in 2nd storage step only
+aposx 678
+aposy 100
+annot
+astr RES has System Number and Normal Outflow Link
+aposx 276
+aposy 622
+ially 1 # Explicit_Targets
+iplot 0
+iprd Monthly
+iut 0
+n_years 1
+rdim
+0 0
+1 0
+2 20480
+3 3240
+title ExchangeCredit - orig
+uselags 1
+maxit 100
+gw_cp 0.05
+flowth_cp 0.00005
+evap_cp 0.01
+infeasrestart 0
+relxacrul 0
+dataStartDate 01/01/1980 00:00:00
+dataEndDate 01/01/1981 00:00:00
+startingDate 01/01/1980 00:00:00
+endingDate 01/01/1981 00:00:00
+accrualDate 01/01/1900 00:00:00
+seasCapDate 01/01/1900 00:00:00
+rentPoolDates 01/01/1900 00:00:00
+accBalanceDates 01/01/1900 00:00:00
+accuracy 0
+defaultMaxCap 99999999
+res_output 1
+dws_rel 1
+elev_end 1
+evp_loss 1
+evp_rate 1
+gwater 1
+head_avg 1
+hydra_Cap 1
+powr_avg 1
+powr_pk 1
+pump_in 1
+pump_out 1
+pwr_2nd 1
+seepage 1
+spills 1
+stor_beg 1
+stor_end 1
+stor_trg 1
+unreg_in 1
+ups_rel 1
+dem_output 1
+dem_sht 1
+demand 1
+gw_in 1
+surf_in 1
+acc_flow 1
+acc_output 1
+acrl 1
+stgl 1
+flo_flow 1
+flo_output 1
+loss 1
+natflow 1
+fromgwtono 1
+gw_output 1
+noTimeStepsInMemorygwinfiltra 1
+spcl_rpts 0
+part_flows 0
+ver7OutputFiles 0
+ver8MSDBOutputFiles 1
+SQLiteOutputFiles 0
+DeleteTempVer8OutputFiles 1
+noTimeStepsInMemory 12
+hydroStateOUT 1
+nonStorage_output 1
+l_MaxOUT 1
+l_MinOUT 1
+Flow_ThruOUT 1
+Rout_RetOUT 1
+InflowOUT 1
+nomaxmesg 0
+constsysst 0
+IsBackRoutingActive 0
+IsStorageAccountWithRouting 0

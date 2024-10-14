@@ -1,0 +1,268 @@
+xyVersion 8.6
+numhydtables 0
+n_links 6
+n_nodes 6
+n_lags 5
+ExtManualStorageRightActive False
+ExtStorageRightActive False
+ExtWaterRightsActive False
+ExtLastFillRentActive False
+NonstorageNodeSize 100
+DemandNodeSize 100
+ReservoirNodeSize 100
+LinkSize 100
+BackgroundImageLocation 
+BackgroundImageSize 0
+DefaultFlowUnits acre-ft/month
+DefaultStorageUnits acre-ft
+hydroCtrl
+ExtHydropowerActive False
+node
+name NonStorage
+nuid c49a271e-f024-438f-a17d-74b659489c85
+desc 
+num 1
+ntype 2
+out 2
+tsinflow
+units cfs
+01/01/1980 00:00:00	10
+03/01/1980 00:00:00	20
+04/01/1980 00:00:00	35
+08/01/1980 00:00:00	50
+10/01/1980 00:00:00	100
+11/01/1980 00:00:00	90
+12/01/1980 00:00:00	0
+pos
+0 96.0000
+1 38.0000
+labelpos
+0 96.0000
+1 46.5000
+select 0
+node
+name NonStorage1
+nuid 09e38dea-41b4-4871-bc5f-6fead1176f9a
+desc 
+num 2
+ntype 2
+in 2
+in 6
+out 1
+out 4
+tsinflow
+units ft³/hour
+01/01/1980 00:00:00	5
+06/01/1980 00:00:00	1
+pos
+0 216.0000
+1 107.0000
+labelpos
+0 216.0000
+1 115.5000
+select 0
+node
+name NonStorage2
+nuid 31a658f7-a8dd-42da-8af8-e27d1d5733dc
+desc 
+num 3
+ntype 2
+in 1
+out 3
+pos
+0 326.0000
+1 106.0000
+labelpos
+0 326.0000
+1 114.5000
+select 0
+node
+name Sink
+nuid f8562672-75a0-4f5d-ad50-d13e664c6f75
+desc 
+num 4
+ntype 4
+in 3
+in 4
+pos
+0 404.0000
+1 165.0000
+labelpos
+0 404.0000
+1 173.5000
+select 0
+node
+name Demand
+nuid b1f792f5-693e-4ced-8fab-b75b506f8757
+desc 
+num 5
+ntype 3
+in 5
+pos
+0 256.0000
+1 181.0000
+labelpos
+0 256.0000
+1 189.5000
+select 0
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/week
+01/01/1980 00:00:00	1000
+node
+name NonStorage3
+nuid 39cdce7d-3cdb-4071-9876-bf5da8895638
+desc 
+num 6
+ntype 2
+out 5
+out 6
+tsinflow
+variesbyyear True
+units acre-ft/week
+01/01/1980 00:00:00	1000
+01/01/1981 00:00:00	2000
+01/01/1982 00:00:00	3000
+pos
+0 127.0000
+1 180.0000
+labelpos
+0 127.0000
+1 188.5000
+select 0
+link
+lname NonStorage1_NonStorage2
+luid ea327dcc-fe02-4343-8cdc-ad153fe9a4a9
+ldescription 
+lnum 1
+fromnum 2
+tonum 3
+lcost -1
+maxCap
+variesbyyear True
+units acre-ft/month
+01/01/1980 00:00:00	2999999999
+01/01/1981 00:00:00	4000
+01/01/1982 00:00:00	2999999999
+select 0
+link
+lname NonStorage_NonStorage1
+luid 556ef56f-c151-41a6-9378-82d0ed60999a
+ldescription 
+lnum 2
+fromnum 1
+tonum 2
+select 0
+link
+lname NonStorage2_Sink
+luid b000fc49-0d51-4fa4-8955-251039cff066
+ldescription 
+lnum 3
+fromnum 3
+tonum 4
+select 0
+link
+lname NonStorage1_Sink
+luid d0b22949-59d9-443a-9672-a2e864dce838
+ldescription 
+lnum 4
+fromnum 2
+tonum 4
+select 0
+link
+lname NonStorage3_Demand
+luid 70f65f63-21a2-4e34-9fd6-267323a5c16a
+ldescription 
+lnum 5
+fromnum 6
+tonum 5
+lcost -1
+select 0
+link
+lname NonStorage3_NonStorage1
+luid b8ba4a10-2d56-4515-9d1b-055261801585
+ldescription 
+lnum 6
+fromnum 6
+tonum 2
+select 0
+ially 1 # Explicit_Targets
+iplot 0
+iprd Monthly
+iut 0
+n_years 1
+rdim
+0 0
+1 0
+2 20480
+3 2700
+title UnitsTest - orig
+uselags 1
+maxit 100
+gw_cp 0.05
+flowth_cp 0.00005
+evap_cp 0.01
+infeasrestart 0
+relxacrul 0
+dataStartDate 01/01/1980 00:00:00
+dataEndDate 01/01/1983 00:00:00
+startingDate 01/01/1980 00:00:00
+endingDate 01/01/1983 00:00:00
+accrualDate 01/01/1980 00:00:00
+seasCapDate 01/01/1980 00:00:00
+accuracy 0
+defaultMaxCap 2999999999
+res_output 1
+dws_rel 1
+elev_end 1
+evp_loss 1
+evp_rate 1
+gwater 1
+head_avg 1
+hydra_Cap 1
+powr_avg 1
+powr_pk 1
+pump_in 1
+pump_out 1
+pwr_2nd 1
+seepage 1
+spills 1
+stor_beg 1
+stor_end 1
+stor_trg 1
+unreg_in 1
+ups_rel 1
+dem_output 1
+dem_sht 1
+demand 1
+gw_in 1
+surf_in 1
+acc_flow 1
+acc_output 1
+acrl 1
+stgl 1
+flo_flow 1
+flo_output 1
+loss 1
+natflow 1
+fromgwtono 1
+gw_output 1
+noTimeStepsInMemorygwinfiltra 1
+spcl_rpts 0
+part_flows 0
+ver7OutputFiles 0
+ver8MSDBOutputFiles 1
+SQLiteOutputFiles 0
+DeleteTempVer8OutputFiles 1
+noTimeStepsInMemory 12
+hydroStateOUT 1
+nonStorage_output 1
+l_MaxOUT 1
+l_MinOUT 1
+Flow_ThruOUT 1
+Rout_RetOUT 1
+InflowOUT 1
+nomaxmesg 0
+constsysst 0
+IsBackRoutingActive 0
+IsStorageAccountWithRouting 0

@@ -1,0 +1,490 @@
+xyVersion 8.6
+numhydtables 0
+n_links 12
+n_nodes 14
+n_lags 5
+ExtManualStorageRightActive False
+ExtStorageRightActive False
+ExtWaterRightsActive True
+ExtLastFillRentActive False
+NonstorageNodeSize 100
+DemandNodeSize 100
+ReservoirNodeSize 100
+LinkSize 100
+BackgroundImageLocation 
+BackgroundImageSize 0
+WRInitialPriority -10000
+DefaultFlowUnits acre-ft/month
+DefaultStorageUnits acre-ft
+hydroCtrl
+ExtHydropowerActive False
+node
+name Inflow_150
+nuid dce811a2-df56-432a-af2e-0a782babfd33
+desc 
+num 1
+ntype 2
+out 1
+out 3
+tsinflow
+units acre-ft/month
+01/01/1980 00:00:00	150
+pos
+0 154.0000
+1 186.0000
+labelpos
+0 145.5000
+1 194.5000
+select 0
+node
+name BeforeDiversion
+nuid da06ceac-01f1-4c5d-b666-62387aa76ad1
+desc 
+num 2
+ntype 2
+in 1
+out 4
+out 2
+out 5
+pos
+0 274.0000
+1 186.0000
+labelpos
+0 265.5000
+1 194.5000
+IsLabelVisible 0
+select 0
+node
+name Priority1_100
+nuid 460a9d0b-4256-42e4-934c-37426494c29d
+desc 
+num 3
+ntype 3
+in 4
+pos
+0 325.3472
+1 114.0000
+labelpos
+0 322.8000
+1 88.5000
+select 0
+pcapUnits acre-ft/month
+tsdemand
+variesbyyear True
+units acre-ft/month
+01/01/1980 00:00:00	100
+node
+name Priority2_50
+nuid 797989e1-59a9-4b26-a290-9f6ab35e5b08
+desc 
+num 4
+ntype 3
+in 3
+pos
+0 217.3472
+1 112.0000
+labelpos
+0 215.8000
+1 86.5000
+select 0
+pcapUnits acre-ft/month
+idstrmx
+0 6
+idstrmfr
+1-9 0
+pdstrm 1
+tsdemand
+variesbyyear True
+units acre-ft/month
+01/01/1980 00:00:00	50
+node
+name Priority3_50
+nuid b9cb15ab-2588-4a4c-b1c0-6b1a072e1b0f
+desc 
+num 5
+ntype 3
+in 5
+pos
+0 334.0000
+1 266.0000
+labelpos
+0 334.5000
+1 273.5000
+select 0
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/month
+01/01/1980 00:00:00	50
+node
+name AfterDiversion
+nuid 2ed38bc4-e1f7-4984-ae02-d2874e3a209a
+desc 
+num 6
+ntype 2
+in 2
+out 6
+pos
+0 396.0000
+1 186.0000
+labelpos
+0 387.5000
+1 194.5000
+IsLabelVisible 0
+select 0
+node
+name Sink
+nuid 8cb21314-2bd6-4711-8dfc-49f69a3c7e18
+desc 
+num 7
+ntype 4
+in 6
+pos
+0 507.0000
+1 186.0000
+labelpos
+0 498.5000
+1 194.5000
+IsLabelVisible 0
+select 0
+node
+name Inflow_40
+nuid 4dbabf55-797a-4c6e-bff7-e43dc70bc7c7
+desc 
+num 8
+ntype 2
+out 7
+out 9
+tsinflow
+units acre-ft/month
+01/01/1980 00:00:00	40
+pos
+0 204.3000
+1 522.0000
+labelpos
+0 195.8000
+1 530.5000
+select 0
+node
+name BeforeDiversion1
+nuid 8d9f0275-f3f7-403b-836a-d95c21d81ea8
+desc 
+num 9
+ntype 2
+in 7
+out 8
+out 10
+out 11
+pos
+0 324.3001
+1 522.0000
+labelpos
+0 315.8001
+1 530.5000
+IsLabelVisible 0
+select 0
+node
+name Priority4_100
+nuid f76a75ec-d3fe-4aa0-a021-b4a49d7ce85c
+desc 
+num 10
+ntype 3
+in 10
+pos
+0 370.1000
+1 439.0000
+labelpos
+0 371.6000
+1 413.5000
+select 0
+pcapUnits acre-ft/month
+tsdemand
+variesbyyear True
+units acre-ft/month
+01/01/1980 00:00:00	100
+node
+name Priority5_50
+nuid ba0d9be4-3e78-4c87-b089-2b9789ee0387
+desc 
+num 11
+ntype 3
+in 9
+pos
+0 263.1000
+1 439.0000
+labelpos
+0 264.6000
+1 413.5000
+select 0
+pcapUnits acre-ft/month
+idstrmx
+0 9
+idstrmfr
+1-9 0
+pdstrm 7
+tsdemand
+variesbyyear True
+units acre-ft/month
+01/01/1980 00:00:00	50
+node
+name Priority6_50
+nuid ae0daa65-f3c6-4878-8974-53e2a26fc577
+desc 
+num 12
+ntype 3
+in 11
+pos
+0 384.3000
+1 602.0000
+labelpos
+0 380.8000
+1 610.5000
+select 0
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/month
+01/01/1980 00:00:00	50
+node
+name AfterDiversion1
+nuid d8cd88c7-4c40-49cf-9ab8-878c69d6633a
+desc 
+num 13
+ntype 2
+in 8
+out 12
+pos
+0 446.3000
+1 522.0000
+labelpos
+0 437.8000
+1 530.5000
+IsLabelVisible 0
+select 0
+node
+name Sink1
+nuid d89f80ef-b1d6-4c3f-a478-a7336bb304eb
+desc 
+num 14
+ntype 4
+in 12
+pos
+0 557.3000
+1 522.0000
+labelpos
+0 548.8000
+1 530.5000
+IsLabelVisible 0
+select 0
+link
+lname Inflow_150_BeforeDiversion
+luid 2f18539a-7b4c-4c65-acfc-b7abb3ec4460
+ldescription 
+lnum 1
+fromnum 1
+tonum 2
+select 0
+link
+lname BeforeDiversion_AfterDiversion
+luid 1b3fd727-89e2-4329-9add-4d912b960629
+ldescription 
+lnum 2
+fromnum 2
+tonum 6
+select 0
+link
+lname Inflow_150_Priority2_50
+luid c3871202-3f25-4302-85cb-2db36b7b0dd8
+ldescription 
+lnum 3
+fromnum 1
+tonum 4
+lcost -9900
+maxCap
+units acre-ft/month
+01/01/1980 00:00:00	2999999999
+select 0
+WaterRightDate 01/01/1980 00:00:00
+link
+lname BeforeDiversion_Priority1_100
+luid e6e22b34-6690-49ed-b997-20f85fcd85a8
+ldescription 
+lnum 4
+fromnum 2
+tonum 3
+lcost -10000
+maxCap
+units acre-ft/month
+01/01/1980 00:00:00	2999999999
+select 0
+WaterRightDate 01/01/1900 00:00:00
+link
+lname BeforeDiversion_Priority3_50
+luid b58e8d53-3d63-46aa-91c1-7bfaedb6dd94
+ldescription 
+lnum 5
+fromnum 2
+tonum 5
+lcost -9800
+maxCap
+units acre-ft/month
+01/01/1980 00:00:00	2999999999
+select 0
+WaterRightDate 01/01/1990 00:00:00
+link
+lname AfterDiversion_Sink
+luid 9d3a000d-4d13-458d-9e03-2fc93d8e4f39
+ldescription 
+lnum 6
+fromnum 6
+tonum 7
+select 0
+link
+lname Inflow_40_BeforeDiversion1
+luid 09b9670f-33ca-4095-8f78-c183ecaf2de8
+ldescription 
+lnum 7
+fromnum 8
+tonum 9
+select 0
+link
+lname BeforeDiversion1_AfterDiversion1
+luid 72e9cbf9-a194-4647-bd48-85b6bbaeccf2
+ldescription 
+lnum 8
+fromnum 9
+tonum 13
+select 0
+link
+lname Inflow_40_Priority5_50
+luid d16892b4-f27a-4f12-b292-9e5feff45f1b
+ldescription 
+lnum 9
+fromnum 8
+tonum 11
+lcost -9900
+maxCap
+units acre-ft/month
+01/01/1980 00:00:00	2999999999
+select 0
+WaterRightDate 01/01/1980 00:00:00
+link
+lname BeforeDiversion1_Priority4_100
+luid 72f0d58e-c20d-4b2b-b3f2-ac29ec0054f5
+ldescription 
+lnum 10
+fromnum 9
+tonum 10
+lcost -10000
+maxCap
+units acre-ft/month
+01/01/1980 00:00:00	2999999999
+select 0
+WaterRightDate 01/01/1900 00:00:00
+link
+lname BeforeDiversion1_Priority6_50
+luid 2853aa20-ad55-4e32-961a-dfebc4a63609
+ldescription 
+lnum 11
+fromnum 9
+tonum 12
+lcost -9800
+maxCap
+units acre-ft/month
+01/01/1980 00:00:00	2999999999
+select 0
+WaterRightDate 01/01/1990 00:00:00
+link
+lname AfterDiversion1_Sink1
+luid ab4d54e9-a8ec-4a55-b89c-e6adfcb19d92
+ldescription 
+lnum 12
+fromnum 13
+tonum 14
+select 0
+annot
+astr Priority5 and 6 receive no water as Priority 4 requestsnewlineall the available flow. However, Priority5 is "credited" 40 cfsnewlineof bypass credit link flow. So, is only shorted by 10 cfs evennewlinethough it "receives" no water.newlinenewlineIn previous Modsim versions the flow thru would show a shortagenewlineof 50 cfs because the bypass credit was not working correctly.
+aposx 425
+aposy 394
+annot
+astr In a previous version of Modsim Priority2 would take all the waternewlinedemanded even if a bypass credit link is defined. IF it then returnsnewlinethat water below a Junior priority then the Junior would receive nonewlinewater. In essence the flow thru is taking water out of priority becausenewlineit should technically return it's water immediately back to the river.newlinenewlineThis was corrected within Modsim such that Priority2 now properlynewlinesees the flow in the bypass link and does not take additional water.newlineSo, Priority3 is now fully satisfied.
+aposx 404
+aposy 53
+ially 1 # Explicit_Targets
+iplot 0
+iprd Monthly
+iut 0
+n_years 1
+rdim
+0 0
+1 0
+2 20480
+3 2700
+title FlowThruWithBypassCredit - orig
+uselags 1
+maxit 100
+gw_cp 0.05
+flowth_cp 0.00005
+evap_cp 0.01
+infeasrestart 0
+relxacrul 0
+dataStartDate 01/01/1980 00:00:00
+dataEndDate 01/01/1981 00:00:00
+startingDate 01/01/1980 00:00:00
+endingDate 01/01/1981 00:00:00
+accrualDate 01/01/1980 00:00:00
+seasCapDate 01/01/1980 00:00:00
+accuracy 0
+defaultMaxCap 2999999999
+res_output 1
+dws_rel 1
+elev_end 1
+evp_loss 1
+evp_rate 1
+gwater 1
+head_avg 1
+hydra_Cap 1
+powr_avg 1
+powr_pk 1
+pump_in 1
+pump_out 1
+pwr_2nd 1
+seepage 1
+spills 1
+stor_beg 1
+stor_end 1
+stor_trg 1
+unreg_in 1
+ups_rel 1
+dem_output 1
+dem_sht 1
+demand 1
+gw_in 1
+surf_in 1
+acc_flow 1
+acc_output 1
+acrl 1
+stgl 1
+flo_flow 1
+flo_output 1
+loss 1
+natflow 1
+fromgwtono 1
+gw_output 1
+noTimeStepsInMemorygwinfiltra 1
+spcl_rpts 0
+part_flows 0
+ver7OutputFiles 0
+ver8MSDBOutputFiles 1
+SQLiteOutputFiles 0
+DeleteTempVer8OutputFiles 1
+noTimeStepsInMemory 12
+hydroStateOUT 1
+nonStorage_output 1
+l_MaxOUT 1
+l_MinOUT 1
+Flow_ThruOUT 1
+Rout_RetOUT 1
+InflowOUT 1
+nomaxmesg 0
+constsysst 0
+IsBackRoutingActive 0
+IsStorageAccountWithRouting 0

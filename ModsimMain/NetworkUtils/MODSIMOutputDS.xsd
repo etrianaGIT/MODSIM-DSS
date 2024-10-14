@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MODSIMOutputDS" targetNamespace="http://tempuri.org/MODSIMOutputDS.xsd" xmlns:mstns="http://tempuri.org/MODSIMOutputDS.xsd" xmlns="http://tempuri.org/MODSIMOutputDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MODSIMOutputDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="MODSIMOutputDS" msprop:Generator_UserDSName="MODSIMOutputDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LinksInfo" msprop:Generator_UserTableName="LinksInfo" msprop:Generator_RowEvArgName="LinksInfoRowChangeEvent" msprop:Generator_TableVarName="tableLinksInfo" msprop:Generator_TablePropName="LinksInfo" msprop:Generator_RowDeletingName="LinksInfoRowDeleting" msprop:Generator_RowChangingName="LinksInfoRowChanging" msprop:Generator_RowDeletedName="LinksInfoRowDeleted" msprop:Generator_RowEvHandlerName="LinksInfoRowChangeEventHandler" msprop:Generator_TableClassName="LinksInfoDataTable" msprop:Generator_RowChangedName="LinksInfoRowChanged" msprop:Generator_RowClassName="LinksInfoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LName" msprop:Generator_ColumnVarNameInTable="columnLName" msprop:Generator_ColumnPropNameInRow="LName" msprop:Generator_ColumnPropNameInTable="LNameColumn" msprop:Generator_UserColumnName="LName" type="xs:string" minOccurs="0" />
+              <xs:element name="LNumber" msprop:Generator_ColumnVarNameInTable="columnLNumber" msprop:Generator_ColumnPropNameInRow="LNumber" msprop:Generator_ColumnPropNameInTable="LNumberColumn" msprop:Generator_UserColumnName="LNumber" type="xs:int" />
+              <xs:element name="FromNode" msprop:Generator_ColumnVarNameInTable="columnFromNode" msprop:Generator_ColumnPropNameInRow="FromNode" msprop:Generator_ColumnPropNameInTable="FromNodeColumn" msprop:Generator_UserColumnName="FromNode" type="xs:int" minOccurs="0" />
+              <xs:element name="ToNode" msprop:Generator_ColumnVarNameInTable="columnToNode" msprop:Generator_ColumnPropNameInRow="ToNode" msprop:Generator_ColumnPropNameInTable="ToNodeColumn" msprop:Generator_UserColumnName="ToNode" type="xs:int" minOccurs="0" />
+              <xs:element name="uid" msprop:Generator_ColumnVarNameInTable="columnuid" msprop:Generator_ColumnPropNameInRow="uid" msprop:Generator_ColumnPropNameInTable="uidColumn" msprop:Generator_UserColumnName="uid" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="NodesInfo" msprop:Generator_UserTableName="NodesInfo" msprop:Generator_RowEvArgName="NodesInfoRowChangeEvent" msprop:Generator_TableVarName="tableNodesInfo" msprop:Generator_TablePropName="NodesInfo" msprop:Generator_RowDeletingName="NodesInfoRowDeleting" msprop:Generator_RowChangingName="NodesInfoRowChanging" msprop:Generator_RowDeletedName="NodesInfoRowDeleted" msprop:Generator_RowEvHandlerName="NodesInfoRowChangeEventHandler" msprop:Generator_TableClassName="NodesInfoDataTable" msprop:Generator_RowChangedName="NodesInfoRowChanged" msprop:Generator_RowClassName="NodesInfoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NNumber" msprop:Generator_ColumnVarNameInTable="columnNNumber" msprop:Generator_ColumnPropNameInRow="NNumber" msprop:Generator_ColumnPropNameInTable="NNumberColumn" msprop:Generator_UserColumnName="NNumber" type="xs:int" />
+              <xs:element name="NName" msprop:Generator_ColumnVarNameInTable="columnNName" msprop:Generator_ColumnPropNameInRow="NName" msprop:Generator_ColumnPropNameInTable="NNameColumn" msprop:Generator_UserColumnName="NName" type="xs:string" minOccurs="0" />
+              <xs:element name="NType" msprop:Generator_ColumnVarNameInTable="columnNType" msprop:Generator_ColumnPropNameInRow="NType" msprop:Generator_ColumnPropNameInTable="NTypeColumn" msprop:Generator_UserColumnName="NType" type="xs:string" />
+              <xs:element name="uid" msprop:Generator_ColumnVarNameInTable="columnuid" msprop:Generator_ColumnPropNameInRow="uid" msprop:Generator_ColumnPropNameInTable="uidColumn" msprop:Generator_UserColumnName="uid" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LinksOutput" msprop:Generator_UserTableName="LinksOutput" msprop:Generator_RowEvArgName="LinksOutputRowChangeEvent" msprop:Generator_TableVarName="tableLinksOutput" msprop:Generator_TablePropName="LinksOutput" msprop:Generator_RowDeletingName="LinksOutputRowDeleting" msprop:Generator_RowChangingName="LinksOutputRowChanging" msprop:Generator_RowDeletedName="LinksOutputRowDeleted" msprop:Generator_RowEvHandlerName="LinksOutputRowChangeEventHandler" msprop:Generator_TableClassName="LinksOutputDataTable" msprop:Generator_RowChangedName="LinksOutputRowChanged" msprop:Generator_RowClassName="LinksOutputRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LNumber" msprop:Generator_ColumnVarNameInTable="columnLNumber" msprop:Generator_ColumnPropNameInRow="LNumber" msprop:Generator_ColumnPropNameInTable="LNumberColumn" msprop:Generator_UserColumnName="LNumber" type="xs:int" />
+              <xs:element name="TSIndex" msprop:Generator_ColumnVarNameInTable="columnTSIndex" msprop:Generator_ColumnPropNameInRow="TSIndex" msprop:Generator_ColumnPropNameInTable="TSIndexColumn" msprop:Generator_UserColumnName="TSIndex" type="xs:long" />
+              <xs:element name="Flow" msprop:Generator_ColumnVarNameInTable="columnFlow" msprop:Generator_ColumnPropNameInRow="Flow" msprop:Generator_ColumnPropNameInTable="FlowColumn" msprop:Generator_UserColumnName="Flow" type="xs:double" minOccurs="0" />
+              <xs:element name="Loss" msprop:Generator_ColumnVarNameInTable="columnLoss" msprop:Generator_ColumnPropNameInRow="Loss" msprop:Generator_ColumnPropNameInTable="LossColumn" msprop:Generator_UserColumnName="Loss" type="xs:double" minOccurs="0" />
+              <xs:element name="NaturalFlow" msprop:Generator_ColumnVarNameInTable="columnNaturalFlow" msprop:Generator_ColumnPropNameInRow="NaturalFlow" msprop:Generator_ColumnPropNameInTable="NaturalFlowColumn" msprop:Generator_UserColumnName="NaturalFlow" type="xs:double" minOccurs="0" />
+              <xs:element name="LMax" msprop:Generator_ColumnVarNameInTable="columnLMax" msprop:Generator_ColumnPropNameInRow="LMax" msprop:Generator_ColumnPropNameInTable="LMaxColumn" msprop:Generator_UserColumnName="LMax" type="xs:double" minOccurs="0" />
+              <xs:element name="LMin" msprop:Generator_ColumnVarNameInTable="columnLMin" msprop:Generator_ColumnPropNameInRow="LMin" msprop:Generator_ColumnPropNameInTable="LMinColumn" msprop:Generator_UserColumnName="LMin" type="xs:double" minOccurs="0" />
+              <xs:element name="StorLeft" msprop:Generator_ColumnVarNameInTable="columnStorLeft" msprop:Generator_ColumnPropNameInRow="StorLeft" msprop:Generator_ColumnPropNameInTable="StorLeftColumn" msprop:Generator_UserColumnName="StorLeft" type="xs:double" minOccurs="0" />
+              <xs:element name="Accrual" msprop:Generator_ColumnVarNameInTable="columnAccrual" msprop:Generator_ColumnPropNameInRow="Accrual" msprop:Generator_ColumnPropNameInTable="AccrualColumn" msprop:Generator_UserColumnName="Accrual" type="xs:double" minOccurs="0" />
+              <xs:element name="GroupStorLeft" msprop:Generator_ColumnVarNameInTable="columnGroupStorLeft" msprop:Generator_ColumnPropNameInRow="GroupStorLeft" msprop:Generator_ColumnPropNameInTable="GroupStorLeftColumn" msprop:Generator_UserColumnName="GroupStorLeft" type="xs:double" minOccurs="0" />
+              <xs:element name="GroupLink" msprop:nullValue="_null" msprop:Generator_ColumnPropNameInRow="GroupLink" msprop:Generator_ColumnVarNameInTable="columnGroupLink" msprop:Generator_ColumnPropNameInTable="GroupLinkColumn" msprop:Generator_UserColumnName="GroupLink" type="xs:string" minOccurs="0" />
+              <xs:element name="GroupAccrual" msprop:Generator_ColumnVarNameInTable="columnGroupAccrual" msprop:Generator_ColumnPropNameInRow="GroupAccrual" msprop:Generator_ColumnPropNameInTable="GroupAccrualColumn" msprop:Generator_UserColumnName="GroupAccrual" type="xs:double" minOccurs="0" />
+              <xs:element name="Hydro_State" msprop:Generator_ColumnVarNameInTable="columnHydro_State" msprop:Generator_ColumnPropNameInRow="Hydro_State" msprop:Generator_ColumnPropNameInTable="Hydro_StateColumn" msprop:Generator_UserColumnName="Hydro_State" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TimeSteps" msprop:Generator_UserTableName="TimeSteps" msprop:Generator_RowEvArgName="TimeStepsRowChangeEvent" msprop:Generator_TableVarName="tableTimeSteps" msprop:Generator_TablePropName="TimeSteps" msprop:Generator_RowDeletingName="TimeStepsRowDeleting" msprop:Generator_RowChangingName="TimeStepsRowChanging" msprop:Generator_RowDeletedName="TimeStepsRowDeleted" msprop:Generator_RowEvHandlerName="TimeStepsRowChangeEventHandler" msprop:Generator_TableClassName="TimeStepsDataTable" msprop:Generator_RowChangedName="TimeStepsRowChanged" msprop:Generator_RowClassName="TimeStepsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TSIndex" msprop:Generator_ColumnVarNameInTable="columnTSIndex" msprop:Generator_ColumnPropNameInRow="TSIndex" msprop:Generator_ColumnPropNameInTable="TSIndexColumn" msprop:Generator_UserColumnName="TSIndex" type="xs:long" />
+              <xs:element name="TSDate" msdata:DateTimeMode="Unspecified" msprop:Generator_ColumnVarNameInTable="columnTSDate" msprop:Generator_ColumnPropNameInRow="TSDate" msprop:Generator_ColumnPropNameInTable="TSDateColumn" msprop:Generator_UserColumnName="TSDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="EndDate" msprop:Generator_ColumnVarNameInTable="columnEndDate" msprop:Generator_ColumnPropNameInRow="EndDate" msprop:Generator_ColumnPropNameInTable="EndDateColumn" msprop:Generator_UserColumnName="EndDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="MidDate" msprop:Generator_ColumnVarNameInTable="columnMidDate" msprop:Generator_ColumnPropNameInRow="MidDate" msprop:Generator_ColumnPropNameInTable="MidDateColumn" msprop:Generator_UserColumnName="MidDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Duration" msprop:Generator_ColumnVarNameInTable="columnDuration" msprop:Generator_ColumnPropNameInRow="Duration" msprop:Generator_ColumnPropNameInTable="DurationColumn" msprop:Generator_UserColumnName="Duration" type="xs:double" minOccurs="0" />
+              <xs:element name="TSDate1" msprop:Generator_ColumnVarNameInTable="columnTSDate1" msprop:Generator_ColumnPropNameInRow="TSDate1" msprop:Generator_ColumnPropNameInTable="TSDate1Column" msprop:Generator_UserColumnName="TSDate1" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DEMOutput" msprop:Generator_UserTableName="DEMOutput" msprop:Generator_RowEvArgName="DEMOutputRowChangeEvent" msprop:Generator_TableVarName="tableDEMOutput" msprop:Generator_TablePropName="DEMOutput" msprop:Generator_RowDeletingName="DEMOutputRowDeleting" msprop:Generator_RowChangingName="DEMOutputRowChanging" msprop:Generator_RowDeletedName="DEMOutputRowDeleted" msprop:Generator_RowEvHandlerName="DEMOutputRowChangeEventHandler" msprop:Generator_TableClassName="DEMOutputDataTable" msprop:Generator_RowChangedName="DEMOutputRowChanged" msprop:Generator_RowClassName="DEMOutputRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NNo" msprop:Generator_ColumnVarNameInTable="columnNNo" msprop:Generator_ColumnPropNameInRow="NNo" msprop:Generator_ColumnPropNameInTable="NNoColumn" msprop:Generator_UserColumnName="NNo" type="xs:int" />
+              <xs:element name="TSIndex" msprop:Generator_ColumnVarNameInTable="columnTSIndex" msprop:Generator_ColumnPropNameInRow="TSIndex" msprop:Generator_ColumnPropNameInTable="TSIndexColumn" msprop:Generator_UserColumnName="TSIndex" type="xs:long" />
+              <xs:element name="Surf_In" msprop:Generator_ColumnVarNameInTable="columnSurf_In" msprop:Generator_ColumnPropNameInRow="Surf_In" msprop:Generator_ColumnPropNameInTable="Surf_InColumn" msprop:Generator_UserColumnName="Surf_In" type="xs:double" minOccurs="0" />
+              <xs:element name="Gw_In" msprop:Generator_ColumnVarNameInTable="columnGw_In" msprop:Generator_ColumnPropNameInRow="Gw_In" msprop:Generator_ColumnPropNameInTable="Gw_InColumn" msprop:Generator_UserColumnName="Gw_In" type="xs:double" minOccurs="0" />
+              <xs:element name="Demand" msprop:Generator_ColumnVarNameInTable="columnDemand" msprop:Generator_ColumnPropNameInRow="Demand" msprop:Generator_ColumnPropNameInTable="DemandColumn" msprop:Generator_UserColumnName="Demand" type="xs:double" minOccurs="0" />
+              <xs:element name="Shortage" msprop:Generator_ColumnVarNameInTable="columnShortage" msprop:Generator_ColumnPropNameInRow="Shortage" msprop:Generator_ColumnPropNameInTable="ShortageColumn" msprop:Generator_UserColumnName="Shortage" type="xs:double" minOccurs="0" />
+              <xs:element name="Hydro_State" msprop:Generator_ColumnVarNameInTable="columnHydro_State" msprop:Generator_ColumnPropNameInRow="Hydro_State" msprop:Generator_ColumnPropNameInTable="Hydro_StateColumn" msprop:Generator_UserColumnName="Hydro_State" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RESOutput" msprop:Generator_UserTableName="RESOutput" msprop:Generator_RowEvArgName="RESOutputRowChangeEvent" msprop:Generator_TableVarName="tableRESOutput" msprop:Generator_TablePropName="RESOutput" msprop:Generator_RowDeletingName="RESOutputRowDeleting" msprop:Generator_RowChangingName="RESOutputRowChanging" msprop:Generator_RowDeletedName="RESOutputRowDeleted" msprop:Generator_RowEvHandlerName="RESOutputRowChangeEventHandler" msprop:Generator_TableClassName="RESOutputDataTable" msprop:Generator_RowChangedName="RESOutputRowChanged" msprop:Generator_RowClassName="RESOutputRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NNo" msprop:Generator_ColumnVarNameInTable="columnNNo" msprop:Generator_ColumnPropNameInRow="NNo" msprop:Generator_ColumnPropNameInTable="NNoColumn" msprop:Generator_UserColumnName="NNo" type="xs:int" />
+              <xs:element name="TSIndex" msprop:Generator_ColumnVarNameInTable="columnTSIndex" msprop:Generator_ColumnPropNameInRow="TSIndex" msprop:Generator_ColumnPropNameInTable="TSIndexColumn" msprop:Generator_UserColumnName="TSIndex" type="xs:long" />
+              <xs:element name="Spills" msprop:Generator_ColumnVarNameInTable="columnSpills" msprop:Generator_ColumnPropNameInRow="Spills" msprop:Generator_ColumnPropNameInTable="SpillsColumn" msprop:Generator_UserColumnName="Spills" type="xs:double" minOccurs="0" />
+              <xs:element name="Evap_Loss" msprop:Generator_ColumnVarNameInTable="columnEvap_Loss" msprop:Generator_ColumnPropNameInRow="Evap_Loss" msprop:Generator_ColumnPropNameInTable="Evap_LossColumn" msprop:Generator_UserColumnName="Evap_Loss" type="xs:double" minOccurs="0" />
+              <xs:element name="Seepage" msprop:Generator_ColumnVarNameInTable="columnSeepage" msprop:Generator_ColumnPropNameInRow="Seepage" msprop:Generator_ColumnPropNameInTable="SeepageColumn" msprop:Generator_UserColumnName="Seepage" type="xs:double" minOccurs="0" />
+              <xs:element name="Ups_Rel" msprop:Generator_ColumnVarNameInTable="columnUps_Rel" msprop:Generator_ColumnPropNameInRow="Ups_Rel" msprop:Generator_ColumnPropNameInTable="Ups_RelColumn" msprop:Generator_UserColumnName="Ups_Rel" type="xs:double" minOccurs="0" />
+              <xs:element name="Pump_In" msprop:Generator_ColumnVarNameInTable="columnPump_In" msprop:Generator_ColumnPropNameInRow="Pump_In" msprop:Generator_ColumnPropNameInTable="Pump_InColumn" msprop:Generator_UserColumnName="Pump_In" type="xs:double" minOccurs="0" />
+              <xs:element name="Gw_In" msprop:Generator_ColumnVarNameInTable="columnGw_In" msprop:Generator_ColumnPropNameInRow="Gw_In" msprop:Generator_ColumnPropNameInTable="Gw_InColumn" msprop:Generator_UserColumnName="Gw_In" type="xs:double" minOccurs="0" />
+              <xs:element name="Dws_Rel" msprop:Generator_ColumnVarNameInTable="columnDws_Rel" msprop:Generator_ColumnPropNameInRow="Dws_Rel" msprop:Generator_ColumnPropNameInTable="Dws_RelColumn" msprop:Generator_UserColumnName="Dws_Rel" type="xs:double" minOccurs="0" />
+              <xs:element name="Pump_Out" msprop:Generator_ColumnVarNameInTable="columnPump_Out" msprop:Generator_ColumnPropNameInRow="Pump_Out" msprop:Generator_ColumnPropNameInTable="Pump_OutColumn" msprop:Generator_UserColumnName="Pump_Out" type="xs:double" minOccurs="0" />
+              <xs:element name="Hydra_Cap" msprop:Generator_ColumnVarNameInTable="columnHydra_Cap" msprop:Generator_ColumnPropNameInRow="Hydra_Cap" msprop:Generator_ColumnPropNameInTable="Hydra_CapColumn" msprop:Generator_UserColumnName="Hydra_Cap" type="xs:double" minOccurs="0" />
+              <xs:element name="Head_Avg" msprop:Generator_ColumnVarNameInTable="columnHead_Avg" msprop:Generator_ColumnPropNameInRow="Head_Avg" msprop:Generator_ColumnPropNameInTable="Head_AvgColumn" msprop:Generator_UserColumnName="Head_Avg" type="xs:double" minOccurs="0" />
+              <xs:element name="Powr_Avg" msprop:Generator_ColumnVarNameInTable="columnPowr_Avg" msprop:Generator_ColumnPropNameInRow="Powr_Avg" msprop:Generator_ColumnPropNameInTable="Powr_AvgColumn" msprop:Generator_UserColumnName="Powr_Avg" type="xs:double" minOccurs="0" />
+              <xs:element name="Energy" msprop:Generator_ColumnVarNameInTable="columnEnergy" msprop:Generator_ColumnPropNameInRow="Energy" msprop:Generator_ColumnPropNameInTable="EnergyColumn" msprop:Generator_UserColumnName="Energy" type="xs:double" minOccurs="0" />
+              <xs:element name="Pwr_2nd" msprop:Generator_ColumnVarNameInTable="columnPwr_2nd" msprop:Generator_ColumnPropNameInRow="Pwr_2nd" msprop:Generator_ColumnPropNameInTable="Pwr_2ndColumn" msprop:Generator_UserColumnName="Pwr_2nd" type="xs:double" minOccurs="0" />
+              <xs:element name="Hydro_State" msprop:Generator_ColumnVarNameInTable="columnHydro_State" msprop:Generator_ColumnPropNameInRow="Hydro_State" msprop:Generator_ColumnPropNameInTable="Hydro_StateColumn" msprop:Generator_UserColumnName="Hydro_State" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RES_STOROutput" msprop:Generator_UserTableName="RES_STOROutput" msprop:Generator_RowEvArgName="RES_STOROutputRowChangeEvent" msprop:Generator_TableVarName="tableRES_STOROutput" msprop:Generator_TablePropName="RES_STOROutput" msprop:Generator_RowDeletingName="RES_STOROutputRowDeleting" msprop:Generator_RowChangingName="RES_STOROutputRowChanging" msprop:Generator_RowDeletedName="RES_STOROutputRowDeleted" msprop:Generator_RowEvHandlerName="RES_STOROutputRowChangeEventHandler" msprop:Generator_TableClassName="RES_STOROutputDataTable" msprop:Generator_RowChangedName="RES_STOROutputRowChanged" msprop:Generator_RowClassName="RES_STOROutputRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NNo" msprop:Generator_ColumnVarNameInTable="columnNNo" msprop:Generator_ColumnPropNameInRow="NNo" msprop:Generator_ColumnPropNameInTable="NNoColumn" msprop:Generator_UserColumnName="NNo" type="xs:int" />
+              <xs:element name="TSIndex" msprop:Generator_ColumnVarNameInTable="columnTSIndex" msprop:Generator_ColumnPropNameInRow="TSIndex" msprop:Generator_ColumnPropNameInTable="TSIndexColumn" msprop:Generator_UserColumnName="TSIndex" type="xs:long" />
+              <xs:element name="Stor_Beg" msprop:Generator_ColumnVarNameInTable="columnStor_Beg" msprop:Generator_ColumnPropNameInRow="Stor_Beg" msprop:Generator_ColumnPropNameInTable="Stor_BegColumn" msprop:Generator_UserColumnName="Stor_Beg" type="xs:double" minOccurs="0" />
+              <xs:element name="Stor_End" msprop:Generator_ColumnVarNameInTable="columnStor_End" msprop:Generator_ColumnPropNameInRow="Stor_End" msprop:Generator_ColumnPropNameInTable="Stor_EndColumn" msprop:Generator_UserColumnName="Stor_End" type="xs:double" minOccurs="0" />
+              <xs:element name="Stor_Trg" msprop:Generator_ColumnVarNameInTable="columnStor_Trg" msprop:Generator_ColumnPropNameInRow="Stor_Trg" msprop:Generator_ColumnPropNameInTable="Stor_TrgColumn" msprop:Generator_UserColumnName="Stor_Trg" type="xs:double" minOccurs="0" />
+              <xs:element name="Elev_End" msprop:Generator_ColumnVarNameInTable="columnElev_End" msprop:Generator_ColumnPropNameInRow="Elev_End" msprop:Generator_ColumnPropNameInTable="Elev_EndColumn" msprop:Generator_UserColumnName="Elev_End" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="NON_STOROutput" msprop:Generator_UserTableName="NON_STOROutput" msprop:Generator_RowEvArgName="NON_STOROutputRowChangeEvent" msprop:Generator_TableVarName="tableNON_STOROutput" msprop:Generator_TablePropName="NON_STOROutput" msprop:Generator_RowDeletingName="NON_STOROutputRowDeleting" msprop:Generator_RowChangingName="NON_STOROutputRowChanging" msprop:Generator_RowDeletedName="NON_STOROutputRowDeleted" msprop:Generator_RowEvHandlerName="NON_STOROutputRowChangeEventHandler" msprop:Generator_TableClassName="NON_STOROutputDataTable" msprop:Generator_RowChangedName="NON_STOROutputRowChanged" msprop:Generator_RowClassName="NON_STOROutputRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NNo" msprop:Generator_ColumnVarNameInTable="columnNNo" msprop:Generator_ColumnPropNameInRow="NNo" msprop:Generator_ColumnPropNameInTable="NNoColumn" msprop:Generator_UserColumnName="NNo" type="xs:int" />
+              <xs:element name="TSIndex" msprop:Generator_ColumnVarNameInTable="columnTSIndex" msprop:Generator_ColumnPropNameInRow="TSIndex" msprop:Generator_ColumnPropNameInTable="TSIndexColumn" msprop:Generator_UserColumnName="TSIndex" type="xs:long" />
+              <xs:element name="Inflow" msprop:Generator_ColumnVarNameInTable="columnInflow" msprop:Generator_ColumnPropNameInRow="Inflow" msprop:Generator_ColumnPropNameInTable="InflowColumn" msprop:Generator_UserColumnName="Inflow" type="xs:double" minOccurs="0" />
+              <xs:element name="Gw_In" msprop:Generator_ColumnVarNameInTable="columnGw_In" msprop:Generator_ColumnPropNameInRow="Gw_In" msprop:Generator_ColumnPropNameInTable="Gw_InColumn" msprop:Generator_UserColumnName="Gw_In" type="xs:double" minOccurs="0" />
+              <xs:element name="Flow_Thru" msprop:Generator_ColumnVarNameInTable="columnFlow_Thru" msprop:Generator_ColumnPropNameInRow="Flow_Thru" msprop:Generator_ColumnPropNameInTable="Flow_ThruColumn" msprop:Generator_UserColumnName="Flow_Thru" type="xs:double" minOccurs="0" />
+              <xs:element name="Rout_Ret" msprop:Generator_ColumnVarNameInTable="columnRout_Ret" msprop:Generator_ColumnPropNameInRow="Rout_Ret" msprop:Generator_ColumnPropNameInTable="Rout_RetColumn" msprop:Generator_UserColumnName="Rout_Ret" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="OutputTablesInfo" msprop:Generator_UserTableName="OutputTablesInfo" msprop:Generator_RowEvArgName="OutputTablesInfoRowChangeEvent" msprop:Generator_TableVarName="tableOutputTablesInfo" msprop:Generator_TablePropName="OutputTablesInfo" msprop:Generator_RowDeletingName="OutputTablesInfoRowDeleting" msprop:Generator_RowChangingName="OutputTablesInfoRowChanging" msprop:Generator_RowDeletedName="OutputTablesInfoRowDeleted" msprop:Generator_RowEvHandlerName="OutputTablesInfoRowChangeEventHandler" msprop:Generator_TableClassName="OutputTablesInfoDataTable" msprop:Generator_RowChangedName="OutputTablesInfoRowChanged" msprop:Generator_RowClassName="OutputTablesInfoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Object" msprop:Generator_ColumnVarNameInTable="columnObject" msprop:Generator_ColumnPropNameInRow="Object" msprop:Generator_ColumnPropNameInTable="ObjectColumn" msprop:Generator_UserColumnName="Object" type="xs:string" />
+              <xs:element name="OutputName" msprop:Generator_ColumnVarNameInTable="columnOutputName" msprop:Generator_ColumnPropNameInRow="OutputName" msprop:Generator_ColumnPropNameInTable="OutputNameColumn" msprop:Generator_UserColumnName="OutputName" type="xs:string" />
+              <xs:element name="VariableType" msprop:Generator_ColumnVarNameInTable="columnVariableType" msprop:Generator_ColumnPropNameInRow="VariableType" msprop:Generator_ColumnPropNameInTable="VariableTypeColumn" msprop:Generator_UserColumnName="VariableType" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="HydroUnitOutput" msprop:Generator_UserTableName="HydroUnitOutput" msprop:Generator_RowEvArgName="HydroUnitOutputRowChangeEvent" msprop:Generator_TableVarName="tableHydroUnitOutput" msprop:Generator_TablePropName="HydroUnitOutput" msprop:Generator_RowDeletingName="HydroUnitOutputRowDeleting" msprop:Generator_RowChangingName="HydroUnitOutputRowChanging" msprop:Generator_RowDeletedName="HydroUnitOutputRowDeleted" msprop:Generator_RowEvHandlerName="HydroUnitOutputRowChangeEventHandler" msprop:Generator_TableClassName="HydroUnitOutputDataTable" msprop:Generator_RowChangedName="HydroUnitOutputRowChanged" msprop:Generator_RowClassName="HydroUnitOutputRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HydroUnitID" msdata:ReadOnly="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnHydroUnitID" msprop:Generator_ColumnPropNameInRow="HydroUnitID" msprop:Generator_ColumnPropNameInTable="HydroUnitIDColumn" msprop:Generator_UserColumnName="HydroUnitID" type="xs:int" />
+              <xs:element name="TSIndex" msprop:Generator_ColumnVarNameInTable="columnTSIndex" msprop:Generator_ColumnPropNameInRow="TSIndex" msprop:Generator_ColumnPropNameInTable="TSIndexColumn" msprop:Generator_UserColumnName="TSIndex" type="xs:long" />
+              <xs:element name="Discharge" msprop:Generator_ColumnVarNameInTable="columnDischarge" msprop:Generator_ColumnPropNameInRow="Discharge" msprop:Generator_ColumnPropNameInTable="DischargeColumn" msprop:Generator_UserColumnName="Discharge" type="xs:double" default="0" />
+              <xs:element name="Head" msprop:Generator_ColumnVarNameInTable="columnHead" msprop:Generator_ColumnPropNameInRow="Head" msprop:Generator_ColumnPropNameInTable="HeadColumn" msprop:Generator_UserColumnName="Head" type="xs:double" default="0" />
+              <xs:element name="Efficiency" msprop:Generator_ColumnVarNameInTable="columnEfficiency" msprop:Generator_ColumnPropNameInRow="Efficiency" msprop:Generator_ColumnPropNameInTable="EfficiencyColumn" msprop:Generator_UserColumnName="Efficiency" type="xs:double" default="0" />
+              <xs:element name="Power" msprop:Generator_ColumnVarNameInTable="columnPower" msprop:Generator_ColumnPropNameInRow="Power" msprop:Generator_ColumnPropNameInTable="PowerColumn" msprop:Generator_UserColumnName="Power" type="xs:double" default="0" />
+              <xs:element name="Energy" msprop:Generator_ColumnVarNameInTable="columnEnergy" msprop:Generator_ColumnPropNameInRow="Energy" msprop:Generator_ColumnPropNameInTable="EnergyColumn" msprop:Generator_UserColumnName="Energy" type="xs:double" default="0" />
+              <xs:element name="DowntimeFactor" msprop:Generator_ColumnVarNameInTable="columnDowntimeFactor" msprop:Generator_ColumnPropNameInRow="DowntimeFactor" msprop:Generator_ColumnPropNameInTable="DowntimeFactorColumn" msprop:Generator_UserColumnName="DowntimeFactor" type="xs:double" default="0" />
+              <xs:element name="GeneratingHours" msprop:Generator_ColumnVarNameInTable="columnGeneratingHours" msprop:Generator_ColumnPropNameInRow="GeneratingHours" msprop:Generator_ColumnPropNameInTable="GeneratingHoursColumn" msprop:Generator_UserColumnName="GeneratingHours" type="xs:double" default="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="HydroTargetOutput" msprop:Generator_UserTableName="HydroTargetOutput" msprop:Generator_RowEvArgName="HydroTargetOutputRowChangeEvent" msprop:Generator_TableVarName="tableHydroTargetOutput" msprop:Generator_TablePropName="HydroTargetOutput" msprop:Generator_RowDeletingName="HydroTargetOutputRowDeleting" msprop:Generator_RowChangingName="HydroTargetOutputRowChanging" msprop:Generator_RowDeletedName="HydroTargetOutputRowDeleted" msprop:Generator_RowEvHandlerName="HydroTargetOutputRowChangeEventHandler" msprop:Generator_TableClassName="HydroTargetOutputDataTable" msprop:Generator_RowChangedName="HydroTargetOutputRowChanged" msprop:Generator_RowClassName="HydroTargetOutputRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HydroTargetID" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnHydroTargetID" msprop:Generator_ColumnPropNameInRow="HydroTargetID" msprop:Generator_ColumnPropNameInTable="HydroTargetIDColumn" msprop:Generator_UserColumnName="HydroTargetID" type="xs:int" />
+              <xs:element name="TSIndex" msprop:Generator_ColumnVarNameInTable="columnTSIndex" msprop:Generator_ColumnPropNameInRow="TSIndex" msprop:Generator_ColumnPropNameInTable="TSIndexColumn" msprop:Generator_UserColumnName="TSIndex" type="xs:long" />
+              <xs:element name="EnergyTarget" msprop:Generator_ColumnVarNameInTable="columnEnergyTarget" msprop:Generator_ColumnPropNameInRow="EnergyTarget" msprop:Generator_ColumnPropNameInTable="EnergyTargetColumn" msprop:Generator_UserColumnName="EnergyTarget" type="xs:double" default="0" />
+              <xs:element name="EnergyProduction" msprop:Generator_ColumnVarNameInTable="columnEnergyProduction" msprop:Generator_ColumnPropNameInRow="EnergyProduction" msprop:Generator_ColumnPropNameInTable="EnergyProductionColumn" msprop:Generator_UserColumnName="EnergyProduction" type="xs:double" default="0" />
+              <xs:element name="EnergyDifference" msprop:Generator_ColumnVarNameInTable="columnEnergyDifference" msprop:Generator_ColumnPropNameInRow="EnergyDifference" msprop:Generator_ColumnPropNameInTable="EnergyDifferenceColumn" msprop:Generator_UserColumnName="EnergyDifference" type="xs:double" default="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LinksMeasured" msprop:Generator_TableClassName="LinksMeasuredDataTable" msprop:Generator_TableVarName="tableLinksMeasured" msprop:Generator_TablePropName="LinksMeasured" msprop:Generator_RowDeletingName="LinksMeasuredRowDeleting" msprop:Generator_RowChangingName="LinksMeasuredRowChanging" msprop:Generator_RowEvHandlerName="LinksMeasuredRowChangeEventHandler" msprop:Generator_RowDeletedName="LinksMeasuredRowDeleted" msprop:Generator_UserTableName="LinksMeasured" msprop:Generator_RowChangedName="LinksMeasuredRowChanged" msprop:Generator_RowEvArgName="LinksMeasuredRowChangeEvent" msprop:Generator_RowClassName="LinksMeasuredRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LNumber" msprop:Generator_ColumnVarNameInTable="columnLNumber" msprop:Generator_ColumnPropNameInRow="LNumber" msprop:Generator_ColumnPropNameInTable="LNumberColumn" msprop:Generator_UserColumnName="LNumber" type="xs:int" />
+              <xs:element name="TSIndex" msprop:Generator_ColumnVarNameInTable="columnTSIndex" msprop:Generator_ColumnPropNameInRow="TSIndex" msprop:Generator_ColumnPropNameInTable="TSIndexColumn" msprop:Generator_UserColumnName="TSIndex" type="xs:long" />
+              <xs:element name="Meas_Flow" msprop:Generator_ColumnVarNameInTable="columnMeas_Flow" msprop:Generator_ColumnPropNameInRow="Meas_Flow" msprop:Generator_ColumnPropNameInTable="Meas_FlowColumn" msprop:Generator_UserColumnName="Meas_Flow" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="MODSIMOutputLinkNo">
+      <xs:selector xpath=".//mstns:LinksInfo" />
+      <xs:field xpath="mstns:LNumber" />
+    </xs:unique>
+    <xs:unique name="key1">
+      <xs:selector xpath=".//mstns:NodesInfo" />
+      <xs:field xpath="mstns:NNumber" />
+    </xs:unique>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LinksOutput" />
+      <xs:field xpath="mstns:LNumber" />
+      <xs:field xpath="mstns:TSIndex" />
+    </xs:unique>
+    <xs:unique name="TimeSteps_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TimeSteps" />
+      <xs:field xpath="mstns:TSIndex" />
+    </xs:unique>
+    <xs:unique name="DEMOutput_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DEMOutput" />
+      <xs:field xpath="mstns:NNo" />
+      <xs:field xpath="mstns:TSIndex" />
+    </xs:unique>
+    <xs:unique name="RESOutput_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:RESOutput" />
+      <xs:field xpath="mstns:NNo" />
+      <xs:field xpath="mstns:TSIndex" />
+    </xs:unique>
+    <xs:unique name="RES_STOROutput_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:RES_STOROutput" />
+      <xs:field xpath="mstns:NNo" />
+      <xs:field xpath="mstns:TSIndex" />
+    </xs:unique>
+    <xs:unique name="NON_STOROutput_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:NON_STOROutput" />
+      <xs:field xpath="mstns:NNo" />
+      <xs:field xpath="mstns:TSIndex" />
+    </xs:unique>
+    <xs:unique name="OutputTablesInfo_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:OutputTablesInfo" />
+      <xs:field xpath="mstns:Object" />
+      <xs:field xpath="mstns:OutputName" />
+    </xs:unique>
+    <xs:unique name="HydroUnitOutput_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:HydroUnitOutput" />
+      <xs:field xpath="mstns:HydroUnitID" />
+      <xs:field xpath="mstns:TSIndex" />
+    </xs:unique>
+    <xs:unique name="HydroTargetOutput_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:HydroTargetOutput" />
+      <xs:field xpath="mstns:HydroTargetID" />
+      <xs:field xpath="mstns:TSIndex" />
+    </xs:unique>
+    <xs:unique name="LinksMeasured_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LinksMeasured" />
+      <xs:field xpath="mstns:LNumber" />
+      <xs:field xpath="mstns:TSIndex" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

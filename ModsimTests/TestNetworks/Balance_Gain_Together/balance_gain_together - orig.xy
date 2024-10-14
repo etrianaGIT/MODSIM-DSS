@@ -1,0 +1,441 @@
+xyVersion 8.6
+numhydtables 0
+n_links 11
+n_nodes 10
+n_lags 5
+ExtManualStorageRightActive True
+ExtStorageRightActive True
+ExtWaterRightsActive False
+ExtLastFillRentActive False
+NonstorageNodeSize 100
+DemandNodeSize 100
+ReservoirNodeSize 100
+LinkSize 100
+BackgroundImageLocation 
+BackgroundImageSize 0
+DefaultFlowUnits acre-ft/month
+DefaultStorageUnits acre-ft
+hydroCtrl
+ExtHydropowerActive False
+node
+name NonStorage
+nuid f3809fbd-2c39-4099-b747-40e864f5aee1
+desc 
+num 1
+ntype 2
+out 8
+out 1
+pos
+0 322.0215
+1 194.5000
+labelpos
+0 313.5215
+1 203.0000
+IsLabelVisible 0
+node
+name NonStorage1
+nuid ae7e00d2-5cc1-4fce-abb3-664b557e237e
+desc 
+num 2
+ntype 2
+out 10
+out 6
+pos
+0 318.4635
+1 474.5000
+labelpos
+0 309.9635
+1 483.0000
+IsLabelVisible 0
+node
+name NonStorage2
+nuid b445ee60-4e0c-434e-be4e-f5584edd058d
+desc 
+num 3
+ntype 2
+in 9
+in 1
+out 2
+pos
+0 548.4636
+1 194.5000
+labelpos
+0 539.9636
+1 203.0000
+IsLabelVisible 0
+node
+name NonStorage3
+nuid 5cd0aa20-4bf4-4252-9628-751145abb2dc
+desc 
+num 4
+ntype 2
+in 11
+in 6
+out 7
+pos
+0 538.4636
+1 474.5000
+labelpos
+0 529.9636
+1 483.0000
+IsLabelVisible 0
+node
+name NonStorage4
+nuid a0ac26d7-ee6e-4ee0-9149-fcfbb63bcf37
+desc 
+num 5
+ntype 2
+in 7
+in 2
+out 5
+out 4
+out 3
+pos
+0 758.4636
+1 334.5000
+labelpos
+0 749.9636
+1 343.0000
+IsLabelVisible 0
+node
+name ownRES1
+nuid 8a03d3df-7887-42bd-ba07-ec8fb56069b9
+desc 
+num 6
+ntype 3
+in 3
+pos
+0 916.6807
+1 214.5000
+labelpos
+0 908.1807
+1 223.0000
+pcapUnits acre-ft/month
+node
+name ownRES2
+nuid e130b3ad-141d-4eb2-a576-3dc9288c2f14
+desc 
+num 7
+ntype 3
+in 5
+pos
+0 916.6807
+1 484.5000
+labelpos
+0 908.1807
+1 493.0000
+pcapUnits acre-ft/month
+node
+name sink
+nuid a55a8e75-2b07-422d-9053-fade237ab3e0
+desc 
+num 8
+ntype 3
+in 4
+pos
+0 908.5000
+1 334.5000
+labelpos
+0 900.0000
+1 343.0000
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/month
+01/01/1980 00:00:00	100000000
+node
+name RES1
+nuid fe17611c-969f-4c02-93ac-01076063e360
+desc 
+num 9
+ntype 1
+in 8
+out 9
+pos
+0 415.6738
+1 274.5000
+labelpos
+0 407.1738
+1 283.0000
+max_vol 500
+start_vol 200
+reservoir_units acre-ft
+rbypassl 1
+resnext 9
+resprev 9
+resoutfl 9
+sysnum 1
+tstarget
+units acre-ft
+02/01/1980 00:00:00	1000
+area_units acres
+capacity_units acre-ft
+hcapacity_units acre-ft/month
+node
+name RES2
+nuid 8d23d37b-617a-4a13-a121-7b4856806113
+desc 
+num 10
+ntype 1
+in 10
+out 11
+pos
+0 415.6738
+1 564.5000
+labelpos
+0 407.1738
+1 573.0000
+max_vol 1500
+start_vol 800
+reservoir_units acre-ft
+rbypassl 6
+resnext 10
+resprev 10
+resoutfl 11
+sysnum 1
+tstarget
+units acre-ft
+02/01/1980 00:00:00	1500
+area_units acres
+capacity_units acre-ft
+hcapacity_units acre-ft/month
+link
+lname RES1bypass
+luid 6272b805-70cf-4b4b-b2a9-0044983ed69b
+ldescription 
+lnum 1
+fromnum 1
+tonum 3
+link
+lname NonStorage2_NonStorage4
+luid 93ef0217-bb82-467b-a18d-e2c01d269c0f
+ldescription 
+lnum 2
+fromnum 3
+tonum 5
+link
+lname NonStorage4_ownRES1
+luid 941a7fae-ad46-49b7-9979-b51ca78a7ff6
+ldescription 
+lnum 3
+fromnum 5
+tonum 6
+lcost 1
+maxCap
+units acre-ft/month
+01/01/1980 00:00:00	0
+capown 500
+stglft 300
+lparent 8
+relativeUseOrder 1
+link
+lname NonStorage4_sink
+luid 40983032-40f0-4c02-b9c3-05812654893b
+ldescription 
+lnum 4
+fromnum 5
+tonum 8
+link
+lname NonStorage4_ownRES2
+luid f20339bf-f21b-49b3-bb7f-385d1ec820ec
+ldescription 
+lnum 5
+fromnum 5
+tonum 7
+lcost 1
+maxCap
+units acre-ft/month
+01/01/1980 00:00:00	0
+capown 1500
+stglft 200
+lparent 10
+relativeUseOrder 1
+link
+lname RES2bypass
+luid fc834b77-bdc8-46ed-ad8d-b1a5e05d8704
+ldescription 
+lnum 6
+fromnum 2
+tonum 4
+link
+lname NonStorage3_NonStorage4
+luid 0ece6c6d-89c7-45a8-9d25-2747e703c335
+ldescription 
+lnum 7
+fromnum 4
+tonum 5
+link
+lname AccrualRES1
+luid 7e221e50-5863-4cc7-947a-0bf74ed1a804
+ldescription 
+lnum 8
+fromnum 1
+tonum 9
+lcost -500
+lnkallow 500
+accrualLink True
+link
+lname RES1outflow
+luid 660423ae-f6b7-44cc-abdf-a23ec22824d0
+ldescription 
+lnum 9
+fromnum 9
+tonum 3
+link
+lname AccrualRES2
+luid a3e23b10-53ee-47df-bf38-7fb2b0675d28
+ldescription 
+lnum 10
+fromnum 2
+tonum 10
+lcost -200
+lnkallow 1500
+accrualLink True
+link
+lname RES2outflow
+luid ef9ed564-02f1-4a86-b9b0-b83af915317a
+ldescription 
+lnum 11
+fromnum 10
+tonum 4
+annot
+astr ownRES1 has 300 in bank account
+aposx 295
+aposy 675
+annot
+astr ownRES2 has 200 in bank account
+aposx 292
+aposy 696
+annot
+astr Both RES1 and RES2 have same system number so are 
+aposx 294
+aposy 721
+annot
+astr Difference between accounts and physical is
+aposx 289
+aposy 764
+annot
+astr RES1 starts with 200
+aposx 602
+aposy 676
+annot
+astr RES2 starts with 800
+aposx 602
+aposy 696
+annot
+astr accounts and physical water is combined
+aposx 736
+aposy 721
+annot
+astr for balance purposes
+aposx 344
+aposy 738
+annot
+astr 500 gain distributed proportate to owership
+aposx 674
+aposy 765
+annot
+astr ownRES1 has 25 percent of total system ownership
+aposx 290
+aposy 788
+annot
+astr RES1 and RES2 have System Number and Normal
+aposx 322
+aposy 105
+annot
+astr Balance routine is called second time step
+aposx 324
+aposy 128
+annot
+astr Graph of stglft shows increase from balance
+aposx 325
+aposy 150
+annot
+astr gets 25 percent of gain as increase in stglft
+aposx 724
+aposy 788
+annot
+astr Outflow Link
+aposx 706
+aposy 105
+ially 1 # Explicit_Targets
+iplot 0
+iprd Monthly
+iut 0
+n_years 1
+rdim
+0 0
+1 0
+2 20480
+3 3260
+title balance_gain_together - orig
+uselags 1
+maxit 100
+gw_cp 0.05
+flowth_cp 0.00005
+evap_cp 0.01
+infeasrestart 0
+relxacrul 0
+dataStartDate 01/01/1980 00:00:00
+dataEndDate 01/01/1981 00:00:00
+startingDate 01/01/1980 00:00:00
+endingDate 01/01/1981 00:00:00
+accrualDate 01/01/1900 00:00:00
+seasCapDate 01/01/1900 00:00:00
+rentPoolDates 01/01/1900 00:00:00
+accBalanceDates 02/01/1900 00:00:00
+accuracy 0
+defaultMaxCap 99999999
+res_output 1
+dws_rel 1
+elev_end 1
+evp_loss 1
+evp_rate 1
+gwater 1
+head_avg 1
+hydra_Cap 1
+powr_avg 1
+powr_pk 1
+pump_in 1
+pump_out 1
+pwr_2nd 1
+seepage 1
+spills 1
+stor_beg 1
+stor_end 1
+stor_trg 1
+unreg_in 1
+ups_rel 1
+dem_output 1
+dem_sht 1
+demand 1
+gw_in 1
+surf_in 1
+acc_flow 1
+acc_output 1
+acrl 1
+stgl 1
+flo_flow 1
+flo_output 1
+loss 1
+natflow 1
+fromgwtono 1
+gw_output 1
+noTimeStepsInMemorygwinfiltra 1
+spcl_rpts 0
+part_flows 0
+ver7OutputFiles 0
+ver8MSDBOutputFiles 1
+SQLiteOutputFiles 0
+DeleteTempVer8OutputFiles 1
+noTimeStepsInMemory 12
+hydroStateOUT 1
+nonStorage_output 1
+l_MaxOUT 1
+l_MinOUT 1
+Flow_ThruOUT 1
+Rout_RetOUT 1
+InflowOUT 1
+nomaxmesg 0
+constsysst 0
+IsBackRoutingActive 0
+IsStorageAccountWithRouting 0

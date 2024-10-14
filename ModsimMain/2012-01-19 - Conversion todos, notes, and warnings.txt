@@ -1,0 +1,2956 @@
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\AnnotateList.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER TODO TASK: Instead of '#using', in C# add a project reference:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\DateList.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER TODO TASK: Instead of '#using', in C# add a project reference:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\DateList.cs
+Line Number: 46
+Comment: //C++ TO C# CONVERTER TODO TASK: Instead of '#using', in C# add a project reference:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\HydrologicStateTable.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\HydrologicStateTable.cs
+Line Number: 151
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\HydrologicStateTable.cs
+Line Number: 154
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\HydrologicStateTable.cs
+Line Number: 180
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\HydrologicStateTable.cs
+Line Number: 183
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\HydrologicStateTable.cs
+Line Number: 186
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\HydrologicStateTable.cs
+Line Number: 223
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\HydrologicStateTable.cs
+Line Number: 226
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\HydrologicStateTable.cs
+Line Number: 229
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\HydrologicStateTable.cs
+Line Number: 232
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\HydrologicStateTable.cs
+Line Number: 235
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\HydrologicStateTable.cs
+Line Number: 238
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\HydrologicStateTable.cs
+Line Number: 241
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\HydrologicStateTable.cs
+Line Number: 244
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\HydrologicStateTable.cs
+Line Number: 252
+Comment: //C++ TO C# CONVERTER TODO TASK: Instead of '#using', in C# add a project reference:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 7
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 10
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 16
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 19
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 22
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 25
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 28
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 31
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 34
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 37
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 40
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 43
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 46
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 49
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 52
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 55
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 58
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 61
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 64
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 67
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 71
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 90
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Link.cs
+Line Number: 93
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\MinfoStr.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\MinfoStr.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Mnode.cs
+Line Number: 17
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Mnode.cs
+Line Number: 20
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Model.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Model.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\m-unicode.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\m-unicode.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\m-unicode.cs
+Line Number: 7
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\m-unicode.cs
+Line Number: 10
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\m-unicode.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\m-unicode.cs
+Line Number: 16
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\m-unicode.cs
+Line Number: 19
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\m-unicode.cs
+Line Number: 22
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\m-unicode.cs
+Line Number: 25
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\m-unicode.cs
+Line Number: 28
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\m-unicode.cs
+Line Number: 31
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\m-unicode.cs
+Line Number: 34
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\m-unicode.cs
+Line Number: 37
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\m-unicode.cs
+Line Number: 40
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\m-unicode.cs
+Line Number: 43
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\m-unicode.cs
+Line Number: 46
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\m-unicode.cs
+Line Number: 49
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\m-unicode.cs
+Line Number: 52
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\m-unicode.cs
+Line Number: 55
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\m-unicode.cs
+Line Number: 58
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\m-unicode.cs
+Line Number: 61
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\m-unicode.cs
+Line Number: 64
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\m-unicode.cs
+Line Number: 67
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\m-unicode.cs
+Line Number: 71
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 7
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 10
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 16
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 19
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 22
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 25
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 28
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 31
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 34
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 37
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 40
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 43
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 46
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 49
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 52
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 55
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 58
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 61
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 64
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 67
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 71
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 90
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\Node.cs
+Line Number: 93
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\ResBalance.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\ResBalance.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\ResBalance.cs
+Line Number: 7
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\ResBalance.cs
+Line Number: 10
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\ResBalance.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\ResBalance.cs
+Line Number: 16
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\ResBalance.cs
+Line Number: 19
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\ResBalance.cs
+Line Number: 22
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\ResBalance.cs
+Line Number: 25
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\ResBalance.cs
+Line Number: 28
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\ResBalance.cs
+Line Number: 31
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\ResBalance.cs
+Line Number: 34
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\ResBalance.cs
+Line Number: 37
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\ResBalance.cs
+Line Number: 40
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\ResBalance.cs
+Line Number: 43
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\ResBalance.cs
+Line Number: 46
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\ResBalance.cs
+Line Number: 49
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\ResBalance.cs
+Line Number: 52
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\ResBalance.cs
+Line Number: 55
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\ResBalance.cs
+Line Number: 58
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\ResBalance.cs
+Line Number: 61
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\ResBalance.cs
+Line Number: 64
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\ResBalance.cs
+Line Number: 67
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\ResBalance.cs
+Line Number: 71
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 7
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 10
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 16
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 19
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 22
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 25
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 28
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 31
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 34
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 37
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 40
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 43
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 46
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 49
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 52
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 55
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 58
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 61
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 64
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 67
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 71
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 90
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 93
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 189
+Comment: //C++ TO C# CONVERTER NOTE: This was formerly a static local variable declaration (not allowed in C#):
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 201
+Comment: //C++ TO C# CONVERTER NOTE: This static local variable declaration (not allowed in C#) has been moved just prior to the method:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 262
+Comment: //C++ TO C# CONVERTER NOTE: This was formerly a static local variable declaration (not allowed in C#):
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 288
+Comment: //C++ TO C# CONVERTER NOTE: This static local variable declaration (not allowed in C#) has been moved just prior to the method:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 1000
+Comment: //C++ TO C# CONVERTER NOTE: This was formerly a static local variable declaration (not allowed in C#):
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 1012
+Comment: //C++ TO C# CONVERTER NOTE: This static local variable declaration (not allowed in C#) has been moved just prior to the method:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 1115
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\rScratchFile.cs
+Line Number: 1203
+Comment: //C++ TO C# CONVERTER TODO TASK: Instead of '#using', in C# add a project reference:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 7
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 10
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 16
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 19
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 22
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 25
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 28
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 31
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 34
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 37
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 40
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 43
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 46
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 49
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 52
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 55
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 58
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 61
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 64
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 67
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 71
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 467
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\SetConvenienceStructures.cs
+Line Number: 470
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\TimeSeries.cs
+Line Number: 479
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\libsim\TimeSeries.cs
+Line Number: 482
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 7
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 10
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 16
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 19
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 22
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 25
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 28
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 31
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 34
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 37
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 40
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 43
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 46
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 49
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 52
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 55
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 58
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 61
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 64
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 67
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 71
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 119
+Comment: //C++ TO C# CONVERTER NOTE: This was formerly a static local variable declaration (not allowed in C#):
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 121
+Comment: //C++ TO C# CONVERTER NOTE: This was formerly a static local variable declaration (not allowed in C#):
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 132
+Comment: //C++ TO C# CONVERTER NOTE: This static local variable declaration (not allowed in C#) has been moved just prior to the method:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\arcdump.cs
+Line Number: 134
+Comment: //C++ TO C# CONVERTER NOTE: This static local variable declaration (not allowed in C#) has been moved just prior to the method:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\constraint.cs
+Line Number: 826
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\constraint.cs
+Line Number: 828
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\constraint.cs
+Line Number: 830
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\constraint.cs
+Line Number: 832
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\DistConstraint.cs
+Line Number: 144
+Comment: //C++ TO C# CONVERTER TODO TASK: The following line could not be converted:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\DistConstraint.cs
+Line Number: 149
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\DistConstraint.cs
+Line Number: 180
+Comment: //C++ TO C# CONVERTER WARNING: The declaration of the following method implementation was not found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 7
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 10
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 16
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 19
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 22
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 25
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 28
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 31
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 34
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 37
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 40
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 43
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 46
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 49
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 52
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 55
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 58
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 61
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 64
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 67
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 71
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\evap.cs
+Line Number: 478
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\flowthru.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\flowthru.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\flowthru.cs
+Line Number: 7
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\flowthru.cs
+Line Number: 10
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\flowthru.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\flowthru.cs
+Line Number: 16
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\flowthru.cs
+Line Number: 19
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\flowthru.cs
+Line Number: 22
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\flowthru.cs
+Line Number: 25
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\flowthru.cs
+Line Number: 28
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\flowthru.cs
+Line Number: 31
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\flowthru.cs
+Line Number: 34
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\flowthru.cs
+Line Number: 37
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\flowthru.cs
+Line Number: 40
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\flowthru.cs
+Line Number: 43
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\flowthru.cs
+Line Number: 46
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\flowthru.cs
+Line Number: 49
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\flowthru.cs
+Line Number: 52
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\flowthru.cs
+Line Number: 55
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\flowthru.cs
+Line Number: 58
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\flowthru.cs
+Line Number: 61
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\flowthru.cs
+Line Number: 64
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\flowthru.cs
+Line Number: 67
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\flowthru.cs
+Line Number: 71
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 7
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 10
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 16
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 19
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 22
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 25
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 28
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 31
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 34
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 37
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 40
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 43
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 46
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 49
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 52
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 55
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 58
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 61
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 64
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 67
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 71
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 94
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 99
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 103
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\glover.cs
+Line Number: 544
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 7
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 10
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 16
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 19
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 22
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 25
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 28
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 31
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 34
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 37
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 40
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 43
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 46
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 49
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 52
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 55
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 58
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 61
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 64
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 67
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 71
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 419
+Comment: //C++ TO C# CONVERTER NOTE: This was formerly a static local variable declaration (not allowed in C#):
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 428
+Comment: //C++ TO C# CONVERTER NOTE: This static local variable declaration (not allowed in C#) has been moved just prior to the method:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 501
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 503
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 511
+Comment: //C++ TO C# CONVERTER NOTE: This was formerly a static local variable declaration (not allowed in C#):
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 518
+Comment: //C++ TO C# CONVERTER NOTE: This static local variable declaration (not allowed in C#) has been moved just prior to the method:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\gwater.cs
+Line Number: 1222
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 7
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 10
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 16
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 19
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 22
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 25
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 28
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 31
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 34
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 37
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 40
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 43
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 46
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 49
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 52
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 55
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 58
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 61
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 64
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 67
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 71
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\Modsim.cs
+Line Number: 102
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\mss.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\mss.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\mss.cs
+Line Number: 7
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\mss.cs
+Line Number: 10
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\mss.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\mss.cs
+Line Number: 16
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\mss.cs
+Line Number: 19
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\mss.cs
+Line Number: 22
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\mss.cs
+Line Number: 25
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\mss.cs
+Line Number: 28
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\mss.cs
+Line Number: 31
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\mss.cs
+Line Number: 34
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\mss.cs
+Line Number: 37
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\mss.cs
+Line Number: 40
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\mss.cs
+Line Number: 43
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\mss.cs
+Line Number: 46
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\mss.cs
+Line Number: 49
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\mss.cs
+Line Number: 52
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\mss.cs
+Line Number: 55
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\mss.cs
+Line Number: 58
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\mss.cs
+Line Number: 61
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\mss.cs
+Line Number: 64
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\mss.cs
+Line Number: 67
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\mss.cs
+Line Number: 71
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\operate.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\operate.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\operate.cs
+Line Number: 7
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\operate.cs
+Line Number: 10
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\operate.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\operate.cs
+Line Number: 16
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\operate.cs
+Line Number: 19
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\operate.cs
+Line Number: 22
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\operate.cs
+Line Number: 25
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\operate.cs
+Line Number: 28
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\operate.cs
+Line Number: 31
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\operate.cs
+Line Number: 34
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\operate.cs
+Line Number: 37
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\operate.cs
+Line Number: 40
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\operate.cs
+Line Number: 43
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\operate.cs
+Line Number: 46
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\operate.cs
+Line Number: 49
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\operate.cs
+Line Number: 52
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\operate.cs
+Line Number: 55
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\operate.cs
+Line Number: 58
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\operate.cs
+Line Number: 61
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\operate.cs
+Line Number: 64
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\operate.cs
+Line Number: 67
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\operate.cs
+Line Number: 71
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateInit.cs
+Line Number: 525
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateInit.cs
+Line Number: 528
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateInit.cs
+Line Number: 531
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateInit.cs
+Line Number: 534
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateInit.cs
+Line Number: 537
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateInit.cs
+Line Number: 540
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateInit.cs
+Line Number: 543
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateInit.cs
+Line Number: 546
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateInit.cs
+Line Number: 549
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateInit.cs
+Line Number: 552
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateInit.cs
+Line Number: 555
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateInit.cs
+Line Number: 558
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateInit.cs
+Line Number: 561
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateInit.cs
+Line Number: 564
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateInit.cs
+Line Number: 567
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateInit.cs
+Line Number: 570
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateInit.cs
+Line Number: 573
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateInit.cs
+Line Number: 576
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateInit.cs
+Line Number: 579
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateInit.cs
+Line Number: 582
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateInit.cs
+Line Number: 585
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateInit.cs
+Line Number: 588
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateInit.cs
+Line Number: 591
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateInit.cs
+Line Number: 595
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 370
+Comment: //C++ TO C# CONVERTER TODO TASK: Pointer arithmetic is detected on this variable, so pointers on this variable are left unchanged.
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 712
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 715
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 718
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 721
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 724
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 727
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 730
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 733
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 736
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 739
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 742
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 745
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 748
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 751
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 754
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 757
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 760
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 763
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 766
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 769
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 772
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 775
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 778
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\OperateIter.cs
+Line Number: 782
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\oprate.cs
+Line Number: 3
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 7
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 10
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 16
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 19
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 22
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 25
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 28
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 31
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 34
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 37
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 40
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 43
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 46
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 49
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 52
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 55
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 58
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 61
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 64
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 67
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 71
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 230
+Comment: //C++ TO C# CONVERTER NOTE: This was formerly a static local variable declaration (not allowed in C#):
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 232
+Comment: //C++ TO C# CONVERTER NOTE: This was formerly a static local variable declaration (not allowed in C#):
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 236
+Comment: //C++ TO C# CONVERTER NOTE: This static local variable declaration (not allowed in C#) has been moved just prior to the method:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 239
+Comment: //C++ TO C# CONVERTER NOTE: This static local variable declaration (not allowed in C#) has been moved just prior to the method:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 887
+Comment: //C++ TO C# CONVERTER NOTE: This was formerly a static local variable declaration (not allowed in C#):
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\output.cs
+Line Number: 892
+Comment: //C++ TO C# CONVERTER NOTE: This static local variable declaration (not allowed in C#) has been moved just prior to the method:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\override.cs
+Line Number: 61
+Comment: //C++ TO C# CONVERTER TODO TASK: Pointer arithmetic is detected on this variable, so pointers on this variable are left unchanged.
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\param1.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\param1.cs
+Line Number: 6
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\param1.cs
+Line Number: 10
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relax4.cs
+Line Number: 21
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relax4.cs
+Line Number: 26
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relax4.cs
+Line Number: 30
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relax4.cs
+Line Number: 50
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relax4.cs
+Line Number: 5406
+Comment: //C++ TO C# CONVERTER NOTE: This was formerly a static local variable declaration (not allowed in C#):
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relax4.cs
+Line Number: 5412
+Comment: //C++ TO C# CONVERTER NOTE: This was formerly a static local variable declaration (not allowed in C#):
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relax4.cs
+Line Number: 5414
+Comment: //C++ TO C# CONVERTER NOTE: This was formerly a static local variable declaration (not allowed in C#):
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relax4.cs
+Line Number: 5416
+Comment: //C++ TO C# CONVERTER NOTE: This was formerly a static local variable declaration (not allowed in C#):
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relax4.cs
+Line Number: 5441
+Comment: //C++ TO C# CONVERTER NOTE: This static local variable declaration (not allowed in C#) has been moved just prior to the method:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relax4.cs
+Line Number: 5443
+Comment: //C++ TO C# CONVERTER NOTE: This static local variable declaration (not allowed in C#) has been moved just prior to the method:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relax4.cs
+Line Number: 5445
+Comment: //C++ TO C# CONVERTER NOTE: This static local variable declaration (not allowed in C#) has been moved just prior to the method:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relax4.cs
+Line Number: 5447
+Comment: //C++ TO C# CONVERTER NOTE: This static local variable declaration (not allowed in C#) has been moved just prior to the method:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relax4.cs
+Line Number: 5724
+Comment: //C++ TO C# CONVERTER NOTE: This was formerly a static local variable declaration (not allowed in C#):
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relax4.cs
+Line Number: 5732
+Comment: //C++ TO C# CONVERTER NOTE: This static local variable declaration (not allowed in C#) has been moved just prior to the method:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relax4.cs
+Line Number: 8888
+Comment: //C++ TO C# CONVERTER NOTE: This was formerly a static local variable declaration (not allowed in C#):
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relax4.cs
+Line Number: 8890
+Comment: //C++ TO C# CONVERTER NOTE: This was formerly a static local variable declaration (not allowed in C#):
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relax4.cs
+Line Number: 8910
+Comment: //C++ TO C# CONVERTER NOTE: This static local variable declaration (not allowed in C#) has been moved just prior to the method:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relax4.cs
+Line Number: 8914
+Comment: //C++ TO C# CONVERTER NOTE: This static local variable declaration (not allowed in C#) has been moved just prior to the method:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relax4.cs
+Line Number: 9365
+Comment: //C++ TO C# CONVERTER NOTE: This was formerly a static local variable declaration (not allowed in C#):
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relax4.cs
+Line Number: 9367
+Comment: //C++ TO C# CONVERTER NOTE: This was formerly a static local variable declaration (not allowed in C#):
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relax4.cs
+Line Number: 9387
+Comment: //C++ TO C# CONVERTER NOTE: This static local variable declaration (not allowed in C#) has been moved just prior to the method:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relax4.cs
+Line Number: 9391
+Comment: //C++ TO C# CONVERTER NOTE: This static local variable declaration (not allowed in C#) has been moved just prior to the method:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relx.cs
+Line Number: 3
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relx.cs
+Line Number: 5
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relx.cs
+Line Number: 7
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relx.cs
+Line Number: 9
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relx.cs
+Line Number: 11
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relx.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relx.cs
+Line Number: 15
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relx.cs
+Line Number: 17
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relx.cs
+Line Number: 19
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relx.cs
+Line Number: 21
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\relx.cs
+Line Number: 23
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 7
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 10
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 16
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 19
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 22
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 25
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 28
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 31
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 34
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 37
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 40
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 43
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 46
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 49
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 52
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 55
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 58
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 61
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 64
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 67
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 71
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\rent.cs
+Line Number: 132
+Comment: //C++ TO C# CONVERTER TODO TASK: Pointer arithmetic is detected on this variable, so pointers on this variable are left unchanged.
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 7
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 10
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 16
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 19
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 22
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 25
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 28
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 31
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 34
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 37
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 40
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 43
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 46
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 49
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 52
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 55
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 58
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 61
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 64
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 67
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 71
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 77
+Comment: //C++ TO C# CONVERTER NOTE: This was formerly a static local variable declaration (not allowed in C#):
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 86
+Comment: //C++ TO C# CONVERTER NOTE: This static local variable declaration (not allowed in C#) has been moved just prior to the method:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 89
+Comment: //C++ TO C# CONVERTER TODO TASK: Pointer arithmetic is detected on this variable, so pointers on this variable are left unchanged.
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resdump.cs
+Line Number: 175
+Comment: //C++ TO C# CONVERTER TODO TASK: Pointer arithmetic is detected on this variable, so pointers on this variable are left unchanged.
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\ReservoirSystem.cs
+Line Number: 399
+Comment: //C++ TO C# CONVERTER TODO TASK: Pointer arithmetic is detected on this variable, so pointers on this variable are left unchanged.
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\ReservoirSystem.cs
+Line Number: 449
+Comment: //C++ TO C# CONVERTER TODO TASK: Pointer arithmetic is detected on this variable, so pointers on this variable are left unchanged.
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 7
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 10
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 16
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 19
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 22
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 25
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 28
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 31
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 34
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 37
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 40
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 43
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 46
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 49
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 52
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 55
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 58
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 61
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 64
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 67
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 71
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 209
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 211
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 342
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\resops.cs
+Line Number: 344
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\restargbalance.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\restargbalance.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\restargbalance.cs
+Line Number: 7
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\restargbalance.cs
+Line Number: 10
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\restargbalance.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\restargbalance.cs
+Line Number: 16
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\restargbalance.cs
+Line Number: 19
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\restargbalance.cs
+Line Number: 22
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\restargbalance.cs
+Line Number: 25
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\restargbalance.cs
+Line Number: 28
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\restargbalance.cs
+Line Number: 31
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\restargbalance.cs
+Line Number: 34
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\restargbalance.cs
+Line Number: 37
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\restargbalance.cs
+Line Number: 40
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\restargbalance.cs
+Line Number: 43
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\restargbalance.cs
+Line Number: 46
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\restargbalance.cs
+Line Number: 49
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\restargbalance.cs
+Line Number: 52
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\restargbalance.cs
+Line Number: 55
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\restargbalance.cs
+Line Number: 58
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\restargbalance.cs
+Line Number: 61
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\restargbalance.cs
+Line Number: 64
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\restargbalance.cs
+Line Number: 67
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\restargbalance.cs
+Line Number: 71
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\routing.cs
+Line Number: 28
+Comment: //C++ TO C# CONVERTER TODO TASK: Instead of '#using', in C# add a project reference:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\routing.cs
+Line Number: 1160
+Comment: //C++ TO C# CONVERTER TODO TASK: Pointer arithmetic is detected on this variable, so pointers on this variable are left unchanged.
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 7
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 10
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 16
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 19
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 22
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 25
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 28
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 31
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 34
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 37
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 40
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 43
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 46
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 49
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 52
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 55
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 58
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 61
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 64
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 67
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 71
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 104
+Comment: //C++ TO C# CONVERTER TODO TASK: Pointer arithmetic is detected on this variable, so pointers on this variable are left unchanged.
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 1810
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 1995
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 1997
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 1999
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 2001
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 2003
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 2005
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 2007
+Comment: //C++ TO C# CONVERTER TODO TASK: The implementation of the following method could not be found:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 2035
+Comment: //C++ TO C# CONVERTER TODO TASK: Pointer arithmetic is detected on this variable, so pointers on this variable are left unchanged.
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\setnet.cs
+Line Number: 2129
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 7
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 10
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 16
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 19
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 22
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 25
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 28
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 31
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 34
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 37
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 40
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 43
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 46
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 49
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 52
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 55
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 58
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 61
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 64
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 67
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 71
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 459
+Comment: //C++ TO C# CONVERTER TODO TASK: Pointer arithmetic is detected on this variable, so pointers on this variable are left unchanged.
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 462
+Comment: //C++ TO C# CONVERTER TODO TASK: Pointer arithmetic is detected on this variable, so pointers on this variable are left unchanged.
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 722
+Comment: //C++ TO C# CONVERTER TODO TASK: Pointer arithmetic is detected on this variable, so pointers on this variable are left unchanged.
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\settarg.cs
+Line Number: 746
+Comment: //C++ TO C# CONVERTER TODO TASK: Pointer arithmetic is detected on this variable, so pointers on this variable are left unchanged.
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\surfcalc.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\surfcalc.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\surfcalc.cs
+Line Number: 7
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\surfcalc.cs
+Line Number: 10
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\surfcalc.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\surfcalc.cs
+Line Number: 16
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\surfcalc.cs
+Line Number: 19
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\surfcalc.cs
+Line Number: 22
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\surfcalc.cs
+Line Number: 25
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\surfcalc.cs
+Line Number: 28
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\surfcalc.cs
+Line Number: 31
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\surfcalc.cs
+Line Number: 34
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\surfcalc.cs
+Line Number: 37
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\surfcalc.cs
+Line Number: 40
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\surfcalc.cs
+Line Number: 43
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\surfcalc.cs
+Line Number: 46
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\surfcalc.cs
+Line Number: 49
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\surfcalc.cs
+Line Number: 52
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\surfcalc.cs
+Line Number: 55
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\surfcalc.cs
+Line Number: 58
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\surfcalc.cs
+Line Number: 61
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\surfcalc.cs
+Line Number: 64
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\surfcalc.cs
+Line Number: 67
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\surfcalc.cs
+Line Number: 71
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\utils.cs
+Line Number: 1
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\utils.cs
+Line Number: 4
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\utils.cs
+Line Number: 7
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\utils.cs
+Line Number: 10
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\utils.cs
+Line Number: 13
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\utils.cs
+Line Number: 16
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\utils.cs
+Line Number: 19
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\utils.cs
+Line Number: 22
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\utils.cs
+Line Number: 25
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\utils.cs
+Line Number: 28
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\utils.cs
+Line Number: 31
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\utils.cs
+Line Number: 34
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\utils.cs
+Line Number: 37
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\utils.cs
+Line Number: 40
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\utils.cs
+Line Number: 43
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\utils.cs
+Line Number: 46
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\utils.cs
+Line Number: 49
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\utils.cs
+Line Number: 52
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\utils.cs
+Line Number: 55
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\utils.cs
+Line Number: 58
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\utils.cs
+Line Number: 61
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\utils.cs
+Line Number: 64
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\utils.cs
+Line Number: 67
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------
+File: C:\Code\GeoDSS\MODSIMMain_CS\ModsimModel\utils.cs
+Line Number: 71
+Comment: //C++ TO C# CONVERTER NOTE: The following #define macro was replaced in-line:
+--------------------------------------------------------------------------------------

@@ -1,0 +1,453 @@
+xyVersion 8.6
+numhydtables 0
+n_links 11
+n_nodes 10
+n_lags 5
+ExtManualStorageRightActive False
+ExtStorageRightActive True
+ExtWaterRightsActive True
+ExtLastFillRentActive False
+NonstorageNodeSize 100
+DemandNodeSize 100
+ReservoirNodeSize 100
+LinkSize 100
+BackgroundImageLocation 
+BackgroundImageSize 0
+WRInitialPriority -10000
+DefaultFlowUnits acre-ft/month
+DefaultStorageUnits acre-ft
+hydroCtrl
+ExtHydropowerActive False
+effCurve
+effCurveName powerEff
+fakeht
+1 1000
+qt
+1 1000
+qt_units cfs
+ht_units ft
+efft
+0 1
+1 1
+2 1
+3 1
+effCurve
+effCurveName powerEff_2
+fakeht
+1 1000
+qt
+1 1000
+qt_units cfs
+ht_units ft
+efft
+0 1
+1 1
+2 1
+3 1
+node
+name Inflow_1000
+nuid e9d040ef-f079-4878-9552-e8576e40f571
+desc 
+num 1
+ntype 2
+out 1
+out 2
+tsinflow
+variesbyyear True
+units acre-ft/month
+01/01/1980 00:00:00	1000
+pos
+0 150.0000
+1 93.0000
+labelpos
+0 141.5000
+1 101.5000
+select 0
+node
+name Inflow1_1000
+nuid f34abd5d-45cd-4192-8ae4-e10b416db435
+desc 
+num 2
+ntype 2
+out 7
+out 8
+tsinflow
+variesbyyear True
+units acre-ft/month
+01/01/1980 00:00:00	1000
+pos
+0 153.0000
+1 230.5000
+labelpos
+0 144.5000
+1 239.0000
+select 0
+node
+name Reservoir
+nuid 6f0256ce-5eec-4de4-9be7-ab961b0fc43f
+desc 
+num 3
+ntype 1
+in 1
+out 3
+pos
+0 248.0000
+1 18.0000
+labelpos
+0 239.5000
+1 26.5000
+select 0
+max_vol 10000
+start_vol 5000
+reservoir_units acre-ft
+effCurveName powerEff_2
+justTheName True
+rbypassl 2
+resnext 3
+resprev 3
+resoutfl 3
+sysnum 1
+tstarget
+variesbyyear True
+units acre-ft
+02/01/1980 00:00:00	10000
+area_units acres
+capacity_units acre-ft
+hcapacity_units acre-ft/month
+resbali
+resbalpcts
+0 100
+resbalflag 1
+node
+name Reservoir1
+nuid d3ade04d-fc62-4911-8db4-5785b6b10213
+desc 
+num 4
+ntype 1
+in 8
+out 9
+pos
+0 247.0000
+1 271.0000
+labelpos
+0 238.5000
+1 279.5000
+select 0
+max_vol 10000
+start_vol 5000
+reservoir_units acre-ft
+effCurveName powerEff
+justTheName True
+rbypassl 7
+resnext 4
+resprev 4
+resoutfl 9
+tstarget
+variesbyyear True
+units acre-ft
+02/01/1980 00:00:00	10000
+area_units acres
+capacity_units acre-ft
+hcapacity_units acre-ft/month
+resbali
+resbalpcts
+0 100
+resbalflag 1
+node
+name NonStorage2
+nuid 986826e3-7780-4850-beb3-054d372e27ae
+desc 
+num 5
+ntype 2
+in 4
+in 6
+out 5
+out 10
+out 11
+pos
+0 394.0000
+1 150.0000
+labelpos
+0 385.5000
+1 158.5000
+IsLabelVisible 0
+select 0
+node
+name Sink
+nuid 316c5cff-39be-43de-8de2-a2ec1451a1dd
+desc 
+num 6
+ntype 4
+in 5
+pos
+0 512.6992
+1 147.0000
+labelpos
+0 504.1992
+1 155.5000
+select 0
+node
+name NonStorage3
+nuid 1e3808bb-4f61-4db3-9149-2a13becc75f7
+desc 
+num 7
+ntype 2
+in 2
+in 3
+out 4
+pos
+0 302.0000
+1 76.0000
+labelpos
+0 293.5000
+1 84.5000
+IsLabelVisible 0
+select 0
+node
+name NonStorage4
+nuid 5b52fb82-4ceb-4386-b0fb-48836a5f56f3
+desc 
+num 8
+ntype 2
+in 7
+in 9
+out 6
+pos
+0 312.0000
+1 215.0000
+labelpos
+0 303.5000
+1 223.5000
+IsLabelVisible 0
+select 0
+node
+name ReservoirDemand
+nuid c890eb8e-9032-40ac-a097-4f30236a0cd1
+desc 
+num 9
+ntype 3
+in 10
+pos
+0 457.0002
+1 79.0000
+labelpos
+0 448.5002
+1 87.5000
+select 0
+pcapUnits acre-ft/month
+tsdemand
+variesbyyear True
+units acre-ft/month
+01/01/1980 00:00:00	500
+node
+name Reservoir1Demand
+nuid b053dfad-8ca8-40f5-91fa-53f4e2dc2ac7
+desc 
+num 10
+ntype 3
+in 11
+pos
+0 447.9997
+1 232.0000
+labelpos
+0 439.4997
+1 240.5000
+select 0
+pcapUnits acre-ft/month
+tsdemand
+variesbyyear True
+units acre-ft/month
+01/01/1980 00:00:00	500
+link
+lname Reservoir_Accrual
+luid 39bd52b2-2e92-426a-8984-88277c5339d5
+ldescription 
+lnum 1
+fromnum 1
+tonum 3
+lcost -10000
+maxCap
+units acre-ft/month
+01/01/1980 00:00:00	2999999999
+select 0
+lnkallow 10000
+WaterRightDate 01/01/1970 00:00:00
+accrualLink True
+link
+lname Reservoir_Bypass
+luid d0e3478a-663a-4ea6-8a9a-6d8e8b2a5847
+ldescription 
+lnum 2
+fromnum 1
+tonum 7
+select 0
+link
+lname Reservoir_Outflow
+luid 981283eb-fdfc-4391-aa1c-8143d50c7f8e
+ldescription 
+lnum 3
+fromnum 3
+tonum 7
+select 0
+link
+lname NonStorage3_NonStorage2
+luid 8ec8f95e-b67c-4703-b83c-670836077a39
+ldescription 
+lnum 4
+fromnum 7
+tonum 5
+select 0
+link
+lname NonStorage2_Sink
+luid 359da46e-f4ff-49a6-ad2a-a66f670d34bf
+ldescription 
+lnum 5
+fromnum 5
+tonum 6
+select 0
+link
+lname NonStorage4_NonStorage2
+luid 990c71d7-4e23-492e-84d5-ae1f92398eeb
+ldescription 
+lnum 6
+fromnum 8
+tonum 5
+select 0
+link
+lname Reservoir1_Bypass
+luid 566be0bf-fef0-476a-afd1-726c06d2ca94
+ldescription 
+lnum 7
+fromnum 2
+tonum 8
+select 0
+link
+lname Reservoir1_Accrual
+luid e36b623b-76fe-4632-98b2-1b661ba0bbfc
+ldescription 
+lnum 8
+fromnum 2
+tonum 4
+lcost -9999
+maxCap
+units acre-ft/month
+01/01/1980 00:00:00	2999999999
+select 0
+lnkallow 10000
+WaterRightDate 01/01/1980 00:00:00
+accrualLink True
+link
+lname Reservoir1_Outflow
+luid 0d2c87bf-4038-4931-b245-e96476cbdcd1
+ldescription 
+lnum 9
+fromnum 4
+tonum 8
+select 0
+link
+lname NonStorage2_ReservoirDemand
+luid 722e2337-0707-45a7-8ab9-16c3e56dd367
+ldescription 
+lnum 10
+fromnum 5
+tonum 9
+select 0
+capown 10000
+stglft 5000
+lparent 1
+link
+lname NonStorage2_Reservoir1Demand
+luid 938e9a55-b8ec-4901-82d0-7f15a1623981
+ldescription 
+lnum 11
+fromnum 5
+tonum 10
+select 0
+capown 10000
+stglft 5000
+lparent 8
+annot
+astr This network is simply testing that a zero system number reservoir accruesnewlinewater when in a network with a non-zero system number reservoir.
+aposx 229
+aposy 362
+ially 1 # Explicit_Targets
+iplot 0
+iprd Monthly
+iut 0
+n_years 1
+rdim
+0 0
+1 0
+2 20480
+3 2700
+title ResAccrualSystemNumber - orig
+uselags 1
+maxit 100
+gw_cp 0
+flowth_cp 0
+evap_cp 0.01
+infeasrestart 0
+relxacrul 0
+dataStartDate 01/01/1980 00:00:00
+dataEndDate 01/01/1981 00:00:00
+startingDate 01/01/1980 00:00:00
+endingDate 01/01/1981 00:00:00
+accrualDate 01/31/1980 00:00:00
+seasCapDate 01/01/1980 00:00:00
+accBalanceDates 01/31/1980 00:00:00
+accuracy 0
+defaultMaxCap 2999999999
+res_output 1
+dws_rel 1
+elev_end 1
+evp_loss 1
+evp_rate 1
+gwater 1
+head_avg 1
+hydra_Cap 1
+powr_avg 1
+powr_pk 1
+pump_in 1
+pump_out 1
+pwr_2nd 1
+seepage 1
+spills 1
+stor_beg 1
+stor_end 1
+stor_trg 1
+unreg_in 1
+ups_rel 1
+dem_output 1
+dem_sht 1
+demand 1
+gw_in 1
+surf_in 1
+acc_flow 1
+acc_output 1
+acrl 1
+stgl 1
+flo_flow 1
+flo_output 1
+loss 1
+natflow 1
+fromgwtono 1
+gw_output 1
+noTimeStepsInMemorygwinfiltra 1
+spcl_rpts 0
+part_flows 0
+ver7OutputFiles 0
+ver8MSDBOutputFiles 1
+SQLiteOutputFiles 0
+DeleteTempVer8OutputFiles 1
+noTimeStepsInMemory 12
+hydroStateOUT 1
+nonStorage_output 1
+l_MaxOUT 1
+l_MinOUT 1
+Flow_ThruOUT 1
+Rout_RetOUT 1
+InflowOUT 1
+nomaxmesg 0
+constsysst 0
+IsBackRoutingActive 0
+IsStorageAccountWithRouting 0

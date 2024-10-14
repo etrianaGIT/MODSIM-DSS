@@ -1,0 +1,406 @@
+xyVersion 8.6
+numhydtables 0
+n_links 10
+n_nodes 10
+n_lags 5
+ExtManualStorageRightActive False
+ExtStorageRightActive True
+ExtWaterRightsActive True
+ExtLastFillRentActive False
+NonstorageNodeSize 100
+DemandNodeSize 100
+ReservoirNodeSize 100
+LinkSize 100
+BackgroundImageLocation 
+BackgroundImageSize 0
+WRInitialPriority -10000
+DefaultFlowUnits acre-ft/month
+DefaultStorageUnits acre-ft
+hydroCtrl
+ExtHydropowerActive False
+effCurve
+effCurveName powerEff
+fakeht
+1 1000
+qt
+1 1000
+qt_units cfs
+ht_units ft
+efft
+0 1
+1 1
+2 1
+3 1
+node
+name Inflow1
+nuid ec09b5a9-4642-431a-8b22-d5fe6b2d9e51
+desc 
+num 1
+ntype 2
+out 2
+out 1
+pos
+0 160.0000
+1 272.0000
+labelpos
+0 151.5000
+1 280.5000
+select 0
+node
+name Inflow2
+nuid 31f377ad-693d-46a5-a5de-d4015b2154d0
+desc 
+num 2
+ntype 2
+out 4
+tsinflow
+variesbyyear True
+units acre-ft/month
+01/01/1980 00:00:00	2500
+pos
+0 366.1162
+1 62.0000
+labelpos
+0 357.6162
+1 70.5000
+select 0
+node
+name NonStorage2
+nuid 1096ad15-2a26-4c5c-9931-961b98e7422e
+desc 
+num 3
+ntype 2
+in 4
+out 9
+out 5
+out 8
+pos
+0 363.0000
+1 122.0000
+labelpos
+0 354.5000
+1 130.5000
+IsLabelVisible 0
+select 0
+node
+name NonStorage3
+nuid e1429692-f903-48e8-94cf-b27c78e1b522
+desc 
+num 4
+ntype 2
+in 2
+in 3
+in 10
+out 6
+pos
+0 363.0000
+1 272.0000
+labelpos
+0 354.5000
+1 280.5000
+IsLabelVisible 0
+select 0
+node
+name NonStorage4
+nuid 18391d97-5a03-4757-b52e-0ba2576a974a
+desc 
+num 5
+ntype 2
+in 6
+out 7
+pos
+0 511.0000
+1 272.0000
+labelpos
+0 502.5000
+1 280.5000
+IsLabelVisible 0
+select 0
+node
+name Sink
+nuid 16415025-9dd7-4605-a1a2-1d9e15811325
+desc 
+num 6
+ntype 4
+in 7
+pos
+0 680.0001
+1 272.0000
+labelpos
+0 671.5001
+1 280.5000
+IsLabelVisible 0
+select 0
+node
+name Res
+nuid cf848583-0555-4aa5-9e69-70fbce67755f
+desc 
+num 7
+ntype 1
+in 1
+out 3
+pos
+0 263.0000
+1 348.0000
+labelpos
+0 254.5000
+1 356.5000
+select 0
+max_vol 50000
+start_vol 50000
+reservoir_units acre-ft
+effCurveName powerEff
+justTheName True
+rbypassl 2
+resnext 7
+resprev 7
+resoutfl 3
+tstarget
+units acre-ft
+02/01/1980 00:00:00	50000
+area_units acres
+capacity_units acre-ft
+hcapacity_units acre-ft/month
+resbali
+resbaliprio
+0 10
+resbalpcts
+0 100
+resbalflag 1
+node
+name StorageRight
+nuid bae6570f-be50-4ad5-92dd-c26baf9c85aa
+desc 
+num 8
+ntype 3
+in 8
+pos
+0 461.0000
+1 111.0000
+labelpos
+0 452.5000
+1 119.5000
+select 0
+pcapUnits acre-ft/month
+tsdemand
+variesbyyear True
+units acre-ft/month
+01/01/1980 00:00:00	2500
+node
+name min
+nuid 32a16a15-6112-4877-825e-4cd957dad1af
+desc 
+num 9
+ntype 3
+in 9
+pos
+0 460.0001
+1 152.0000
+labelpos
+0 451.5001
+1 160.5000
+select 0
+pcapUnits acre-ft/month
+idstrmx
+0 10
+idstrmfr
+1-9 0
+tsdemand
+variesbyyear True
+units acre-ft/month
+01/01/1980 00:00:00	100
+node
+name NonStorage
+nuid bc0a9d84-1958-4d59-8509-eace0aa46060
+desc 
+num 10
+ntype 2
+in 5
+out 10
+pos
+0 363.0000
+1 196.0000
+labelpos
+0 354.5000
+1 204.5000
+IsLabelVisible 0
+select 0
+link
+lname Res_Accrual
+luid 309b89df-4326-4851-a4fa-e1b8de6381e8
+ldescription 
+lnum 1
+fromnum 1
+tonum 7
+lcost -10000
+maxCap
+units acre-ft/month
+01/01/1980 00:00:00	2999999999
+select 0
+lnkallow 50000
+WaterRightDate 01/01/1980 00:00:00
+accrualLink True
+link
+lname Res_Bypass
+luid c97748d0-6b5c-4983-bdfd-0642c297d1f7
+ldescription 
+lnum 2
+fromnum 1
+tonum 4
+select 0
+link
+lname Res_Outflow
+luid 45364af9-4a59-4232-a1be-e6035298e07c
+ldescription 
+lnum 3
+fromnum 7
+tonum 4
+select 0
+link
+lname Inflow2_NonStorage2
+luid c08eb30a-8b2c-4de1-98b9-2faa8328e4c5
+ldescription 
+lnum 4
+fromnum 2
+tonum 3
+select 0
+link
+lname NonStorage2_NonStorage
+luid 16ab9a4b-cd75-4886-82dd-f51f36b4f01a
+ldescription 
+lnum 5
+fromnum 3
+tonum 10
+select 0
+link
+lname NonStorage3_NonStorage4
+luid 01ecc85f-517b-4e66-8556-cbd5b172a4c2
+ldescription 
+lnum 6
+fromnum 4
+tonum 5
+select 0
+link
+lname NonStorage4_Sink
+luid db7f6c21-bdc7-4388-b20c-7fb2a3d13574
+ldescription 
+lnum 7
+fromnum 5
+tonum 6
+select 0
+link
+lname NonStorage2_StorageRight
+luid 113881c8-143e-4660-b682-8359d20fc694
+ldescription 
+lnum 8
+fromnum 3
+tonum 8
+select 0
+capown 50000
+stglft 50000
+lparent 1
+link
+lname NonStorage2_min
+luid e37cb031-e45e-4383-b792-8d0076a52a30
+ldescription 
+lnum 9
+fromnum 3
+tonum 9
+lcost -9999
+maxCap
+units acre-ft/month
+01/01/1980 00:00:00	2999999999
+select 0
+WaterRightDate 01/01/1990 00:00:00
+link
+lname NonStorage_NonStorage3
+luid 807df1cc-79fc-4391-b9ec-6789ad316158
+ldescription 
+lnum 10
+fromnum 10
+tonum 4
+select 0
+annot
+astr Modsim automatically takes natural flow from Inflow2newlineand releases stored water in exchange.newlinenewlineStorageRight is short by 100 acre-feet because the minnewlinedemand has priority for natural flow.
+aposx 408
+aposy 397
+ially 1 # Explicit_Targets
+iplot 0
+iprd Monthly
+iut 0
+n_years 1
+rdim
+0 0
+1 0
+2 20480
+3 2700
+title NaturalForStorageExchange
+uselags 1
+maxit 100
+gw_cp 0.05
+flowth_cp 0.00005
+evap_cp 0.01
+infeasrestart 0
+relxacrul 0
+dataStartDate 01/01/1980 00:00:00
+dataEndDate 01/01/1981 00:00:00
+startingDate 01/01/1980 00:00:00
+endingDate 01/01/1981 00:00:00
+accrualDate 01/01/1980 00:00:00
+seasCapDate 01/01/1980 00:00:00
+accuracy 0
+defaultMaxCap 2999999999
+res_output 1
+dws_rel 1
+elev_end 1
+evp_loss 1
+evp_rate 1
+gwater 1
+head_avg 1
+hydra_Cap 1
+powr_avg 1
+powr_pk 1
+pump_in 1
+pump_out 1
+pwr_2nd 1
+seepage 1
+spills 1
+stor_beg 1
+stor_end 1
+stor_trg 1
+unreg_in 1
+ups_rel 1
+dem_output 1
+dem_sht 1
+demand 1
+gw_in 1
+surf_in 1
+acc_flow 1
+acc_output 1
+acrl 1
+stgl 1
+flo_flow 1
+flo_output 1
+loss 1
+natflow 1
+fromgwtono 1
+gw_output 1
+noTimeStepsInMemorygwinfiltra 1
+spcl_rpts 0
+part_flows 0
+ver7OutputFiles 0
+ver8MSDBOutputFiles 1
+SQLiteOutputFiles 0
+DeleteTempVer8OutputFiles 1
+noTimeStepsInMemory 12
+hydroStateOUT 1
+nonStorage_output 1
+l_MaxOUT 1
+l_MinOUT 1
+Flow_ThruOUT 1
+Rout_RetOUT 1
+InflowOUT 1
+nomaxmesg 0
+constsysst 0
+IsBackRoutingActive 0
+IsStorageAccountWithRouting 0

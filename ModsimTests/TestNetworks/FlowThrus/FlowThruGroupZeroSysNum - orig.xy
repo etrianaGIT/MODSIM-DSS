@@ -1,0 +1,377 @@
+xyVersion 8.6
+numhydtables 0
+n_links 9
+n_nodes 8
+n_lags 5
+ExtManualStorageRightActive False
+ExtStorageRightActive True
+ExtWaterRightsActive True
+ExtLastFillRentActive False
+NonstorageNodeSize 100
+DemandNodeSize 100
+ReservoirNodeSize 100
+LinkSize 100
+BackgroundImageLocation 
+BackgroundImageSize 0
+WRInitialPriority -10000
+DefaultFlowUnits acre-ft/month
+DefaultStorageUnits acre-ft
+hydroCtrl
+ExtHydropowerActive False
+effCurve
+effCurveName powerEff
+fakeht
+1 1000
+qt
+1 1000
+qt_units cfs
+ht_units ft
+efft
+0 1
+1 1
+2 1
+3 1
+node
+name NonStorage
+nuid 81408e94-f629-4d59-b049-dc3f4b31fe99
+desc 
+num 1
+ntype 2
+in 6
+in 8
+out 1
+out 3
+out 9
+pos
+0 256.6000
+1 245.5000
+labelpos
+0 217.1000
+1 237.0000
+IsLabelVisible 0
+select 0
+node
+name BeforeDiversion
+nuid 86f191ef-b20a-4b90-89cd-62f7156107cf
+desc 
+num 2
+ntype 2
+in 1
+out 2
+out 4
+pos
+0 376.6000
+1 245.5000
+labelpos
+0 368.1000
+1 254.0000
+IsLabelVisible 0
+select 0
+node
+name Senior_50
+nuid 94bed0e8-f6d8-4b94-9f9c-e16d20f46dfd
+desc 
+num 3
+ntype 3
+in 4
+pos
+0 422.4000
+1 162.5000
+labelpos
+0 422.9000
+1 139.0000
+select 0
+pcapUnits acre-ft/month
+tsdemand
+variesbyyear True
+units acre-ft/month
+01/01/1980 00:00:00	50
+node
+name Junior_100
+nuid 7e89d62d-8a9a-49d7-9b34-d78f6ed43602
+desc 
+num 4
+ntype 3
+in 3
+in 9
+pos
+0 302.4000
+1 161.5000
+labelpos
+0 303.9000
+1 138.0000
+select 0
+pcapUnits acre-ft/month
+idstrmx
+0 2
+idstrmfr
+1-9 0
+pdstrm 1
+tsdemand
+variesbyyear True
+units acre-ft/month
+01/01/1980 00:00:00	100
+node
+name AfterDiversion
+nuid 8e680a35-c984-48c8-880c-259879ec5804
+desc 
+num 5
+ntype 2
+in 2
+out 5
+pos
+0 498.6000
+1 245.5000
+labelpos
+0 490.1000
+1 254.0000
+IsLabelVisible 0
+select 0
+node
+name Sink2
+nuid 13f680a1-df3a-4beb-8418-561c16e620b8
+desc 
+num 6
+ntype 4
+in 5
+pos
+0 609.6000
+1 245.5000
+labelpos
+0 601.1000
+1 254.0000
+IsLabelVisible 0
+select 0
+node
+name Inflow_50
+nuid f0b1af72-e20f-41d1-bd8e-e36be173c313
+desc 
+num 7
+ntype 2
+out 6
+out 7
+tsinflow
+units acre-ft/month
+01/01/1980 00:00:00	50
+pos
+0 113.5000
+1 245.0000
+labelpos
+0 73.5000
+1 237.5000
+select 0
+node
+name Res
+nuid fd47fe2d-21c6-4513-8590-1b1472ec7b4e
+desc 
+num 8
+ntype 1
+in 7
+out 8
+pos
+0 178.5000
+1 289.0000
+labelpos
+0 178.5000
+1 297.5000
+select 0
+max_vol 10000
+start_vol 1000
+reservoir_units acre-ft
+effCurveName powerEff
+justTheName True
+rbypassl 6
+resnext 8
+resprev 8
+resoutfl 8
+tstarget
+units acre-ft
+02/01/1980 00:00:00	10000
+area_units acres
+capacity_units acre-ft
+hcapacity_units acre-ft/month
+resbali
+resbalpcts
+0 100
+resbalflag 1
+link
+lname NonStorage_BeforeDiversion
+luid 98fcfde7-5075-4db5-b61d-c1caa54e4dae
+ldescription 
+lnum 1
+fromnum 1
+tonum 2
+select 0
+link
+lname BeforeDiversion_AfterDiversion
+luid 7dddb4e7-47b6-4e79-8e1a-9a0f5783ee5d
+ldescription 
+lnum 2
+fromnum 2
+tonum 5
+select 0
+link
+lname Junior_natural
+luid eced2aed-c337-49f4-84e1-29bb4023e7d4
+ldescription 
+lnum 3
+fromnum 1
+tonum 4
+lcost -9700
+maxCap
+units acre-ft/month
+01/01/1980 00:00:00	2999999999
+select 0
+WaterRightDate 01/01/1980 00:00:00
+link
+lname Senior_50
+luid c0e23e60-96d6-43b8-b5ef-ead8070e1821
+ldescription 
+lnum 4
+fromnum 2
+tonum 3
+lcost -9900
+maxCap
+units acre-ft/month
+01/01/1980 00:00:00	2999999999
+select 0
+WaterRightDate 01/01/1900 00:00:00
+link
+lname AfterDiversion_Sink2
+luid 472218b7-2cab-4971-850d-106c8578890b
+ldescription 
+lnum 5
+fromnum 5
+tonum 6
+select 0
+link
+lname Res_Bypass
+luid 9421c8c1-0f5d-4b33-bbd6-37c5427aa963
+ldescription 
+lnum 6
+fromnum 7
+tonum 1
+select 0
+link
+lname Res_Accrual
+luid fdc59ac9-6eb7-4e0d-95a4-215f7276f9bd
+ldescription 
+lnum 7
+fromnum 7
+tonum 8
+lcost -9400
+maxCap
+units acre-ft/month
+01/01/1980 00:00:00	2999999999
+select 0
+lnkallow 10000
+WaterRightDate 01/01/2000 00:00:00
+numgroups 1
+initstglft
+0 1000
+stgamount
+0 10000
+accrualLink True
+link
+lname Res_Outflow
+luid 342c9812-44c8-4ee1-b37c-734fec6c69fd
+ldescription 
+lnum 8
+fromnum 8
+tonum 1
+select 0
+link
+lname Junior_storage
+luid 14d7819e-d042-4aa7-bcc5-8e7271e21ed7
+ldescription 
+lnum 9
+fromnum 1
+tonum 4
+select 0
+lparent 7
+groupnumber 1
+annot
+astr Network was used to demonstrate a bug where Junior_100'snewlinestorage group contract never received water if Res had anewlinereservoir system number of zero.
+aposx 292
+aposy 314
+ially 1 # Explicit_Targets
+iplot 0
+iprd Monthly
+iut 0
+n_years 1
+rdim
+0 0
+1 0
+2 20480
+3 2700
+title FlowThruGroupZeroSysNum844
+uselags 1
+maxit 100
+gw_cp 0.05
+flowth_cp 0.00005
+evap_cp 0.01
+infeasrestart 0
+relxacrul 0
+dataStartDate 01/01/1980 00:00:00
+dataEndDate 01/01/1981 00:00:00
+startingDate 01/01/1980 00:00:00
+endingDate 01/01/1981 00:00:00
+accrualDate 01/31/1980 00:00:00
+seasCapDate 01/01/1980 00:00:00
+accBalanceDates 01/31/1980 00:00:00
+accuracy 0
+defaultMaxCap 2999999999
+res_output 1
+dws_rel 1
+elev_end 1
+evp_loss 1
+evp_rate 1
+gwater 1
+head_avg 1
+hydra_Cap 1
+powr_avg 1
+powr_pk 1
+pump_in 1
+pump_out 1
+pwr_2nd 1
+seepage 1
+spills 1
+stor_beg 1
+stor_end 1
+stor_trg 1
+unreg_in 1
+ups_rel 1
+dem_output 1
+dem_sht 1
+demand 1
+gw_in 1
+surf_in 1
+acc_flow 1
+acc_output 1
+acrl 1
+stgl 1
+flo_flow 1
+flo_output 1
+loss 1
+natflow 1
+fromgwtono 1
+gw_output 1
+noTimeStepsInMemorygwinfiltra 1
+spcl_rpts 0
+part_flows 0
+ver7OutputFiles 0
+ver8MSDBOutputFiles 1
+SQLiteOutputFiles 0
+DeleteTempVer8OutputFiles 1
+noTimeStepsInMemory 12
+hydroStateOUT 1
+nonStorage_output 1
+l_MaxOUT 1
+l_MinOUT 1
+Flow_ThruOUT 1
+Rout_RetOUT 1
+InflowOUT 1
+nomaxmesg 0
+constsysst 0
+IsBackRoutingActive 0
+IsStorageAccountWithRouting 0

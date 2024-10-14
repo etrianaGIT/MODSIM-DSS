@@ -1,0 +1,316 @@
+xyVersion 8.6
+numhydtables 0
+n_links 7
+n_nodes 7
+n_lags 5
+ExtManualStorageRightActive True
+ExtStorageRightActive True
+ExtWaterRightsActive False
+ExtLastFillRentActive False
+NonstorageNodeSize 100
+DemandNodeSize 100
+ReservoirNodeSize 100
+LinkSize 100
+BackgroundImageLocation 
+BackgroundImageSize 0
+DefaultFlowUnits acre-ft/month
+DefaultStorageUnits acre-ft
+hydroCtrl
+ExtHydropowerActive False
+node
+name NonStorage
+nuid 8e9194cc-11b9-4860-9b82-0a5fd612ef3d
+desc 
+num 1
+ntype 2
+out 3
+out 1
+pos
+0 342.0215
+1 284.5000
+labelpos
+0 333.5215
+1 293.0000
+IsLabelVisible 0
+node
+name NonStorage1
+nuid 31f14f59-9fef-4696-8215-31e795737cb4
+desc 
+num 2
+ntype 2
+in 3
+in 2
+out 4
+pos
+0 498.4635
+1 284.5000
+labelpos
+0 489.9635
+1 293.0000
+IsLabelVisible 0
+node
+name NonStorage2
+nuid 0b86da29-4718-4416-9b9d-d9e44e8de01e
+desc 
+num 3
+ntype 2
+in 4
+out 7
+out 5
+pos
+0 698.4636
+1 284.5000
+labelpos
+0 689.9636
+1 293.0000
+IsLabelVisible 0
+node
+name FlothruBypass
+nuid 76f8361e-1cd0-4d14-872f-2fec9b1fd417
+desc 
+num 4
+ntype 3
+in 7
+pos
+0 788.3848
+1 194.5000
+labelpos
+0 779.8848
+1 203.0000
+pcapUnits acre-ft/month
+idstrmx
+0 7
+pdstrm 5
+tsdemand
+units acre-ft/month
+01/01/1980 00:00:00	0
+08/01/1980 00:00:00	100
+10/01/1980 00:00:00	0
+node
+name Demand
+nuid 42018b2e-f5ac-497f-a779-eeae298a22db
+desc 
+num 5
+ntype 3
+in 6
+pos
+0 912.6787
+1 284.5000
+labelpos
+0 904.1787
+1 293.0000
+IsLabelVisible 0
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/month
+01/01/1980 00:00:00	9999999
+node
+name RES
+nuid 3ccb04ec-788f-4f72-bc75-be4e0de62dc6
+desc 
+num 6
+ntype 1
+in 1
+out 2
+pos
+0 408.5000
+1 384.5000
+labelpos
+0 400.0000
+1 393.0000
+max_vol 1000
+start_vol 1000
+reservoir_units acre-ft
+rbypassl 3
+resnext 6
+resprev 6
+resoutfl 2
+sysnum 1
+tstarget
+units acre-ft
+01/01/1980 00:00:00	1000
+cpoints
+1 1001
+area_units acres
+capacity_units acre-ft
+hcapacity_units acre-ft/month
+node
+name return
+nuid 13b63942-10eb-4739-9988-37506edfff36
+desc 
+num 7
+ntype 2
+in 5
+out 6
+pos
+0 795.6738
+1 284.5000
+labelpos
+0 787.1738
+1 293.0000
+link
+lname accrual
+luid 1bf6db6e-d5f1-4972-b058-0a4abfe2ede1
+ldescription 
+lnum 1
+fromnum 1
+tonum 6
+lcost -5
+lnkallow 1000
+accrualLink True
+link
+lname RESoutflow
+luid a436ec1d-736a-47e7-aabd-662eb3226390
+ldescription 
+lnum 2
+fromnum 6
+tonum 2
+link
+lname RESbypass
+luid 1d4cc131-3a64-41f0-bc03-88be64c3b65c
+ldescription 
+lnum 3
+fromnum 1
+tonum 2
+link
+lname NonStorage1_NonStorage2
+luid 04e4305d-035e-4471-8f10-bfb41ef17ec6
+ldescription 
+lnum 4
+fromnum 2
+tonum 3
+link
+lname bypassFloThru
+luid 6e599a95-54db-4712-bb39-7d41421f2af4
+ldescription 
+lnum 5
+fromnum 3
+tonum 7
+link
+lname return_Demand
+luid 69b80edb-d9b1-437a-94ed-2568a563f274
+ldescription 
+lnum 6
+fromnum 7
+tonum 5
+link
+lname Owner
+luid af76869b-da2d-4cd7-a4a0-32d27f827c06
+ldescription 
+lnum 7
+fromnum 3
+tonum 4
+lcost 1
+maxCap
+units acre-ft/month
+01/01/1980 00:00:00	0
+capown 1000
+stglft 1000
+lparent 1
+relativeUseOrder 1
+annot
+astr Ownership link to flowthru node opens only in
+aposx 206
+aposy 589
+annot
+astr second storage step seen in DUMPFILE
+aposx 258
+aposy 606
+annot
+astr Flow Through demand with bypass credit link
+aposx 208
+aposy 530
+annot
+astr creates artificial link from demand to return node
+aposx 251
+aposy 549
+annot
+astr RES has System Number and Normal Outflow Link
+aposx 238
+aposy 142
+annot
+astr Artificial link can be seen in DUMPFILE
+aposx 208
+aposy 570
+ially 1 # Explicit_Targets
+iplot 0
+iprd Monthly
+iut 0
+n_years 1
+rdim
+0 0
+1 0
+2 20480
+3 3340
+title flowthru_bypass_owner - orig
+uselags 1
+maxit 100
+gw_cp 0.05
+flowth_cp 0.00005
+evap_cp 0.01
+infeasrestart 0
+relxacrul 0
+dataStartDate 01/01/1980 00:00:00
+dataEndDate 01/01/1981 00:00:00
+startingDate 01/01/1980 00:00:00
+endingDate 01/01/1981 00:00:00
+accrualDate 01/01/1900 00:00:00
+seasCapDate 01/01/1900 00:00:00
+rentPoolDates 01/01/1900 00:00:00
+accBalanceDates 01/01/1900 00:00:00
+accuracy 0
+defaultMaxCap 99999999
+res_output 1
+dws_rel 1
+elev_end 1
+evp_loss 1
+evp_rate 1
+gwater 1
+head_avg 1
+hydra_Cap 1
+powr_avg 1
+powr_pk 1
+pump_in 1
+pump_out 1
+pwr_2nd 1
+seepage 1
+spills 1
+stor_beg 1
+stor_end 1
+stor_trg 1
+unreg_in 1
+ups_rel 1
+dem_output 1
+dem_sht 1
+demand 1
+gw_in 1
+surf_in 1
+acc_flow 1
+acc_output 1
+acrl 1
+stgl 1
+flo_flow 1
+flo_output 1
+loss 1
+natflow 1
+fromgwtono 1
+gw_output 1
+noTimeStepsInMemorygwinfiltra 1
+spcl_rpts 0
+part_flows 0
+ver7OutputFiles 0
+ver8MSDBOutputFiles 1
+SQLiteOutputFiles 0
+DeleteTempVer8OutputFiles 1
+noTimeStepsInMemory 12
+hydroStateOUT 1
+nonStorage_output 1
+l_MaxOUT 1
+l_MinOUT 1
+Flow_ThruOUT 1
+Rout_RetOUT 1
+InflowOUT 1
+nomaxmesg 0
+constsysst 0
+IsBackRoutingActive 0
+IsStorageAccountWithRouting 0

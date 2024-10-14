@@ -1,0 +1,192 @@
+xyVersion 8.6
+numhydtables 0
+n_links 2
+n_nodes 3
+n_lags 10
+ExtManualStorageRightActive False
+ExtStorageRightActive False
+ExtWaterRightsActive False
+ExtLastFillRentActive False
+NonstorageNodeSize 100
+DemandNodeSize 100
+ReservoirNodeSize 100
+LinkSize 100
+BackgroundImageLocation 
+BackgroundImageSize 0
+DefaultFlowUnits acre-ft/month
+DefaultStorageUnits acre-ft
+hydroCtrl
+ExtHydropowerActive False
+node
+name NonStorage
+nuid f250cc81-4345-41be-80a8-735da32bc86c
+desc 
+num 1
+ntype 2
+out 2
+tsinflow
+units acre-ft/day
+01/01/1980 00:00:00	9300
+01/02/1980 00:00:00	13700
+01/03/1980 00:00:00	20800
+01/04/1980 00:00:00	32000
+01/05/1980 00:00:00	44200
+01/06/1980 00:00:00	54600
+01/07/1980 00:00:00	63000
+01/08/1980 00:00:00	67800
+01/09/1980 00:00:00	69100
+01/10/1980 00:00:00	67500
+01/11/1980 00:00:00	63400
+01/12/1980 00:00:00	57100
+01/13/1980 00:00:00	47700
+01/14/1980 00:00:00	39000
+01/15/1980 00:00:00	32900
+01/16/1980 00:00:00	24700
+01/17/1980 00:00:00	18400
+01/18/1980 00:00:00	13400
+01/19/1980 00:00:00	10800
+01/20/1980 00:00:00	9000
+pos
+0 122.5579
+1 99.0000
+labelpos
+0 114.0579
+1 107.5000
+select 0
+node
+name NetworkSink
+nuid a86d8527-179b-4a56-b209-3c0b18480b1f
+desc 
+num 2
+ntype 4
+in 1
+pos
+0 377.7458
+1 99.0000
+labelpos
+0 369.2458
+1 107.5000
+select 0
+node
+name Return
+nuid aa6832e8-1f8e-4681-90b9-26633556fa5a
+desc 
+num 3
+ntype 2
+in 2
+out 1
+tsinflow
+units acre-ft/day
+01/01/1980 00:00:00	7914
+01/02/1980 00:00:00	4686
+01/03/1980 00:00:00	2755
+01/04/1980 00:00:00	1596
+01/05/1980 00:00:00	18
+pos
+0 238.0000
+1 133.0000
+labelpos
+0 229.5000
+1 141.5000
+select 0
+link
+lname Return_NetworkSink
+luid f7634f94-f096-44f0-a4a2-e0a5963409b7
+ldescription 
+lnum 1
+fromnum 3
+tonum 2
+select 0
+link
+lname NonStorage_Return
+luid 558fe717-d638-4937-b114-1cc633a03549
+ldescription 
+lnum 2
+fromnum 1
+tonum 3
+select 0
+xlcf 1
+spyldc 0.15
+transc 2.3
+distc 1
+idstrc 3
+ially 1 # Explicit_Targets
+iplot 0
+iprd Daily
+iut 0
+n_years 1
+rdim
+0 0
+1 0
+2 20480
+3 2700
+title MuskingumRoutingChowExample - orig
+uselags 0
+maxit 100
+gw_cp 0.05
+flowth_cp 0.00005
+evap_cp 0.01
+infeasrestart 0
+relxacrul 0
+dataStartDate 01/01/1980 00:00:00
+dataEndDate 12/31/1980 00:00:00
+startingDate 01/01/1980 00:00:00
+endingDate 02/29/1980 00:00:00
+accrualDate 01/01/1980 00:00:00
+seasCapDate 01/01/1980 00:00:00
+accuracy 2
+defaultMaxCap 99999999
+res_output 1
+dws_rel 1
+elev_end 1
+evp_loss 1
+evp_rate 1
+gwater 1
+head_avg 1
+hydra_Cap 1
+powr_avg 1
+powr_pk 1
+pump_in 1
+pump_out 1
+pwr_2nd 1
+seepage 1
+spills 1
+stor_beg 1
+stor_end 1
+stor_trg 1
+unreg_in 1
+ups_rel 1
+dem_output 1
+dem_sht 1
+demand 1
+gw_in 1
+surf_in 1
+acc_flow 1
+acc_output 1
+acrl 1
+stgl 1
+flo_flow 1
+flo_output 1
+loss 1
+natflow 1
+fromgwtono 1
+gw_output 1
+noTimeStepsInMemorygwinfiltra 1
+spcl_rpts 0
+part_flows 0
+ver7OutputFiles 0
+ver8MSDBOutputFiles 1
+SQLiteOutputFiles 0
+DeleteTempVer8OutputFiles 1
+noTimeStepsInMemory 12
+hydroStateOUT 1
+nonStorage_output 1
+l_MaxOUT 1
+l_MinOUT 1
+Flow_ThruOUT 1
+Rout_RetOUT 1
+InflowOUT 1
+nomaxmesg 0
+constsysst 0
+IsBackRoutingActive 0
+IsStorageAccountWithRouting 0

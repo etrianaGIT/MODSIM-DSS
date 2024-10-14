@@ -1,0 +1,407 @@
+xyVersion 8.6
+numhydtables 0
+n_links 9
+n_nodes 9
+n_lags 5
+ExtManualStorageRightActive True
+ExtStorageRightActive True
+ExtWaterRightsActive False
+ExtLastFillRentActive False
+NonstorageNodeSize 100
+DemandNodeSize 100
+ReservoirNodeSize 100
+LinkSize 100
+BackgroundImageLocation 
+BackgroundImageSize 0
+DefaultFlowUnits acre-ft/month
+DefaultStorageUnits acre-ft
+hydroCtrl
+ExtHydropowerActive False
+node
+name 200AF
+nuid 6925ef90-aa8b-4fda-8954-e6160ab4ba18
+desc 
+num 1
+ntype 2
+out 8
+out 1
+tsinflow
+variesbyyear True
+units acre-ft/month
+10/01/1979 00:00:00	200
+pos
+0 247.6777
+1 324.5000
+labelpos
+0 239.1777
+1 333.0000
+node
+name NonStorage
+nuid 4d85c560-b8db-4e7f-8f21-122914d0ffd7
+desc 
+num 2
+ntype 2
+in 9
+in 1
+out 2
+pos
+0 422.0215
+1 324.5000
+labelpos
+0 413.5215
+1 333.0000
+IsLabelVisible 0
+node
+name NonStorage1
+nuid 6a232943-dbc8-4e79-9d6e-9e7ba4a7601e
+desc 
+num 3
+ntype 2
+in 2
+out 7
+out 3
+pos
+0 568.4636
+1 324.5000
+labelpos
+0 559.9636
+1 333.0000
+IsLabelVisible 0
+node
+name NonStorage2
+nuid 6a696595-42e4-4fc7-911c-c1ba59e15597
+desc 
+num 4
+ntype 2
+in 3
+out 6
+out 5
+out 4
+pos
+0 718.4636
+1 324.5000
+labelpos
+0 709.9636
+1 333.0000
+IsLabelVisible 0
+node
+name own1
+nuid 580f69fb-2765-46f8-ad05-1a74163a994e
+desc 
+num 5
+ntype 3
+in 7
+pos
+0 634.3438
+1 194.5000
+labelpos
+0 625.8438
+1 203.0000
+pcapUnits acre-ft/month
+tsdemand
+variesbyyear True
+units acre-ft/month
+10/01/1979 00:00:00	0
+04/01/1980 00:00:00	200
+09/01/1980 00:00:00	0
+node
+name own2
+nuid 1b0c73ff-9126-488e-8e3d-18ea9cc6746f
+desc 
+num 6
+ntype 3
+in 6
+pos
+0 796.8438
+1 199.5000
+labelpos
+0 788.3438
+1 208.0000
+pcapUnits acre-ft/month
+tsdemand
+variesbyyear True
+units acre-ft/month
+10/01/1979 00:00:00	0
+04/01/1980 00:00:00	200
+09/01/1980 00:00:00	0
+node
+name sink
+nuid 5eb36ed2-9317-4c38-a064-c381bd5dc92a
+desc 
+num 7
+ntype 3
+in 4
+pos
+0 908.5000
+1 324.5000
+labelpos
+0 900.0000
+1 333.0000
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/month
+10/01/1979 00:00:00	100000000
+node
+name 1000AF
+nuid ad3667fb-4673-4349-83a1-9f2d9ff7177c
+desc 
+num 8
+ntype 1
+in 8
+out 9
+pos
+0 341.0146
+1 404.5000
+labelpos
+0 332.5146
+1 413.0000
+max_vol 1000
+start_vol 1000
+reservoir_units acre-ft
+rbypassl 1
+resnext 8
+resprev 8
+resoutfl 9
+sysnum 1
+tstarget
+units acre-ft
+10/01/1979 00:00:00	1000
+area_units acres
+capacity_units acre-ft
+hcapacity_units acre-ft/month
+node
+name natflow
+nuid 415c1f44-395e-482d-a528-99fb97302af7
+desc 
+num 9
+ntype 3
+in 5
+pos
+0 819.0459
+1 464.5000
+labelpos
+0 810.5459
+1 473.0000
+pcapUnits acre-ft/month
+tsdemand
+variesbyyear True
+units acre-ft/month
+10/01/1979 00:00:00	0
+04/01/1980 00:00:00	200
+08/01/1980 00:00:00	0
+link
+lname bypass
+luid 9029e087-db9f-4067-bc2f-95feeeafaca9
+ldescription 
+lnum 1
+fromnum 1
+tonum 2
+link
+lname NonStorage_NonStorage1
+luid fedb94f9-8f52-4ff3-b443-3e97509eef9a
+ldescription 
+lnum 2
+fromnum 2
+tonum 3
+link
+lname NonStorage1_NonStorage2
+luid f1b449a1-5067-4a75-b2c2-ca6c7d9915d6
+ldescription 
+lnum 3
+fromnum 3
+tonum 4
+link
+lname NonStorage2_sink
+luid 0fb2f4b4-e775-4efb-b949-d0dcf38c3ee3
+ldescription 
+lnum 4
+fromnum 4
+tonum 7
+link
+lname natflow
+luid 844e801f-64de-4995-9a16-af5381b257ff
+ldescription 
+lnum 5
+fromnum 4
+tonum 9
+lcost -10000
+link
+lname NonStorage2_own2
+luid dd9062de-e2f0-4de5-b022-5ea5cb1210c3
+ldescription 
+lnum 6
+fromnum 4
+tonum 6
+lcost 2
+maxCap
+units acre-ft/month
+10/01/1979 00:00:00	0
+capown 1000
+stglft 1000
+lparent 8
+relativeUseOrder 2
+groupnumber 1
+link
+lname NonStorage1_own1
+luid 1cadb464-a243-45bf-ab0d-b3f00852be3e
+ldescription 
+lnum 7
+fromnum 3
+tonum 5
+lcost 1
+maxCap
+units acre-ft/month
+10/01/1979 00:00:00	0
+capown 1000
+stglft 1000
+lparent 8
+relativeUseOrder 1
+groupnumber 1
+link
+lname accrual
+luid 333029a8-e30e-43c1-add3-7533ebb7b8ec
+ldescription 
+lnum 8
+fromnum 1
+tonum 8
+lcost -9999
+lnkallow 1000
+numgroups 1
+initstglft
+0 1000
+stgamount
+0 1000
+accrualLink True
+link
+lname outflow
+luid 2698556b-5737-4fc1-a6f0-8ecc78367b1a
+ldescription 
+lnum 9
+fromnum 8
+tonum 2
+annot
+astr Own1 and Own2 have group ownership in 1000AF
+aposx 252
+aposy 572
+annot
+astr natflow has natural flow right of 200 per ts
+aposx 252
+aposy 606
+annot
+astr Own1 and Own2 demand 200 Apr-Aug
+aposx 254
+aposy 590
+annot
+astr natflow demand 200 Apr-Jul
+aposx 254
+aposy 625
+annot
+astr Own1 and Own2 share 1000AF until Jun
+aposx 258
+aposy 646
+annot
+astr Own1 gets last 200 in June because lower rank
+aposx 258
+aposy 668
+annot
+astr Own2 gets nothing after May 
+aposx 260
+aposy 690
+annot
+astr Own1 and Own2 get nothing in Aug even though 
+aposx 260
+aposy 712
+annot
+astr reservoir stores excess flow
+aposx 652
+aposy 713
+annot
+astr paper storage left is zero after June cannot accrue until Nov
+aposx 263
+aposy 732
+annot
+astr reservoir 1000AF can store excess flow
+aposx 262
+aposy 755
+ially 1 # Explicit_Targets
+iplot 0
+iprd Monthly
+iut 0
+n_years 1
+rdim
+0 0
+1 0
+2 20480
+3 3420
+title GroupOwn - orig
+uselags 1
+maxit 100
+gw_cp 0.05
+flowth_cp 0.00005
+evap_cp 0.01
+infeasrestart 0
+relxacrul 0
+dataStartDate 10/01/1979 00:00:00
+dataEndDate 10/01/1980 00:00:00
+startingDate 10/01/1979 00:00:00
+endingDate 10/01/1980 00:00:00
+accrualDate 10/01/1900 00:00:00
+seasCapDate 10/01/1900 00:00:00
+rentPoolDates 10/01/1900 00:00:00
+accBalanceDates 10/01/1900 00:00:00
+accuracy 0
+defaultMaxCap 99999999
+res_output 1
+dws_rel 1
+elev_end 1
+evp_loss 1
+evp_rate 1
+gwater 1
+head_avg 1
+hydra_Cap 1
+powr_avg 1
+powr_pk 1
+pump_in 1
+pump_out 1
+pwr_2nd 1
+seepage 1
+spills 1
+stor_beg 1
+stor_end 1
+stor_trg 1
+unreg_in 1
+ups_rel 1
+dem_output 1
+dem_sht 1
+demand 1
+gw_in 1
+surf_in 1
+acc_flow 1
+acc_output 1
+acrl 1
+stgl 1
+flo_flow 1
+flo_output 1
+loss 1
+natflow 1
+fromgwtono 1
+gw_output 1
+noTimeStepsInMemorygwinfiltra 1
+spcl_rpts 0
+part_flows 0
+ver7OutputFiles 0
+ver8MSDBOutputFiles 1
+SQLiteOutputFiles 0
+DeleteTempVer8OutputFiles 1
+noTimeStepsInMemory 12
+hydroStateOUT 1
+nonStorage_output 1
+l_MaxOUT 1
+l_MinOUT 1
+Flow_ThruOUT 1
+Rout_RetOUT 1
+InflowOUT 1
+nomaxmesg 0
+constsysst 0
+IsBackRoutingActive 0
+IsStorageAccountWithRouting 0

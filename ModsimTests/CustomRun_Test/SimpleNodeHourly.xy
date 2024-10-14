@@ -1,0 +1,138 @@
+xyVersion 8.5.1
+numhydtables 0
+n_links 1
+n_nodes 2
+n_lags 5
+ExtManualStorageRightActive False
+ExtStorageRightActive False
+ExtWaterRightsActive False
+ExtLastFillRentActive False
+NonstorageNodeSize 100
+DemandNodeSize 100
+ReservoirNodeSize 100
+LinkSize 100
+BackgroundImageLocation 
+BackgroundImageSize 0
+DefaultFlowUnits acre-ft/month
+DefaultStorageUnits acre-ft
+hydroCtrl
+ExtHydropowerActive False
+node
+name NonStorage
+desc 
+num 1
+ntype 2
+out 1
+tsinflow
+units ft³/day
+01/01/1980 00:00:00	100123
+01/01/1980 12:00:00	90123
+pos
+0 137.0000
+1 133.0000
+labelpos
+0 137.0000
+1 141.5000
+select 0
+node
+name Sink
+desc 
+num 2
+ntype 4
+in 1
+pos
+0 290.0000
+1 133.0000
+labelpos
+0 290.0000
+1 141.5000
+select 0
+link
+lname NonStorage_Sink
+ldescription 
+lnum 1
+fromnum 1
+tonum 2
+measured
+units acre-ft/hour
+select 0
+ially 1 # Explicit_Targets
+iplot 0
+iprd Hourly
+iut 0
+n_years 1
+rdim
+0 0
+1 0
+2 20480
+3 2700
+title SimpleNodeHourly
+uselags 1
+maxit 100
+gw_cp 0.05
+flowth_cp 0.00005
+evap_cp 0.01
+infeasrestart 0
+relxacrul 0
+dataStartDate 01/01/1980 00:00:00
+dataEndDate 01/08/1980 00:00:00
+startingDate 01/01/1980 00:00:00
+endingDate 01/08/1980 00:00:00
+accrualDate 01/01/1980 00:00:00
+seasCapDate 01/01/1980 00:00:00
+accuracy 3
+defaultMaxCap 2999999999
+res_output 1
+dws_rel 1
+elev_end 1
+evp_loss 1
+evp_rate 1
+gwater 1
+head_avg 1
+hydra_Cap 1
+powr_avg 1
+powr_pk 1
+pump_in 1
+pump_out 1
+pwr_2nd 1
+seepage 1
+spills 1
+stor_beg 1
+stor_end 1
+stor_trg 1
+unreg_in 1
+ups_rel 1
+dem_output 1
+dem_sht 1
+demand 1
+gw_in 1
+surf_in 1
+acc_flow 1
+acc_output 1
+acrl 1
+stgl 1
+flo_flow 1
+flo_output 1
+loss 1
+natflow 1
+fromgwtono 1
+gw_output 1
+noTimeStepsInMemorygwinfiltra 1
+spcl_rpts 0
+part_flows 0
+ver7OutputFiles 0
+ver8MSDBOutputFiles 0
+SQLiteOutputFiles 1
+DeleteTempVer8OutputFiles 1
+noTimeStepsInMemory 12
+hydroStateOUT 1
+nonStorage_output 1
+l_MaxOUT 1
+l_MinOUT 1
+Flow_ThruOUT 1
+Rout_RetOUT 1
+InflowOUT 1
+nomaxmesg 0
+constsysst 0
+IsBackRoutingActive 0
+IsStorageAccountWithRouting 0

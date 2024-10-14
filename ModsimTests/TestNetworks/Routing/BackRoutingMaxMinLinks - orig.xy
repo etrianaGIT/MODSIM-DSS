@@ -1,0 +1,544 @@
+xyVersion 8.6
+numhydtables 0
+n_links 13
+n_nodes 13
+n_lags 5
+ExtManualStorageRightActive False
+ExtStorageRightActive False
+ExtWaterRightsActive False
+ExtLastFillRentActive False
+NonstorageNodeSize 100
+DemandNodeSize 100
+ReservoirNodeSize 100
+LinkSize 100
+BackgroundImageLocation 
+BackgroundImageSize 0
+DefaultFlowUnits acre-ft/month
+DefaultStorageUnits acre-ft
+hydroCtrl
+ExtHydropowerActive False
+node
+name inflow
+nuid a090481f-14c2-46b8-badf-d111eadd8a19
+desc 
+num 1
+ntype 2
+out 10
+tsinflow
+variesbyyear True
+units acre-ft/day
+01/01/1980 00:00:00	50000
+01/25/1980 00:00:00	0
+pos
+0 235.4102
+1 324.5000
+labelpos
+0 226.9102
+1 333.0000
+node
+name NonStorage
+nuid a6dee0e5-1a7c-4e4c-b77e-3d1a43e90f4a
+desc 
+num 2
+ntype 2
+in 11
+out 6
+pos
+0 402.0215
+1 324.5000
+labelpos
+0 393.5215
+1 333.0000
+IsLabelVisible 0
+node
+name rtn3
+nuid cca7c400-d092-48ff-8048-d67c604f9033
+desc 
+num 3
+ntype 2
+in 7
+out 3
+pos
+0 498.5000
+1 324.5000
+labelpos
+0 490.0000
+1 333.0000
+node
+name _
+nuid bafba626-d391-463d-b595-4eae3b7b7494
+desc 
+num 4
+ntype 2
+in 13
+in 4
+out 2
+out 1
+pos
+0 788.5000
+1 324.5000
+labelpos
+0 780.0000
+1 333.0000
+node
+name BR_Sink
+nuid f285871f-af07-4a17-8261-dae84854ecf5
+desc 
+num 5
+ntype 4
+in 1
+pos
+0 913.3525
+1 324.5000
+labelpos
+0 904.8525
+1 333.0000
+node
+name Junior
+nuid 4b452755-a62b-463b-a760-95757ce3c9a6
+desc 
+num 6
+ntype 3
+in 12
+pos
+0 386.3770
+1 224.5000
+labelpos
+0 377.8770
+1 233.0000
+pcapUnits acre-ft/day
+tsdemand
+variesbyyear True
+units acre-ft/day
+01/01/1980 00:00:00	20000
+node
+name Mid
+nuid b2ab80b1-11a5-414c-b3c5-35d73f66bb8b
+desc 
+num 7
+ntype 3
+in 5
+pos
+0 618.5000
+1 384.5000
+labelpos
+0 610.0000
+1 393.0000
+pcapUnits acre-ft/day
+tsdemand
+variesbyyear True
+units acre-ft/day
+01/01/1980 00:00:00	20000
+node
+name Senior
+nuid 59894ff3-8b5a-431a-91dc-c000ab5ec792
+desc 
+num 8
+ntype 3
+in 2
+pos
+0 867.3789
+1 244.5000
+labelpos
+0 858.8789
+1 253.0000
+pcapUnits acre-ft/day
+tsdemand
+variesbyyear True
+units acre-ft/day
+01/01/1980 00:00:00	20000
+node
+name NonStorage1
+nuid 74eb295d-a904-411e-bed5-5c4703bd8929
+desc 
+num 9
+ntype 2
+in 3
+out 8
+out 5
+pos
+0 588.4636
+1 324.5000
+labelpos
+0 579.9636
+1 333.0000
+IsLabelVisible 0
+node
+name rtn10
+nuid 1d5f7e2f-85cc-4649-8237-d4b9044f4c5d
+desc 
+num 10
+ntype 2
+in 9
+out 13
+out 4
+pos
+0 683.6758
+1 324.5000
+labelpos
+0 675.1758
+1 333.0000
+node
+name NonStorage2
+nuid 55ec3a1f-dca5-4754-be74-a1299b170318
+desc 
+num 11
+ntype 2
+in 6
+out 7
+pos
+0 458.4635
+1 324.5000
+labelpos
+0 449.9635
+1 333.0000
+IsLabelVisible 0
+node
+name NonStorage3
+nuid ae8da1c7-124e-475b-8419-7167768aa5c2
+desc 
+num 12
+ntype 2
+in 8
+out 9
+pos
+0 638.4636
+1 324.5000
+labelpos
+0 629.9636
+1 333.0000
+IsLabelVisible 0
+node
+name NonStorage4
+nuid 2b7ad91a-4ee1-493b-b0ee-6fa377c1cd0c
+desc 
+num 13
+ntype 2
+in 10
+out 12
+out 11
+pos
+0 328.4635
+1 324.5000
+labelpos
+0 319.9635
+1 333.0000
+IsLabelVisible 0
+link
+lname __BR_Sink
+luid b4003a77-2aeb-42ba-a282-92199786b881
+ldescription 
+lnum 1
+fromnum 4
+tonum 5
+maxCap
+units acre-ft/day
+01/01/1980 00:00:00	299999999
+link
+lname __Senior
+luid 22a105eb-52cf-470b-8d81-d6d0829b6ea2
+ldescription 
+lnum 2
+fromnum 4
+tonum 8
+lcost -30
+maxCap
+units acre-ft/day
+01/01/1980 00:00:00	299999999
+link
+lname rtn3_NonStorage1
+luid 64463f9d-56c4-4fb6-9600-c33a5e1c9a14
+ldescription 
+lnum 3
+fromnum 3
+tonum 9
+maxCap
+units acre-ft/day
+01/01/1980 00:00:00	299999999
+transc 4.330012E-43
+link
+lname rtn10__
+luid 59c0c7d5-b4f9-4b3c-91c1-e435c969c425
+ldescription 
+lnum 4
+fromnum 10
+tonum 4
+maxCap
+variesbyyear True
+units acre-ft/day
+01/01/1980 00:00:00	70000
+01/04/1980 00:00:00	15000
+01/08/1980 00:00:00	70000
+01/11/1980 00:00:00	15000
+01/15/1980 00:00:00	70000
+01/18/1980 00:00:00	15000
+01/22/1980 00:00:00	70000
+01/25/1980 00:00:00	15000
+link
+lname NonStorage1_Mid
+luid 260a4f5a-30fb-46dc-94e1-93f9a571fd85
+ldescription 
+lnum 5
+fromnum 9
+tonum 7
+lcost -20
+maxCap
+units acre-ft/day
+01/01/1980 00:00:00	299999999
+link
+lname NonStorage_NonStorage2
+luid 7e637676-c2c3-4f2f-856d-8c82ef558871
+ldescription 
+lnum 6
+fromnum 2
+tonum 11
+maxCap
+units acre-ft/day
+01/01/1980 00:00:00	299999999
+xlcf 1
+idstrc 3
+llagfact
+1 0.9
+2 0.1
+link
+lname NonStorage2_rtn3
+luid a9a2b140-7ef7-4f6e-9276-2ea32032668e
+ldescription 
+lnum 7
+fromnum 11
+tonum 3
+maxCap
+units acre-ft/day
+01/01/1980 00:00:00	299999999
+link
+lname NonStorage1_NonStorage3
+luid d6114f90-0147-4373-970e-2aa171f5ea01
+ldescription 
+lnum 8
+fromnum 9
+tonum 12
+maxCap
+units acre-ft/day
+01/01/1980 00:00:00	299999999
+xlcf 1
+idstrc 10
+llagfact
+0 0.8
+1 0.2
+link
+lname NonStorage3_rtn10
+luid cdbb5f85-2c88-44e7-85dc-e173f2867d8e
+ldescription 
+lnum 9
+fromnum 12
+tonum 10
+maxCap
+units acre-ft/day
+01/01/1980 00:00:00	299999999
+link
+lname inflow_NonStorage4
+luid 52cfbddd-4110-4f22-a3ff-1f3ccf7c2e25
+ldescription 
+lnum 10
+fromnum 1
+tonum 13
+link
+lname NonStorage4_NonStorage
+luid 1dcc180c-eb49-4a6c-8c0e-9ea728d9ed30
+ldescription 
+lnum 11
+fromnum 13
+tonum 2
+link
+lname NonStorage4_Junior
+luid 596fe51c-7261-45dc-a3b2-869eb5e40ccc
+ldescription 
+lnum 12
+fromnum 13
+tonum 6
+lcost -10
+link
+lname rtn10___1
+luid 058f97b4-19f1-480f-a53f-2909b71b5ad3
+ldescription 
+lnum 13
+fromnum 10
+tonum 4
+lcost 777777
+lcoords
+0 725.0000
+1 370.0000
+2 725.0000
+3 370.0000
+annot
+astr 2 routing links above rtn3 and rtn10
+aposx 147
+aposy 465
+annot
+astr First routing link lags zero then 90 perc and fina
+aposx 140
+aposy 500
+annot
+astr Senior should get nothing first time step
+aposx 135
+aposy 549
+annot
+astr second link 80 percent 20 percent
+aposx 166
+aposy 516
+annot
+astr Senior should get 200 from 2nd time step on 
+aposx 135
+aposy 566
+annot
+astr Should be no spill after the second time step
+aposx 138
+aposy 604
+annot
+astr Routing Link 1
+aposx 371
+aposy 325
+annot
+astr Routing Link 2
+aposx 562
+aposy 326
+annot
+astr Constant supply of 500 is stoped before the end of
+aposx 135
+aposy 648
+annot
+astr the simulation to show water returns and zero flow
+aposx 135
+aposy 666
+annot
+astr Min flow of 150
+aposx 688
+aposy 390
+annot
+astr RESULTS:
+aposx 725
+aposy 475
+annot
+astr Senior demand is restricted to take water based on 
+aposx 725
+aposy 500
+annot
+astr variable capacity in the link.
+aposx 725
+aposy 520
+annot
+astr no spills at the bottom of the system and 
+aposx 728
+aposy 542
+annot
+astr Junior can get more water than without the 
+aposx 725
+aposy 562
+annot
+astr restriction.
+aposx 727
+aposy 584
+annot
+astr It shows how backrouting controls water thru
+aposx 725
+aposy 619
+annot
+astr the links to avoid excess water in the future.
+aposx 724
+aposy 634
+annot
+astr The logic could have troubles with large 
+aposx 728
+aposy 678
+annot
+astr lagged returns not seen in the future Dws time
+aposx 728
+aposy 695
+annot
+astr Nets being calculated according with these 
+aposx 730
+aposy 712
+annot
+astr coefficients.
+aposx 730
+aposy 728
+ially 1 # Explicit_Targets
+iplot 0
+iprd Daily
+iut 0
+n_years 4
+rdim
+0 0
+1 0
+2 20480
+3 3290
+title BackRoutingMaxMinLinks - orig
+uselags 1
+maxit 100
+gw_cp 0.05
+flowth_cp 0.00005
+evap_cp 0.01
+infeasrestart 0
+relxacrul 0
+dataStartDate 01/01/1980 00:00:00
+dataEndDate 01/29/1980 00:00:00
+startingDate 01/01/1980 00:00:00
+endingDate 01/29/1980 00:00:00
+accrualDate 01/01/1980 00:00:00
+seasCapDate 01/01/1900 00:00:00
+accuracy 2
+defaultMaxCap 99999999
+res_output 1
+dws_rel 1
+elev_end 1
+evp_loss 1
+evp_rate 1
+gwater 1
+head_avg 1
+hydra_Cap 1
+powr_avg 1
+powr_pk 1
+pump_in 1
+pump_out 1
+pwr_2nd 1
+seepage 1
+spills 1
+stor_beg 1
+stor_end 1
+stor_trg 1
+unreg_in 1
+ups_rel 1
+dem_output 1
+dem_sht 1
+demand 1
+gw_in 1
+surf_in 1
+acc_flow 1
+acc_output 1
+acrl 1
+stgl 1
+flo_flow 1
+flo_output 1
+loss 1
+natflow 1
+fromgwtono 1
+gw_output 1
+noTimeStepsInMemorygwinfiltra 1
+spcl_rpts 0
+part_flows 0
+ver7OutputFiles 0
+ver8MSDBOutputFiles 1
+SQLiteOutputFiles 0
+DeleteTempVer8OutputFiles 1
+noTimeStepsInMemory 12
+hydroStateOUT 1
+nonStorage_output 1
+l_MaxOUT 1
+l_MinOUT 1
+Flow_ThruOUT 1
+Rout_RetOUT 1
+InflowOUT 1
+nomaxmesg 0
+constsysst 0
+IsBackRoutingActive 0
+IsStorageAccountWithRouting 0

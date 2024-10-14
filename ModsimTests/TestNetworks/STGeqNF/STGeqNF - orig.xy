@@ -1,0 +1,377 @@
+xyVersion 8.6
+numhydtables 0
+n_links 9
+n_nodes 9
+n_lags 5
+ExtManualStorageRightActive True
+ExtStorageRightActive True
+ExtWaterRightsActive False
+ExtLastFillRentActive False
+NonstorageNodeSize 100
+DemandNodeSize 100
+ReservoirNodeSize 100
+LinkSize 100
+BackgroundImageLocation 
+BackgroundImageSize 0
+DefaultFlowUnits acre-ft/month
+DefaultStorageUnits acre-ft
+hydroCtrl
+ExtHydropowerActive False
+node
+name Jul50
+nuid 8e3d8da2-4e8f-4670-b4e8-67e1693009a1
+desc 
+num 1
+ntype 2
+out 3
+out 1
+tsinflow
+variesbyyear True
+units acre-ft/month
+01/01/1980 00:00:00	0
+07/01/1980 00:00:00	50
+08/01/1980 00:00:00	0
+pos
+0 364.3789
+1 294.5000
+labelpos
+0 355.8789
+1 303.0000
+node
+name NonStorage
+nuid 9eadd165-ae9e-45bc-a1d5-95e2608fae5e
+desc 
+num 2
+ntype 2
+in 3
+in 2
+out 4
+pos
+0 492.0215
+1 294.5000
+labelpos
+0 483.5215
+1 303.0000
+IsLabelVisible 0
+node
+name NonStorage1
+nuid c5da9710-2ad6-48ac-888c-8427edef11bb
+desc 
+num 3
+ntype 2
+in 4
+out 9
+out 8
+out 5
+pos
+0 608.4636
+1 294.5000
+labelpos
+0 599.9636
+1 303.0000
+IsLabelVisible 0
+node
+name NonStorage2
+nuid 6c2b163a-d16b-47a5-8461-fb62717ab3dd
+desc 
+num 4
+ntype 2
+in 5
+out 7
+out 6
+pos
+0 728.4636
+1 294.5000
+labelpos
+0 719.9636
+1 303.0000
+IsLabelVisible 0
+node
+name SeniorSTG_NF
+nuid f3af1517-f7ed-4b46-825c-b00abf03db3a
+desc 
+num 5
+ntype 3
+in 8
+pos
+0 671.0215
+1 204.5000
+labelpos
+0 662.5215
+1 213.0000
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/month
+01/01/1980 00:00:00	0
+07/01/1980 00:00:00	100
+08/01/1980 00:00:00	0
+node
+name Junior
+nuid ec7d4631-1b27-46ba-a46c-df0c2064b500
+desc 
+num 6
+ntype 3
+in 9
+pos
+0 656.3770
+1 414.5000
+labelpos
+0 647.8770
+1 423.0000
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/month
+01/01/1980 00:00:00	0
+07/01/1980 00:00:00	100
+08/01/1980 00:00:00	0
+node
+name Owner
+nuid d293c4d1-c543-4497-a638-1358c77b7ac2
+desc 
+num 7
+ntype 3
+in 7
+pos
+0 807.6719
+1 194.5000
+labelpos
+0 799.1719
+1 203.0000
+pcapUnits acre-ft/month
+node
+name Demand
+nuid ff67a5bb-db5d-4a9e-8ea9-a09f630d4f4e
+desc 
+num 8
+ntype 3
+in 6
+pos
+0 822.6787
+1 294.5000
+labelpos
+0 814.1787
+1 303.0000
+IsLabelVisible 0
+pcapUnits acre-ft/month
+tsdemand
+units acre-ft/month
+01/01/1980 00:00:00	100000000
+node
+name RES
+nuid fa259ee3-f9b3-4ff2-81bb-ec2c757b258b
+desc 
+num 9
+ntype 1
+in 1
+out 2
+pos
+0 418.5000
+1 394.5000
+labelpos
+0 410.0000
+1 403.0000
+max_vol 1000
+start_vol 1000
+reservoir_units acre-ft
+rbypassl 3
+resnext 9
+resprev 9
+resoutfl 2
+sysnum 1
+tstarget
+units acre-ft
+01/01/1980 00:00:00	1000
+07/01/1980 00:00:00	500
+10/01/1980 00:00:00	1000
+area_units acres
+capacity_units acre-ft
+hcapacity_units acre-ft/month
+link
+lname accrual
+luid 46d0d28e-dd46-4371-b219-cbb5b3faa805
+ldescription 
+lnum 1
+fromnum 1
+tonum 9
+lcost -10
+lnkallow 1000
+accrualLink True
+link
+lname RESoutflow
+luid 7b60ecfb-2475-428c-be17-5867b29cdfb5
+ldescription 
+lnum 2
+fromnum 9
+tonum 2
+link
+lname RESbypass
+luid dd1cfedd-cab5-4f3f-b506-2b4b04e37b28
+ldescription 
+lnum 3
+fromnum 1
+tonum 2
+link
+lname NonStorage_NonStorage1
+luid 24bf7102-ef31-4cb2-bf3c-c2b396d8c7a5
+ldescription 
+lnum 4
+fromnum 2
+tonum 3
+link
+lname NonStorage1_NonStorage2
+luid bc574c10-07a6-4e64-9474-1cdc1ab60b20
+ldescription 
+lnum 5
+fromnum 3
+tonum 4
+link
+lname NonStorage2_Demand
+luid 14dff1a4-0164-4d83-b60e-46c0421ae563
+ldescription 
+lnum 6
+fromnum 4
+tonum 8
+link
+lname owner
+luid 8b29cd5c-f9c6-4389-9776-f9a34df2fd3e
+ldescription 
+lnum 7
+fromnum 4
+tonum 7
+lcost 1
+maxCap
+units acre-ft/month
+01/01/1980 00:00:00	0
+capown 1000
+stglft 1000
+lparent 1
+relativeUseOrder 1
+link
+lname senior stg=nf
+luid c631a2c7-1dc2-4ad3-b63f-3b57da50ded5
+ldescription 
+lnum 8
+fromnum 3
+tonum 5
+lcost -50
+maxCap
+units acre-ft/month
+01/01/1980 00:00:00	100
+lstg_eq_nf 1
+link
+lname junior
+luid 818b7dc0-f4f0-4bc5-bd0a-e3ddfebd04bc
+ldescription 
+lnum 9
+fromnum 3
+tonum 6
+lcost -20
+maxCap
+units acre-ft/month
+01/01/1980 00:00:00	100
+annot
+astr RES has System Number and Normal Outflow Link
+aposx 348
+aposy 140
+annot
+astr Link to SeniorSTG_NF has Stg_eq_NF flag set
+aposx 340
+aposy 538
+annot
+astr Flag limits flow to the 50 af in Jul 
+aposx 340
+aposy 560
+annot
+astr Demand Junior gets 100 because there is free
+aposx 340
+aposy 598
+annot
+astr water from reservoir release to meet target
+aposx 368
+aposy 622
+annot
+astr Link to Junior does not have Stg_eq_NF flag set
+aposx 340
+aposy 651
+ially 1 # Explicit_Targets
+iplot 0
+iprd Monthly
+iut 0
+n_years 1
+rdim
+0 0
+1 0
+2 20480
+3 3300
+title STGeqNF - orig
+uselags 1
+maxit 100
+gw_cp 0.05
+flowth_cp 0.00005
+evap_cp 0.01
+infeasrestart 0
+relxacrul 0
+dataStartDate 01/01/1980 00:00:00
+dataEndDate 01/01/1981 00:00:00
+startingDate 01/01/1980 00:00:00
+endingDate 01/01/1981 00:00:00
+accrualDate 01/01/1900 00:00:00
+seasCapDate 01/01/1900 00:00:00
+rentPoolDates 01/01/1900 00:00:00
+accBalanceDates 01/01/1900 00:00:00
+accuracy 0
+defaultMaxCap 99999999
+res_output 1
+dws_rel 1
+elev_end 1
+evp_loss 1
+evp_rate 1
+gwater 1
+head_avg 1
+hydra_Cap 1
+powr_avg 1
+powr_pk 1
+pump_in 1
+pump_out 1
+pwr_2nd 1
+seepage 1
+spills 1
+stor_beg 1
+stor_end 1
+stor_trg 1
+unreg_in 1
+ups_rel 1
+dem_output 1
+dem_sht 1
+demand 1
+gw_in 1
+surf_in 1
+acc_flow 1
+acc_output 1
+acrl 1
+stgl 1
+flo_flow 1
+flo_output 1
+loss 1
+natflow 1
+fromgwtono 1
+gw_output 1
+noTimeStepsInMemorygwinfiltra 1
+spcl_rpts 0
+part_flows 0
+ver7OutputFiles 0
+ver8MSDBOutputFiles 1
+SQLiteOutputFiles 0
+DeleteTempVer8OutputFiles 1
+noTimeStepsInMemory 12
+hydroStateOUT 1
+nonStorage_output 1
+l_MaxOUT 1
+l_MinOUT 1
+Flow_ThruOUT 1
+Rout_RetOUT 1
+InflowOUT 1
+nomaxmesg 0
+constsysst 0
+IsBackRoutingActive 0
+IsStorageAccountWithRouting 0

@@ -1,0 +1,471 @@
+xyVersion 8.6
+numhydtables 0
+n_links 12
+n_nodes 13
+n_lags 5
+ExtManualStorageRightActive False
+ExtStorageRightActive False
+ExtWaterRightsActive False
+ExtLastFillRentActive False
+NonstorageNodeSize 100
+DemandNodeSize 100
+ReservoirNodeSize 100
+LinkSize 100
+BackgroundImageLocation 
+BackgroundImageSize 0
+DefaultFlowUnits acre-ft/month
+DefaultStorageUnits acre-ft
+hydroCtrl
+ExtHydropowerActive False
+node
+name RES
+nuid c4d11f1e-660e-434e-9fe5-e9debd2b2ac5
+desc 
+num 1
+ntype 1
+out 1
+pos
+0 341.2800
+1 41.2800
+labelpos
+0 332.7800
+1 49.7800
+max_vol 1000000
+start_vol 1000000
+reservoir_units acre-ft
+resnext 1
+resprev 1
+tstarget
+variesbyyear True
+units acre-ft
+01/01/1980 00:00:00	1000000
+area_units acres
+capacity_units acre-ft
+hcapacity_units acre-ft/day
+node
+name NonStorage
+nuid 464118c5-6f24-4aa8-a1a9-72874e114b2d
+desc 
+num 2
+ntype 2
+in 1
+out 2
+pos
+0 364.8000
+1 141.2800
+labelpos
+0 356.3000
+1 149.7800
+IsLabelVisible 0
+node
+name RetNode1
+nuid 83046892-a209-4cba-b329-2ba4509364a9
+desc 
+num 3
+ntype 2
+in 7
+out 3
+pos
+0 359.7600
+1 331.2800
+labelpos
+0 351.2600
+1 339.7800
+node
+name DEM
+nuid 479775fd-42ac-4470-94a2-ddf95fa812d2
+desc 
+num 4
+ntype 3
+in 2
+out 7
+pos
+0 381.2800
+1 251.2800
+labelpos
+0 372.7800
+1 259.7800
+pcapUnits acre-ft/day
+demr
+0 50
+idstrmx
+0 3
+1 8
+idstrmfr
+1 0
+tsdemand
+variesbyyear True
+units acre-ft/day
+01/01/1980 00:00:00	10000
+01/02/1980 00:00:00	15000
+01/03/1980 00:00:00	20000
+01/04/1980 00:00:00	25000
+01/05/1980 00:00:00	30000
+01/06/1980 00:00:00	35000
+01/07/1980 00:00:00	30000
+01/08/1980 00:00:00	10000
+01/09/1980 00:00:00	15000
+01/10/1980 00:00:00	20000
+01/11/1980 00:00:00	25000
+01/12/1980 00:00:00	30000
+01/13/1980 00:00:00	35000
+01/14/1980 00:00:00	30000
+node
+name Sink
+nuid d02ceb69-3b8c-42c6-b8e8-385b72afbad1
+desc 
+num 5
+ntype 3
+in 6
+pos
+0 236.8000
+1 811.2800
+labelpos
+0 228.3000
+1 819.7800
+pcapUnits acre-ft/day
+demr
+0 1000
+tsdemand
+variesbyyear True
+units acre-ft/day
+01/01/1980 00:00:00	1000000
+node
+name NonStorage1
+nuid d3a3e154-2b42-4428-a617-3fb3c3a0262f
+desc 
+num 6
+ntype 2
+in 3
+out 4
+pos
+0 361.2800
+1 391.2800
+labelpos
+0 352.7800
+1 399.7800
+IsLabelVisible 0
+node
+name RRNode
+nuid 0a498de3-36b5-4b73-a761-c1a396abbf84
+desc 
+num 7
+ntype 2
+in 4
+out 5
+pos
+0 355.7600
+1 431.2800
+labelpos
+0 347.2600
+1 439.7800
+node
+name FTRNode
+nuid 1260cef4-86ee-4a97-9a23-0581a75131aa
+desc 
+num 8
+ntype 2
+in 5
+out 10
+pos
+0 358.8000
+1 491.2800
+labelpos
+0 350.3000
+1 499.7800
+node
+name RetNode2
+nuid 13d1d08b-cb0f-4008-9362-398e1c6e3ac2
+desc 
+num 9
+ntype 2
+in 9
+out 6
+pos
+0 359.7600
+1 721.2800
+labelpos
+0 351.2600
+1 729.7800
+node
+name DemDWS
+nuid c6efe326-5117-48d7-a1b3-addc4ca9c792
+desc 
+num 10
+ntype 3
+in 11
+pos
+0 249.4400
+1 621.2800
+labelpos
+0 240.9400
+1 629.7800
+pcapUnits acre-ft/day
+demr
+0 90
+tsdemand
+variesbyyear True
+units acre-ft/day
+01/01/1980 00:00:00	10000
+01/02/1980 00:00:00	15000
+01/03/1980 00:00:00	10000
+01/04/1980 00:00:00	15000
+01/05/1980 00:00:00	40000
+01/06/1980 00:00:00	45000
+01/07/1980 00:00:00	40000
+01/08/1980 00:00:00	0
+01/12/1980 00:00:00	30000
+node
+name NonStorage2
+nuid f135b244-3168-4907-aadd-12f548a867ab
+desc 
+num 11
+ntype 2
+in 12
+out 8
+pos
+0 361.2800
+1 611.2800
+labelpos
+0 352.7800
+1 619.7800
+IsLabelVisible 0
+node
+name RRNode2
+nuid cb0eb978-9b15-41a0-92e2-ec1aa2ad4d62
+desc 
+num 12
+ntype 2
+in 8
+out 9
+pos
+0 359.1200
+1 671.2800
+labelpos
+0 350.6200
+1 679.7800
+node
+name NonStorage3
+nuid 200faa6b-473c-4560-9fea-64c277a97467
+desc 
+num 13
+ntype 2
+in 10
+out 12
+out 11
+pos
+0 361.2800
+1 551.2800
+labelpos
+0 352.7800
+1 559.7800
+IsLabelVisible 0
+link
+lname RES_NonStorage
+luid 67dd055f-1fa7-48ab-91eb-7d5d8b936658
+ldescription 
+lnum 1
+fromnum 1
+tonum 2
+maxCap
+units acre-ft/day
+01/01/1980 00:00:00	99999999
+link
+lname NonStorage_DEM
+luid d3a7db98-91f2-4249-9972-e87553684b79
+ldescription 
+lnum 2
+fromnum 2
+tonum 4
+maxCap
+units acre-ft/day
+01/01/1980 00:00:00	99999999
+link
+lname RetNode1_NonStorage1
+luid 6c81f329-50fc-4de2-ad14-b22d26b88112
+ldescription 
+lnum 3
+fromnum 3
+tonum 6
+maxCap
+units acre-ft/day
+01/01/1980 00:00:00	99999999
+xlcf 1
+idstrc 7
+llagfact
+1 1
+link
+lname NonStorage1_RRNode
+luid 9b80a60d-2175-45c7-87fe-180990a7aaa0
+ldescription 
+lnum 4
+fromnum 6
+tonum 7
+maxCap
+units acre-ft/day
+01/01/1980 00:00:00	99999999
+link
+lname RRNode_FTRNode
+luid be00cc18-4ecc-4628-bc9a-132e063f2cc6
+ldescription 
+lnum 5
+fromnum 7
+tonum 8
+maxCap
+units acre-ft/day
+01/01/1980 00:00:00	99999999
+link
+lname RetNode2_SINK
+luid a10b3835-4b25-423d-9101-1d29e854f6bc
+ldescription 
+lnum 6
+fromnum 9
+tonum 5
+maxCap
+units acre-ft/day
+01/01/1980 00:00:00	99999999
+link
+lname DEM_RetNode1
+luid d524e0b1-fc84-4ade-9871-b85cd7d8b376
+ldescription 
+lnum 7
+fromnum 4
+tonum 3
+maxCap
+units acre-ft/day
+01/01/1980 00:00:00	99999999
+link
+lname NonStorage2_RRNode2
+luid 0d2153fa-7ca0-47b8-ab40-bf8f0c07bb9e
+ldescription 
+lnum 8
+fromnum 11
+tonum 12
+maxCap
+units acre-ft/day
+01/01/1980 00:00:00	99999999
+xlcf 1
+idstrc 9
+llagfact
+0 0.4
+1-2 0.3
+link
+lname RRNode2_RetNode2
+luid 4caa160d-8ad9-4677-91d8-32c450867969
+ldescription 
+lnum 9
+fromnum 12
+tonum 9
+maxCap
+units acre-ft/day
+01/01/1980 00:00:00	99999999
+link
+lname FTRNode_NonStorage3
+luid faa8c19d-9011-4017-8019-88b7f5137994
+ldescription 
+lnum 10
+fromnum 8
+tonum 13
+maxCap
+units acre-ft/day
+01/01/1980 00:00:00	99999999
+link
+lname NonStorage3_DemDWS
+luid f72ea97a-affc-4139-9520-95aa26057fe5
+ldescription 
+lnum 11
+fromnum 13
+tonum 10
+maxCap
+units acre-ft/day
+01/01/1980 00:00:00	99999999
+link
+lname NonStorage3_NonStorage2
+luid 45f58bda-8e3f-4c87-988a-cbd391992850
+ldescription 
+lnum 12
+fromnum 13
+tonum 11
+maxCap
+units acre-ft/day
+01/01/1980 00:00:00	99999999
+ially 1 # Explicit_Targets
+iplot 0
+iprd Daily
+iut 0
+n_years 2
+rdim
+0 0
+1 0
+2 21035
+3 4775
+title FlowThru2Regions
+uselags 1
+maxit 100
+gw_cp 0.05
+flowth_cp 0.00005
+evap_cp 0.01
+infeasrestart 0
+relxacrul 0
+dataStartDate 01/01/1980 00:00:00
+dataEndDate 01/15/1980 00:00:00
+startingDate 01/01/1980 00:00:00
+endingDate 01/15/1980 00:00:00
+accrualDate 01/01/1980 00:00:00
+seasCapDate 01/01/1900 00:00:00
+accuracy 2
+defaultMaxCap 99999999
+res_output 1
+dws_rel 1
+elev_end 1
+evp_loss 1
+evp_rate 1
+gwater 1
+head_avg 1
+hydra_Cap 1
+powr_avg 1
+powr_pk 1
+pump_in 1
+pump_out 1
+pwr_2nd 1
+seepage 1
+spills 1
+stor_beg 1
+stor_end 1
+stor_trg 1
+unreg_in 1
+ups_rel 1
+dem_output 1
+dem_sht 1
+demand 1
+gw_in 1
+surf_in 1
+acc_flow 1
+acc_output 1
+acrl 1
+stgl 1
+flo_flow 1
+flo_output 1
+loss 1
+natflow 1
+fromgwtono 1
+gw_output 1
+noTimeStepsInMemorygwinfiltra 1
+spcl_rpts 0
+part_flows 0
+ver7OutputFiles 0
+ver8MSDBOutputFiles 1
+SQLiteOutputFiles 0
+DeleteTempVer8OutputFiles 1
+noTimeStepsInMemory 12
+hydroStateOUT 1
+nonStorage_output 1
+l_MaxOUT 1
+l_MinOUT 1
+Flow_ThruOUT 1
+Rout_RetOUT 1
+InflowOUT 1
+nomaxmesg 0
+constsysst 0
+IsBackRoutingActive 0
+IsStorageAccountWithRouting 0
