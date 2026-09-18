@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 18
+VisualStudioVersion = 18.9.12120.119 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModsimTests", "ModsimTests\ModsimTests.csproj", "{24FCDB02-4524-43D2-BDC4-654BA9451067}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainMODSIMRun", "MainMODSIMRun\MainMODSIMRun.csproj", "{002490C9-57C4-4306-857D-EC04EF09410F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelStatistics", "A2CM\ModelStatistics\ModelStatistics.csproj", "{91CC1C15-BAD2-4938-BDBD-3A869FF455FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainMODSIMLinux", "MainMODSIMLinux\MainMODSIMLinux.csproj", "{5484A98A-80B0-49B2-8C71-D7A61F3EF554}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,18 @@ Global
 		{91CC1C15-BAD2-4938-BDBD-3A869FF455FD}.Release|x64.Build.0 = Release|x64
 		{91CC1C15-BAD2-4938-BDBD-3A869FF455FD}.Release|x86.ActiveCfg = Release|x86
 		{91CC1C15-BAD2-4938-BDBD-3A869FF455FD}.Release|x86.Build.0 = Release|x86
+		{5484A98A-80B0-49B2-8C71-D7A61F3EF554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5484A98A-80B0-49B2-8C71-D7A61F3EF554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5484A98A-80B0-49B2-8C71-D7A61F3EF554}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5484A98A-80B0-49B2-8C71-D7A61F3EF554}.Debug|x64.Build.0 = Debug|Any CPU
+		{5484A98A-80B0-49B2-8C71-D7A61F3EF554}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5484A98A-80B0-49B2-8C71-D7A61F3EF554}.Debug|x86.Build.0 = Debug|Any CPU
+		{5484A98A-80B0-49B2-8C71-D7A61F3EF554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5484A98A-80B0-49B2-8C71-D7A61F3EF554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5484A98A-80B0-49B2-8C71-D7A61F3EF554}.Release|x64.ActiveCfg = Release|Any CPU
+		{5484A98A-80B0-49B2-8C71-D7A61F3EF554}.Release|x64.Build.0 = Release|Any CPU
+		{5484A98A-80B0-49B2-8C71-D7A61F3EF554}.Release|x86.ActiveCfg = Release|Any CPU
+		{5484A98A-80B0-49B2-8C71-D7A61F3EF554}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
