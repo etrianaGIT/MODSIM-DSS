@@ -9,7 +9,8 @@
     },
     "WSL": {
       "commandName": "WSL2",
-      "distributionName": ""
+      "distributionName": "Ubuntu-22.04",
+      "commandLineArgs": "/home/sarahjordan/modsim_data/test.xy"
     }
   }
 }

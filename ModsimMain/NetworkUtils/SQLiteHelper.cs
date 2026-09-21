@@ -23,15 +23,17 @@ namespace Csu.Modsim.NetworkUtils
         public delegate void FireErrorMessageEventHandler(string Message);
         public event FireErrorMessageEventHandler FireErrorMessage;
 
+        private bool _journalOFF = true;
+
         //public SQLiteHelper()
         //{
         //}
         public SQLiteHelper(string dbfilePath, bool journalOFF = true)
         {
             dbFile = dbfilePath; // Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), dbfile);
+            _journalOFF = journalOFF;
             ConnectionString = GetSqLiteConnectionString(dbFile);
             //_mDB = new MyDBSqlite(dbFile);
-            if (journalOFF) ConnectionString += ";Journal Mode=Off";
         }
 
         private string GetSqLiteConnectionString(string dbFileName)
@@ -39,9 +41,8 @@ namespace Csu.Modsim.NetworkUtils
             SqliteConnectionStringBuilder conn = new SqliteConnectionStringBuilder
             {
                 DataSource = dbFileName,
-                Mode=SqliteOpenMode.ReadWrite
+                Mode = SqliteOpenMode.ReadWriteCreate
             };
-            conn.Add("Compress", true);
 
             return conn.ConnectionString;
         }
@@ -82,6 +83,15 @@ namespace Csu.Modsim.NetworkUtils
             {
                 _sqlconnection = new SqliteConnection(ConnectionString);
                 _sqlconnection.Open();
+
+                if (_journalOFF)
+                {
+                    using (var pragmaCmd = _sqlconnection.CreateCommand())
+                    {
+                        pragmaCmd.CommandText = "PRAGMA journal_mode = OFF;";
+                        pragmaCmd.ExecuteNonQuery();
+                    }
+                }
             }
 
             if (_sqltransaction == null)
@@ -904,6 +914,7 @@ namespace Csu.Modsim.NetworkUtils
                     if (_sqlconnection != null)
                     {
                         _sqlconnection.Close();
+                        _sqlconnection.Dispose();
                         _sqlconnection = null;
                     }
                 }
