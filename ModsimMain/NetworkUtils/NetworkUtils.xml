@@ -1,0 +1,550 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NetworkUtils</name>
+    </assembly>
+    <members>
+        <member name="T:Csu.Modsim.NetworkUtils.CsvFile">
+            <summary>
+            Class for encoding/decoding comma seperated text files
+            </summary>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.CsvFile.EncodeCSVCell(System.String)">
+            <summary>
+            encode csv data for a single
+            Excel cell.
+            </summary>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.CsvFile.DecodeCSVLine(System.String)">
+            <summary>
+            Decodes CSV string
+            </summary>
+        </member>
+        <member name="P:Csu.Modsim.NetworkUtils.DBUtil.ConnectionString">
+            <summary>Gets the connection string for this instance.</summary>
+            <value>The connection string for the instance.</value>
+            <returns>Returns the connection string for the instance.</returns>
+        </member>
+        <member name="P:Csu.Modsim.NetworkUtils.DBUtil.ConnectionFailed">
+            <summary>Gets whether the connection to the database failed.</summary>
+            <value>A boolean value: True if the connection failed. False if not. </value>
+            <returns>Returns whether the connection to the database failed.</returns>
+        </member>
+        <member name="P:Csu.Modsim.NetworkUtils.DBUtil.Message">
+            <summary>Gets the previously fired message.</summary>
+            <value>String value describing the previously fired message.</value>
+            <returns>Returns the previously fired message.</returns>
+        </member>
+        <member name="P:Csu.Modsim.NetworkUtils.DBUtil.Connection">
+            <summary>Gets the OleDbConnection object.</summary>
+        </member>
+        <member name="P:Csu.Modsim.NetworkUtils.DBUtil.DataAdapter">
+            <summary>Gets the current data adapter used in retrieving tables.</summary>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.DBUtil.#ctor(System.String,System.Boolean,System.String,System.Boolean,Csu.Modsim.NetworkUtils.MSType)">
+            <summary>Constructs a DBUtil instance.</summary>
+            <param name="DatabasePath">Specifies the database file path to which to connect.</param>
+            <param name="HasHeader">Specifies whether a text file or Excel file has a header or not.</param>
+            <param name="SpecifiedDelimiter">Specifies the delimiter to be used when reading and writing text files.</param>
+            <param name="Overwrite">Specifies whether to overwrite a database.</param>
+            <param name="type">Specifies the type of database being accessed. If not specified, the database type is inferred based on file extension.</param>
+            <remarks>This method opens a connection to the database immediately. The connection stays open until the Close() method is called. Methods within the class pump messages using FireMessage(msg) and errors using FireErrorMessage(msg).</remarks>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.DBUtil.Open">
+            <summary>Opens the connection to the database. Creates the database if it does not exist.</summary>
+            <remarks>If the database does not exist, this method creates one.</remarks>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.DBUtil.Create(System.Boolean,System.Boolean)">
+            <summary>Creates the database if it does not exist.</summary>
+            <param name="Overwrite">Specifies whether to overwrite the database if it already exists (this would basically be creating a new database).</param>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.DBUtil.Close">
+            <summary>Closes the connection to the database.</summary>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.DBUtil.GetTable(System.String,System.String)">
+            <summary>Retrieves a table from a database and puts it in a DataTable.</summary>
+            <param name="queryString">The string querying the database.</param>
+            <param name="TableName">The output name for the table.</param>
+            <returns>Returns a DataTable filled with the data from the query or Nothing if an error occurs.</returns>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.DBUtil.GetTableNames">
+            <summary>Retrieves all the table names within the database.</summary>
+            <returns>Returns the tables names or Nothing if an error occurs.</returns>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.DBUtil.GetTables">
+            <summary>Retrieves all the tables within a database and places them in a DataSet.</summary>
+            <returns>Returns the output DataSet. Returns Nothing if an error occurs.</returns>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.DBUtil.ImportTable(System.Data.DataTable,System.Boolean,System.Int32)">
+            <summary>Imports a single DataTable into the database.</summary>
+            <param name="table">The DataTable to import.</param>
+            <param name="Overwrite">Specifies whether to overwrite a table with the same name, if it exists.</param>
+            <param name="DecimalAccuracy">Decimal accuracy with which to store data.</param>
+            <returns>Returns an instance of TimeSpan specifying how long it took to import the new table.</returns>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.DBUtil.ImportDataSet(System.Data.DataSet,System.Boolean,System.Int32)">
+            <summary>Imports all the tables within a DataSet into the database.</summary>
+            <param name="ds">The DataSet to import.</param>
+            <param name="Overwrite">Specifies whether to overwrite a table with the same name, if it exists.</param>
+            <returns>Returns an instance of TimeSpan specifying how long it took to import the DataSet.</returns>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.DBUtil.DTtoText(System.Data.DataTable,System.String,System.Boolean,System.Boolean,System.Char,System.String[],System.Int32[],System.Int32)">
+            <summary>Exports a DataTable to a text file.</summary>
+            <param name="dt">The DataTable to export.</param>
+            <param name="FlPath">The file path of the text file to export.</param>
+            <param name="IncludeHeaders">Specifies whether to write the headers or not.</param>
+            <param name="AppendToTextFile">Specifies whether to append to the text file. If false, this method will overwrite the old text file.</param>
+            <param name="delim">Specifies the delimiter character to use between columns.</param>
+            <param name="formats">An array of strings specifying the formats for each column. If not specified, default number formatting is used.</param>
+            <param name="FixedWidths">An array of integers specifying the width of each column, if fixed. If not specified, only one delimiter is used between each column.</param>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.DBUtil.DTToString(System.Data.DataTable,System.Boolean,System.Boolean,System.Char,System.String[],System.Int32[],System.Int32)">
+            <summary>Creates a string representing a datatable.</summary>
+            <param name="dt">The DataTable to export.</param>
+            <param name="IncludeHeaders">Specifies whether to write the headers or not.</param>
+            <param name="AppendToTextFile">Specifies whether to append to the text file. If false, this method will overwrite the old text file.</param>
+            <param name="delim">Specifies the delimiter character to use between columns.</param>
+            <param name="formats">An array of strings specifying the formats for each column. If not specified, default number formatting is used.</param>
+            <param name="FixedWidths">An array of integers specifying the width of each column, if fixed. If not specified, only one delimiter is used between each column.</param>
+            <returns>Returns a string that has the whole datatable in it.</returns>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.DBUtil.TableExists(System.String)">
+            <summary>Determines whether the specified table exists within the database.</summary>
+            <param name="tablename">The name of the table to search for.</param>
+            <returns>Returns true if the table exists. Returns false if it does not, or if an error occurs when attempting to retrieve database information.</returns>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.DBUtil.DeleteExistingTables(System.String)">
+            <summary>Deletes existing tables within the database... Be careful when calling!</summary>
+            <param name="SpecificTable">Specifies a single table to delete. If Nothing, this method will delete all tables within the database.</param>
+            <returns>Returns the number of records affected.</returns>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.DBUtil.MapToSQLType(System.String)">
+            <summary>Maps a CLR type (System.Integer, System.Long, etc.) to an SQL type (INT, BIGINT, etc.).</summary>
+            <param name="systemType">The CLR or System datatype.</param>
+            <returns>Returns a string of the SQL type.</returns>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.DBUtil.QueryDataTable(System.Data.DataTable,System.String)">
+            <summary>Queries a DataTable using the Select method, and returns a DataTable instead of a DataRow array.</summary>
+            <param name="dTable">The DataTable to query.</param>
+            <param name="filter">The filter expression used to query the DataTable.</param>
+            <returns>Returns a DataTable with rows queried using the filter expression.</returns>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.DBUtil.ExecuteNonQuery(System.String)">
+            <summary>Executes a NonQuery type database read and/or write.</summary>
+            <param name="expression">Specifies the sql statements.</param>
+            <returns>Returns the number of rows affected by the execution. Returns 0 when an error occurs.</returns>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ConnectionBuilder.#ctor(System.String,System.Boolean,System.String,Csu.Modsim.NetworkUtils.MSType)">
+            <summary>Constructor for the ConnectionBuilder Class.</summary>
+            <param name="DatabasePath">The full path to the database.</param>
+            <param name="HasHeader">Value specifying whether the database contains headers (this is only used for Excel and text files).</param>
+            <param name="SpecifiedDelimiter">A user-specified delimiter for text file databases.</param>
+            <param name="SpecifiedType">A user-specified MSType of the database. If this is specified, the type of the file is not determined based on the extension of the database file.</param>
+        </member>
+        <member name="P:Csu.Modsim.NetworkUtils.ConnectionBuilder.GetMSType">
+            <summary>Determines the MSType of the current instance based on the specified file path unless an MSType variable was passed to the constructor of the current ConnectionBuilder class.</summary>
+            <returns>Returns the MSType of the current instance.</returns>
+        </member>
+        <member name="P:Csu.Modsim.NetworkUtils.ConnectionBuilder.MajorVersion">
+            <summary>Retrieves the version of Microsoft Access or Excel (or other) used on the host computer.</summary>
+            <returns>Returns the integer of the Microsoft Access version installed on the host computer.</returns>
+            <remarks>This procedure looks within HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\ in order to determine where the executable of the office component is located, from which the version of the file is extracted.
+            	MS Access versions 'number(year)': 7(1997), 8(1998), 9(2000), 10(2002), 11(2003), 12(2007), 14(2010)
+            	MS Excel versions 'number(year)': 2(1987), 3(1990), 4(1992), 5(1993), 7(1995), 8(1997), 9(2000), 10(2002), 11(2003), 12(2007), 14(2010)
+            </remarks>
+        </member>
+        <member name="P:Csu.Modsim.NetworkUtils.ConnectionBuilder.GetDelimiter">
+            <summary>Gets the delimiter of the current instance of the ConnectionBuilder class.</summary>
+            <returns>Returns the delimiter of the current instance of the ConnectionBuilder class.</returns>
+        </member>
+        <member name="P:Csu.Modsim.NetworkUtils.ConnectionBuilder.ConnectionString">
+            <summary>Gets the connection string to the Microsoft Access or Excel database based on the version of Office on the host computer.</summary>
+            <returns>Returns the connection string.</returns>
+            <remarks>The version of the Access database is determined by the procedure: MajorVersion()</remarks>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ConnectionBuilder.ToString">
+            <summary>Determines the name of the executable file of the MS Office component defined by the instance of MSType passed to the constructor.</summary>
+            <returns>Returns the name of the executable file for the MS Office component defined by MSType.</returns>
+            <remarks>If the current instance is MSType.Text then this returns "excel.exe"</remarks>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ConnectionBuilder.ToString(Csu.Modsim.NetworkUtils.MSType)">
+            <summary>Determines the name of the executable file of the MS Office component defined by the instance of MSType passed to the constructor.</summary>
+            <param name="type">Specifies the Microsoft Office component.</param>
+            <returns>Returns the name of the executable file for the MS Office component defined by MSType.</returns>
+            <remarks>If the current instance is MSType.Text then this returns "excel.exe"</remarks>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ConnectionBuilder.MSOfficeExePath">
+            <summary>Gets the executable path for the current instance of the MS Office Component.</summary>
+            <returns>Returns the full path to the executable of the current instance of the MS Office Component.</returns>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ConnectionBuilder.MSOfficeExePath(Csu.Modsim.NetworkUtils.MSType)">
+            <summary>Gets the executable path for the current instance of the MS Office Component.</summary>
+            <param name="type">Specifies the Microsoft Office component.</param>
+            <returns>Returns the full path to the executable of the current instance of the MS Office Component.</returns>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ConnectionBuilder.MSOfficeComponentIsInstalled(Csu.Modsim.NetworkUtils.MSType)">
+            <summary>Determines whether a specified Microsoft Office component is installed.</summary>
+            <param name="type">Specifies the Microsoft Office component.</param>
+            <returns>Returns true if the component is installed. Otherwise, returns false.</returns>
+            <remarks>Components are checked by determining whether a specific registry exists on the local machine.</remarks>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ConnectionBuilder.HeaderText">
+            <summary>Builds the header portion (HDR) of the connection string (for text files and excel files only).</summary>
+            <returns>Returns the header portion of the connection string.</returns>
+            <remarks>May look like this: HDR=Yes</remarks>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ConnectionBuilder.DelimiterText">
+            <summary>The text for the delimiter portion (FMT) of a connection string (for text files only).</summary>
+            <returns>Returns the delimiter text.</returns>
+            <remarks>May look like this: FMT=Delimited(,)</remarks>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ConnectionBuilder.AppendHeaderAndDelimiterText">
+            <summary>Builds the HDR and FMT parts of the database connection string... Includes semicolons (;) at the beginning of each statement.</summary>
+            <returns>Returns the HDR and FMT parts of the connection string.</returns>
+            <remarks>May look like this: ;HDR=Yes;FMT=Delimited(,)</remarks>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ConnectionBuilder.TextConnStringInQuery">
+            <summary>Builds a connection string for a text file within a query statement.</summary>
+            <returns>Returns the connection string.</returns>
+            <remarks>May look something like this: 'text;database=SomeDirectory;HDR=Yes;FMT=Delimited(,)'</remarks>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ConnectionBuilder.ExtendedPropertyString(System.String)">
+            <summary>Builds the extended property portion of the connection string if desired.</summary>
+            <param name="DBType"></param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ConnectionBuilder.FilterString(Csu.Modsim.NetworkUtils.MSType)">
+            <summary>Returns the filter string for a open or save file dialog box given a MSType.</summary>
+            <param name="SpecifiedMSType">The type of files to look for.</param>
+            <returns>Returns the filter string for a open or save file dialog box given a MSType.</returns>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.ExcelOutput">
+            <summary>Generates an Excel database of output found in the xy_file_nameOUTPUT.mdb file.</summary>
+            <remarks>If only a subset of data is desired to be exported, pass an instance of the ExcelOutputInfo class when instantiating this class.</remarks>
+        </member>
+        <member name="E:Csu.Modsim.NetworkUtils.ExcelOutput.FireMessage">
+            <summary>Event that fires (nonerror) messages.</summary>
+            <param name="Message">The message to fire.</param>
+        </member>
+        <member name="E:Csu.Modsim.NetworkUtils.ExcelOutput.FireErrorMessage">
+            <summary>Event that fires error messages.</summary>
+            <param name="Message">The message to fire.</param>
+        </member>
+        <member name="P:Csu.Modsim.NetworkUtils.ExcelOutput.Message">
+            <summary>Gets the previously fired message.</summary>
+            <value>String value describing the previously fired message.</value>
+            <returns>Returns the previously fired message.</returns>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ExcelOutput.#ctor(System.String,System.String,System.Int32,Csu.Modsim.NetworkUtils.ExcelOutputInclude)">
+            <summary>Constructs a new instance of ExcelOutput</summary>
+            <param name="MDBOutputPath">The Access Database (*.mdb) file (previous output from MODSIM)</param>
+            <param name="XLOutputPath">The desired Excel output file. </param>
+            <param name="OutputToInclude">A class containing IO information to include or exclude when reading and writing.</param>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ExcelOutput.MessagePumper(System.String)">
+            <summary>Pumps messages.</summary>
+            <param name="Message">The message to pump.</param>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ExcelOutput.ErrorMessagePumper(System.String)">
+            <summary>Pumps error messages.</summary>
+            <param name="Message">The message to pump.</param>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ExcelOutput.Write">
+            <summary>Retrieves output from a previous MODSIM run (in an .mdb file), and summarizes the output in an Excel file.</summary>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ExcelOutput.WriteXLOutput(System.Data.DataSet)">
+            <summary>Write a DataSet to Excel.</summary>
+            <param name="ds">The DataSet to write.</param>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ExcelOutput.ReadMDBOutput">
+            <summary>Retrieves previously run MODSIM output from a .mdb file.</summary>
+            <returns>Returns a dataset containing all the MODSIM output tables in the .mdb file.</returns>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ExcelOutput.AddColumnToDT(System.Data.DataTable,System.Data.DataTable,System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>Copies a column from one table to the next, and allows the another column to be used as a reference (only records with a certain field value will be copied)</summary>
+            <param name="DestinationTable">The DataTable to which a column is being added.</param>
+            <param name="SourceTable">The DataTable from which the column is being extracted.</param>
+            <param name="NewColumnName">The name of the column in the destination table to which the data will be copied.</param>
+            <param name="SourceColumnName">The name of the column in the source table that from which the data comes.</param>
+            <param name="WhereColumnName">The name of the column by which to group output values. Treated the column transfer like a query with this statement (retrieving records from SourceTable): WHERE WhereColumnName = WhereValue... So the table will need to be previously grouped by the column named WhereColumnName (Important !!!)</param>
+            <param name="WhereValue">The value within the column named WhereColumnName by which filtering is performed.</param>
+            <param name="StartIndex">RowIndex is returned -1 when this method terminates.</param>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.ExcelOutputInclude">
+            <summary>Provides ExcelOutput with output information.</summary>
+            <remarks>This is a small class containing boolean values to determine which output options should be exported to Excel.</remarks>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ModelOutputMSDB.LinkOutput(Csu.Modsim.ModsimModel.Link,Csu.Modsim.ModsimModel.Link,System.Boolean)">
+            <summary>Gets a datatable of output values for links.</summary>
+            <param name="link">The link to retrieve output for.</param>
+            <param name="addLink">Another link to retrieve output for.</param>
+            <param name="scenariosActive">Specifies whether or not scenarios analysis is on.</param>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ModelOutputMSDB.LinkOutput(Csu.Modsim.ModsimModel.Link,System.String@,Csu.Modsim.ModsimModel.Link,System.Boolean)">
+            <summary>Gets a datatable of output values for links.</summary>
+            <param name="link">The link to retrieve output for.</param>
+            <param name="addLink">Another link to retrieve output for.</param>
+            <param name="scenariosActive">Specifies whether or not scenarios analysis is on.</param>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ModelOutputMSDB.HydroOutput(Csu.Modsim.ModsimModel.HydropowerUnit,System.Boolean)">
+            <summary>Gets a datatable of output values for hydropower units.</summary>
+            <param name="hydroUnit">The hydropower unit for which to retrieve output</param>
+            <param name="scenariosActive">Specifies whether or not scenarios analysis is on.</param>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ModelOutputMSDB.HydroOutput(Csu.Modsim.ModsimModel.HydropowerTarget,System.Boolean)">
+            <summary>Gets a datatable of output values for hydropower targets.</summary>
+            <param name="hydroTarget">The hydropower target for which to retrieve output</param>
+            <param name="scenariosActive">Specifies whether or not scenarios analysis is on.</param>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ModelOutputMSDB.NodeOutput(Csu.Modsim.ModsimModel.Node,System.Boolean)">
+            <summary>Gets a datatable of output values for nodes.</summary>
+            <param name="node">The node to get output for.</param>
+            <param name="scenariosActive">Specifies whether or not scenarios analysis is on.</param>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ModelOutputMSDB.LinkOutputExist(Csu.Modsim.ModsimModel.Link)">
+            <summary>This function returns false if a combination of number and name on the link doesn't match any link in the output. The output file might be out of date.</summary>
+            <param name="link">The link to check</param>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ModelOutputMSDB.NodeOutputExist(Csu.Modsim.ModsimModel.Node)">
+            <summary>This function returns false if a combination of number and name on the node doesn't match any node in the output. The output file might be out of date.</summary>
+            <param name="node">The node to check</param>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ModelOutputMSDB.HydroUnitOutputExists(Csu.Modsim.ModsimModel.HydropowerUnit)">
+            <summary>This function returns false if a combination of number and name on the hydropower unit doesn't match any node in the output. The output file might be out of date.</summary>
+            <param name="hydroUnit">The hydropower unit to check</param>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ModelOutputMSDB.HydroTargetOutputExists(Csu.Modsim.ModsimModel.HydropowerTarget)">
+            <summary>This function returns false if a combination of number and name on the hydropower target doesn't match any node in the output. The output file might be out of date.</summary>
+            <param name="hydroTarget">The hydropower target to check</param>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.ModelOutputSupport.TimeseriesToSQLite(Csu.Modsim.ModsimModel.Model,System.Boolean,System.Boolean)">
+            <summary>
+            Used when the nodes and link time series are stored in a database.
+            It writes all the model time series tables to a database.  These tables are associated with a particular scenario.
+            The processing also creates a table "Info" that contains the metadata for the time sereis. 
+            </summary>
+            <param name="mi">active model</param>
+            <param name="background">flag to run process time series in the background</param>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.LinksOutputDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.TimeStepsDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.MODSIMOutputDS.CleanColumns">
+            <summary>Deletes unused columns within the datatables.</summary>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.MODSIMOutputDS.ClearOutputTables">
+            <summary>Clears all the output tables for back-routing routines.</summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.LinksInfoDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.NodesInfoDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.DEMOutputDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.RESOutputDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.RES_STOROutputDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.NON_STOROutputDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.OutputTablesInfoDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.HydroUnitOutputDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.HydroTargetOutputDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.LinksMeasuredDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.LinksInfoRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.NodesInfoRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.LinksOutputRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.TimeStepsRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.DEMOutputRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.RESOutputRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.RES_STOROutputRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.NON_STOROutputRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.OutputTablesInfoRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.HydroUnitOutputRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.HydroTargetOutputRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.LinksMeasuredRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.LinksInfoRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.NodesInfoRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.LinksOutputRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.TimeStepsRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.DEMOutputRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.RESOutputRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.RES_STOROutputRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.NON_STOROutputRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.OutputTablesInfoRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.HydroUnitOutputRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.HydroTargetOutputRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Csu.Modsim.NetworkUtils.MODSIMOutputDS.LinksMeasuredRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.SQLiteHelper.ExecuteNonQuery(System.String)">
+            <summary>
+            Executes a non query command in the SQLite database
+            </summary>
+            /// <remarks>
+            this function adds the query to the transactions.  User need to commit the transaction when finished.
+            </remarks>
+            <param name="sql">sql text to be executed.</param>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.SQLiteHelper.IsTableMissingColumns(System.Data.DataTable)">
+            <summary>
+            This function tests if there are differences in the columns between two tables, the one in memory and the one in the database.
+            A reason for the tables to be different is having custom user variables defined in the output and the database created with the standard database schema.
+            
+            </summary>
+            <param name="table">In memory database table to be tested against the database table.</param>
+            <returns>True/False if the columns have different rows. if different columns are identified, the database table is deleted. 
+            These changes are done in the transaction, so a commit is required in the calling routine.  
+            All calls to the database need to be called with transactions for consistency.</returns>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.SQLiteHelper.GetTableNames">
+            <summary>Retrieves all the table names within the database.</summary>
+            <returns>Returns the tables names or Nothing if an error occurs.</returns>
+        </member>
+        <member name="M:Csu.Modsim.NetworkUtils.SQLiteHelper.GetTables">
+            <summary>Retrieves all the tables within a database and places them in a DataSet.</summary>
+            <returns>Returns the output DataSet. Returns Nothing if an error occurs.</returns>
+        </member>
+    </members>
+</doc>

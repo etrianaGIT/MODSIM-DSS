@@ -1,7 +1,8 @@
 {
   "profiles": {
     "MainMODSIMLinux": {
-      "commandName": "Project"
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\sarahjordan\\Research Triangle Institute\\Reservoir Operations in the NextGen Framework - Documents\\Modeling\\gage-11179000\\MODSIM_gage-11179000\\MODSIM\\MODSIM_gage-11179000_testing.xy\""
     },
     "Container (Dockerfile)": {
       "commandName": "Docker"

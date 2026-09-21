@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XYFile</name>
+    </assembly>
+    <members>
+        <member name="M:Csu.Modsim.ModsimIO.FileUtility.RelativePathTo(System.String,System.String)">
+            <summary>
+            Creates a relative path from one file or folder to another
+            </summary>
+            <param name="fromPath">The path that defines the start of the relative path</param>
+            <param name="toPath">The path that defines the end of the relative path</param>
+            <returns>The relative path from the start path to the end path</returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:Csu.Modsim.ModsimIO.FileUtility.AbsolutePathTo(System.String,System.String)">
+            <summary>
+            Constructs an absolute path if <paramref name="absoluteOrRelativePath"/> is a relative path.
+            Otherwise <paramref name="absoluteOrRelativePath"/> is returned.
+            </summary>
+            <param name="fromPath">The path that defines the start of the relative path</param>
+            <param name="absoluteOrRelativePath">The relative path</param>
+            <returns>The the absolute path to <paramref name="absoluteOrRelativePath"/> if it is a relative path.
+            Otherwise <paramref name="absoluteOrRelativePath"/> is returned.</returns>
+        </member>
+        <member name="M:Csu.Modsim.ModsimIO.ModelWriter.WriteAnnotations(Csu.Modsim.ModsimModel.Model,System.IO.StreamWriter)">
+            <summary>Writes comments (annotations) to xy file</summary>
+            <param name="mi">Instance of the Model class.</param>
+            <param name="xyOutStream">The XY file stream.</param>
+            <remarks>
+            annot
+            astr Link upstream of OWNdiv diversion point has 10
+            aposx 563
+            aposy 988
+            annot
+            astr Link OWNER to OWNdiv refers to link Channel Loss
+            </remarks>
+        </member>
+        <member name="T:Csu.Modsim.ModsimIO.XYFileReader">
+            <summary>Reads a formatted .xy file from disk</summary>
+            <remarks></remarks>
+        </member>
+        <member name="T:Csu.Modsim.ModsimIO.XYFileWriter">
+             <summary>Writes a formatted .xy file to disk.</summary>
+             <remarks>
+             The Xyfile library is developed as a seperate library that can be replaced if desired.
+             The modsim model and modsim data structures are totally independent of the Xyfile library
+            		The xyfile library loads all the data in a modsim model.
+            		The xyfile library can also save all the data in a modsim model.
+            		the xyfile library has "compression" optiions that control how the xy file
+            		is saved.  There are three options 1) None.  2) Partial, and 3) full compression.
+            		The different options were created to simplify development/debugging cycle.  Perhaps
+            		only the Full compression option will be used by the interface.
+            
+            		1) None: saves the xy file will all default values which shows explicitly what is being
+            	       used by the model. This options takes the most disk space.  It would show 1200 lags
+            		   even if they were all zero.
+            
+            		2) Partial:  simple default values are shown in the xy file. However
+            		   default values are not written to lists of data.
+            
+                 3) Full: This option is uses the version 7 (original) xy file style and saves
+            		   as much disk space as possible.
+             </remarks>
+        </member>
+    </members>
+</doc>

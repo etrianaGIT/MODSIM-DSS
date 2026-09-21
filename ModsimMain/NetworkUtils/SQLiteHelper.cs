@@ -5,7 +5,7 @@ using System.Text;
 using System.IO;
 using System.Windows.Forms;
 using System.Data;
-using System.Data.SQLite;
+using Microsoft.Data.Sqlite;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Threading;
@@ -18,8 +18,8 @@ namespace Csu.Modsim.NetworkUtils
         public string dbFile;
         private string ConnectionString { get; set; }
         //public MyDBSqlite _mDB;
-        private SQLiteConnection _sqlconnection { get; set; }
-        private SQLiteTransaction _sqltransaction { get; set; }
+        private SqliteConnection _sqlconnection { get; set; }
+        private SqliteTransaction _sqltransaction { get; set; }
         public delegate void FireErrorMessageEventHandler(string Message);
         public event FireErrorMessageEventHandler FireErrorMessage;
 
@@ -36,11 +36,10 @@ namespace Csu.Modsim.NetworkUtils
 
         private string GetSqLiteConnectionString(string dbFileName)
         {
-            SQLiteConnectionStringBuilder conn = new SQLiteConnectionStringBuilder
+            SqliteConnectionStringBuilder conn = new SqliteConnectionStringBuilder
             {
                 DataSource = dbFileName,
-                Version = 3,
-                FailIfMissing = true,
+                Mode=SqliteOpenMode.ReadWrite
             };
             conn.Add("Compress", true);
 
@@ -69,8 +68,11 @@ namespace Csu.Modsim.NetworkUtils
         {
             if (!File.Exists(dbFile))
             {
-                SQLiteConnection.CreateFile(dbFile);
-                FireErrorMessage("Database file "+dbFile+" created.");
+                using (var connection = new SqliteConnection($"Data Source={dbFile}"))
+                {
+                    connection.Open();
+                    FireErrorMessage("Database file "+dbFile+" created.");
+                }
             }
         }
         
@@ -78,7 +80,7 @@ namespace Csu.Modsim.NetworkUtils
         {
             if (_sqlconnection == null || _sqlconnection.State != ConnectionState.Open)
             {
-                _sqlconnection = new SQLiteConnection(ConnectionString);
+                _sqlconnection = new SqliteConnection(ConnectionString);
                 _sqlconnection.Open();
             }
 
@@ -101,8 +103,10 @@ namespace Csu.Modsim.NetworkUtils
             try
             {
                 CheckDatabaseConnection();// (true);
-                using (SQLiteCommand cmd = new SQLiteCommand(sql, _sqlconnection, _sqltransaction))
+                using (var cmd = _sqlconnection.CreateCommand())
                 {
+                    cmd.CommandText = sql;
+                    cmd.Transaction= _sqltransaction;
                     cmd.ExecuteNonQuery();
                 }
             }
@@ -130,8 +134,10 @@ namespace Csu.Modsim.NetworkUtils
             try
             {
                 CheckDatabaseConnection();
-                using (SQLiteCommand cmd = new SQLiteCommand(sql, _sqlconnection, _sqltransaction))
+                using (var cmd = _sqlconnection.CreateCommand())
                 {
+                    cmd.CommandText = sql;
+                    cmd.Transaction= _sqltransaction;
                     cmd.ExecuteNonQuery();
                     System.Threading.Thread.Sleep(100);
                 }
@@ -160,11 +166,181 @@ namespace Csu.Modsim.NetworkUtils
             //}
         }
 
+        private int InsertRow(DataTable table, DataRow row)
+        {
+            List<string> columnNames = new List<string>();
+            List<string> parameterNames = new List<string>();
+
+            using (var cmd = _sqlconnection.CreateCommand())
+            {
+                cmd.Transaction = _sqltransaction;
+
+                int parameterIndex = 0;
+
+                foreach (DataColumn column in table.Columns)
+                {
+                    string parameterName = "$p" + parameterIndex;
+
+                    columnNames.Add(QuoteIdentifier(column.ColumnName));
+                    parameterNames.Add(parameterName);
+
+                    object value = row[column, DataRowVersion.Current];
+
+                    cmd.Parameters.AddWithValue(
+                        parameterName,
+                        value == null ? DBNull.Value : value);
+
+                    parameterIndex++;
+                }
+
+                cmd.CommandText =
+                    "INSERT INTO " + QuoteIdentifier(table.TableName) +
+                    " (" + string.Join(", ", columnNames) + ")" +
+                    " VALUES (" + string.Join(", ", parameterNames) + ");";
+
+                return cmd.ExecuteNonQuery();
+            }
+        }
+
+
+        private int DeleteRow(DataTable table, DataRow row)
+        {
+            if (table.PrimaryKey == null || table.PrimaryKey.Length == 0)
+            {
+                throw new InvalidOperationException(
+                    "Cannot delete from table '" + table.TableName +
+                    "' because the DataTable does not define a primary key.");
+            }
+
+            List<string> whereClauses = new List<string>();
+
+            using (var cmd = _sqlconnection.CreateCommand())
+            {
+                cmd.Transaction = _sqltransaction;
+
+                for (int i = 0; i < table.PrimaryKey.Length; i++)
+                {
+                    DataColumn keyColumn = table.PrimaryKey[i];
+                    string parameterName = "$key" + i;
+
+                    whereClauses.Add(
+                        QuoteIdentifier(keyColumn.ColumnName) +
+                        " = " +
+                        parameterName);
+
+                    object value = row[keyColumn, DataRowVersion.Original];
+
+                    cmd.Parameters.AddWithValue(
+                        parameterName,
+                        value == null ? DBNull.Value : value);
+                }
+
+                cmd.CommandText =
+                    "DELETE FROM " + QuoteIdentifier(table.TableName) +
+                    " WHERE " + string.Join(" AND ", whereClauses) + ";";
+
+                return cmd.ExecuteNonQuery();
+            }
+        }
+
+        private bool IsDatabaseLocked(Exception ex)
+        {
+            SqliteException sqliteException = ex as SqliteException;
+
+            if (sqliteException != null)
+            {
+                // SQLITE_BUSY = 5
+                // SQLITE_LOCKED = 6
+                return sqliteException.SqliteErrorCode == 5 ||
+                       sqliteException.SqliteErrorCode == 6;
+            }
+
+            return ex.Message.IndexOf(
+                "locked",
+                StringComparison.OrdinalIgnoreCase) >= 0;
+        }
+
+        private string QuoteIdentifier(string identifier)
+        {
+            return "\"" + identifier.Replace("\"", "\"\"") + "\"";
+        }
+
+        private int UpdateRow(DataTable table, DataRow row)
+        {
+            if (table.PrimaryKey == null || table.PrimaryKey.Length == 0)
+            {
+                throw new InvalidOperationException(
+                    "Cannot update table '" + table.TableName +
+                    "' because the DataTable does not define a primary key.");
+            }
+
+            List<string> setClauses = new List<string>();
+            List<string> whereClauses = new List<string>();
+
+            using (var cmd = _sqlconnection.CreateCommand())
+            {
+                cmd.Transaction = _sqltransaction;
+
+                int parameterIndex = 0;
+
+                foreach (DataColumn column in table.Columns)
+                {
+                    // This assumes primary-key values are not edited.
+                    if (table.PrimaryKey.Contains(column))
+                        continue;
+
+                    string parameterName = "$value" + parameterIndex;
+
+                    setClauses.Add(
+                        QuoteIdentifier(column.ColumnName) +
+                        " = " +
+                        parameterName);
+
+                    object value = row[column, DataRowVersion.Current];
+
+                    cmd.Parameters.AddWithValue(
+                        parameterName,
+                        value == null ? DBNull.Value : value);
+
+                    parameterIndex++;
+                }
+
+                for (int i = 0; i < table.PrimaryKey.Length; i++)
+                {
+                    DataColumn keyColumn = table.PrimaryKey[i];
+                    string parameterName = "$key" + i;
+
+                    whereClauses.Add(
+                        QuoteIdentifier(keyColumn.ColumnName) +
+                        " = " +
+                        parameterName);
+
+                    object value = row[keyColumn, DataRowVersion.Original];
+
+                    cmd.Parameters.AddWithValue(
+                        parameterName,
+                        value == null ? DBNull.Value : value);
+                }
+
+                if (setClauses.Count == 0)
+                    return 0;
+
+                cmd.CommandText =
+                    "UPDATE " + QuoteIdentifier(table.TableName) +
+                    " SET " + string.Join(", ", setClauses) +
+                    " WHERE " + string.Join(" AND ", whereClauses) + ";";
+
+                return cmd.ExecuteNonQuery();
+            }
+        }
+
+
+
         public void PrepareSQLiteOutputFile(MODSIMOutputDS outDS)
         {
-            
-            if (!File.Exists(dbFile))
-                SQLiteConnection.CreateFile(dbFile);
+            // not needed using microsoft.data.sqlite, the file is created when the connection is opened.
+            //if (!File.Exists(dbFile))
+            //    SQLiteConnection.CreateFile(dbFile);
             CheckDatabaseConnection();
 
             FireErrorMessage("   Preparing db for output...");
@@ -224,7 +400,8 @@ namespace Csu.Modsim.NetworkUtils
         {
             try
             {
-                if (!File.Exists(dbFile)) SQLiteConnection.CreateFile(dbFile);
+                // not needed using microsoft.data.sqlite, the file is created when the connection is opened.
+                //if (!File.Exists(dbFile)) SQLiteConnection.CreateFile(dbFile);
                 foreach (DataTable TSeries in modelTimeSeries.Tables)
                 {
                     if (!IsTableExist(TSeries.TableName))
@@ -349,15 +526,19 @@ namespace Csu.Modsim.NetworkUtils
             {
                 CheckDatabaseConnection();
                 string sql = "SELECT name FROM sqlite_master WHERE type = 'table'";
-                using (SQLiteCommand cmd = new SQLiteCommand(sql, _sqlconnection, _sqltransaction))
+                using (var cmd = _sqlconnection.CreateCommand())
                 {
-                    SQLiteDataReader r = cmd.ExecuteReader();
-                    while (r.Read())
+                    cmd.CommandText = sql;
+                    cmd.Transaction = _sqltransaction;
+                    using (var r = cmd.ExecuteReader())
                     {
-                        if (r[0].ToString() == tablename)
+                        while (r.Read())
                         {
-                            isexist = true;
-                            break;
+                            if (r[0].ToString() == tablename)
+                            {
+                                isexist = true;
+                                break;
+                            }
                         }
                     }
                 }
@@ -408,12 +589,16 @@ namespace Csu.Modsim.NetworkUtils
             {
                 CheckDatabaseConnection();
                 string sql = "SELECT name FROM sqlite_master WHERE type = 'table'";
-                using (SQLiteCommand cmd = new SQLiteCommand(sql, _sqlconnection, _sqltransaction))
+                using (var cmd = _sqlconnection.CreateCommand())
                 {
-                    SQLiteDataReader r = cmd.ExecuteReader();
-                    while (r.Read())
+                    cmd.CommandText = sql;
+                    cmd.Transaction = _sqltransaction;
+                    using (var r = cmd.ExecuteReader())
                     {
-                        tables.Add(r[0].ToString());
+                        while (r.Read())
+                        {
+                            tables.Add(r[0].ToString());
+                        }
                     }
                 }
             }
@@ -496,14 +681,19 @@ namespace Csu.Modsim.NetworkUtils
             try
             {
                 CheckDatabaseConnection();
-                using (SQLiteCommand cmd = new SQLiteCommand(sql, _sqlconnection, _sqltransaction))
+                using (var cmd = _sqlconnection.CreateCommand())
                 {
-                    using (SQLiteDataAdapter adapter = new SQLiteDataAdapter(cmd))
+                    cmd.CommandText = sql;
+                    cmd.Transaction = _sqltransaction;
+
+                    using (var reader = cmd.ExecuteReader())
                     {
-                        adapter.Fill(rval);
+                        rval.Load(reader);
                     }
-                    rval.TableName = tableName;
                 }
+
+                rval.TableName = tableName;
+
             }
             catch (Exception ex)
             {
@@ -580,27 +770,35 @@ namespace Csu.Modsim.NetworkUtils
                 reStartUpdate:
                     try
                     {
-                        //Get the columns in the database to handle missing user defined columns in the current output
-                        //string colsNames = table.Columns.ToString();// GetDBTblColumnNames();= string.Join(",", strings);
-                        string[] colsNames = (from c in table.Columns.Cast<DataColumn>()
-                                select c.ColumnName).ToArray<string>();
-                        string strSqlCommand = "SELECT " + string.Join(",", colsNames) + " FROM [" + currentTable + "];";
-
-                        using (SQLiteCommand cmd = new SQLiteCommand(strSqlCommand, _sqlconnection, _sqltransaction))
+                        // create a separate array because AcceptChanges() can remove 
+                        // deleted rows from the DataTable collection.
+                        DataRow[] rows = table.Rows.Cast<DataRow>().ToArray();
+                        foreach (DataRow row in rows)
                         {
-                            using (SQLiteDataAdapter adapter = new SQLiteDataAdapter(cmd))
+                            if (row.RowState == DataRowState.Unchanged ||
+                                row.RowState == DataRowState.Detached)
                             {
-                                using (SQLiteCommandBuilder oBuilder = new SQLiteCommandBuilder(adapter))
-                                {
-                                    adapter.UpdateCommand = oBuilder.GetUpdateCommand();
-                                    //oLocalAdapter.InsertCommand = oBuilder.GetInsertCommand();
-                                    //oLocalAdapter.DeleteCommand = oBuilder.GetDeleteCommand();
-                                    int upd = adapter.Update(table);
-                                    totRows += upd;
-                                }
+                                continue;
                             }
-                            
+                            int updatedRows = 0;
+
+                            if (row.RowState == DataRowState.Added)
+                            {
+                                updatedRows = InsertRow(table, row);
+                            }
+                            else if (row.RowState == DataRowState.Modified)
+                            {
+                                updatedRows = UpdateRow(table, row);
+                            }
+                            else if (row.RowState == DataRowState.Deleted)
+                            {
+                                updatedRows = DeleteRow(table, row);
+                            }
+                            totRows += updatedRows;
+                            row.AcceptChanges();
                         }
+
+
 
                         //oLocalCommand = new SQLiteCommand(strSqlCommand, _sqlconnection, _sqltransaction);
                         //oLocalAdapter = new SQLiteDataAdapter(oLocalCommand);
@@ -631,9 +829,9 @@ namespace Csu.Modsim.NetworkUtils
                         }
                         else
                             FireErrorMessage(ex.Message);
-                        
+
                         //CommitTransaction();
-                        
+
                     }
                 }
             }
