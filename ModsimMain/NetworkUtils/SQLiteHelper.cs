@@ -10,11 +10,15 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Threading;
 using System.Globalization;
+using System.Runtime.InteropServices;
+using SQLitePCL;
 
 namespace Csu.Modsim.NetworkUtils
 {
     public class SQLiteHelper : IDisposable
     {
+        private static int _sqliteProviderInitialized;
+
         public string dbFile;
         private string ConnectionString { get; set; }
         //public MyDBSqlite _mDB;
@@ -30,11 +34,57 @@ namespace Csu.Modsim.NetworkUtils
         //}
         public SQLiteHelper(string dbfilePath, bool journalOFF = true)
         {
+            EnsureSqliteProviderInitialized();
             dbFile = dbfilePath; // Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), dbfile);
             _journalOFF = journalOFF;
             ConnectionString = GetSqLiteConnectionString(dbFile);
             //_mDB = new MyDBSqlite(dbFile);
         }
+
+        private static void EnsureSqliteProviderInitialized()
+        {
+            if (Interlocked.Exchange(ref _sqliteProviderInitialized, 1) == 0)
+            {
+                EnsureNativeSqliteLoaded();
+                Batteries_V2.Init();
+            }
+        }
+
+        private static void EnsureNativeSqliteLoaded()
+        {
+            if (File.Exists(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "e_sqlite3.dll")))
+            {
+                return;
+            }
+
+            string architectureFolder = Environment.Is64BitProcess ? "win-x64" : "win-x86";
+            DirectoryInfo current = new DirectoryInfo(AppDomain.CurrentDomain.BaseDirectory);
+
+            while (current != null)
+            {
+                string candidate = Path.Combine(
+                    current.FullName,
+                    "packages",
+                    "SQLitePCLRaw.lib.e_sqlite3.2.1.12",
+                    "runtimes",
+                    architectureFolder,
+                    "native",
+                    "e_sqlite3.dll");
+
+                if (File.Exists(candidate))
+                {
+                    string outputDll = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "e_sqlite3.dll");
+                    File.Copy(candidate, outputDll, true);
+                    LoadLibrary(outputDll);
+                    return;
+                }
+
+                current = current.Parent;
+            }
+        }
+
+        [DllImport("kernel32", SetLastError = true, CharSet = CharSet.Unicode)]
+        private static extern IntPtr LoadLibrary(string lpFileName);
 
         private string GetSqLiteConnectionString(string dbFileName)
         {
